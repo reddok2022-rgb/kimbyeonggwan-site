@@ -1,16 +1,19 @@
 ---
-
+import SiteLayout from '../layouts/SiteLayout.astro';
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<SiteLayout title="김병관 · 시 웹사이트">
+  <main style="max-width:720px;margin:0 auto;padding:48px 20px;">
+    <h1 style="font-size:2rem;margin-bottom:1rem;">김병관의 시 연재 웹사이트</h1>
+    <p style="margin-bottom:1.5rem;line-height:1.6;">
+      이곳은 시 연재 프로젝트 <strong>「가우시안 블러」</strong>와
+      그 밖의 작품들을 모아두는 개인 웹페이지입니다.
+    </p>
+
+    <nav style="display:flex;flex-direction:column;gap:.5rem;">
+      <a href="/series/" style="text-decoration:underline;">📚 가우시안 블러 목록 보기</a>
+      <a href="/intro/" style="text-decoration:underline;">📝 작품/사이트 소개</a>
+      <a href="/legacy/" style="text-decoration:underline;">🕰 레거시(옛 버전) 페이지</a>
+    </nav>
+  </main>
+</SiteLayout>
