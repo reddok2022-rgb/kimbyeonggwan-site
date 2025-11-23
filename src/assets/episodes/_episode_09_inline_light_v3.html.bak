@@ -1,0 +1,77 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>가우시안 블러 9화</title>
+<style>
+  .ep-wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 24px 20px;
+  }
+  @media (max-width: 480px) {
+    .ep-wrap {
+      font-size: 17px !important;
+      line-height: 1.38 !important;
+      padding: 22px 16px;
+    }
+    .ep-wrap p { word-break: keep-all; }
+  }
+</style>
+<div class="ep-wrap" style="font-family:Pretendard,'Noto Sans KR',system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,'Apple SD Gothic Neo','Noto Sans','Malgun Gothic',sans-serif;font-size:16px;line-height:1.14;letter-spacing:-0.01em;color:#EEE;background:transparent;">
+
+  <p style="margin:0 0 .35em 0;">둘은 암시장 구경을 했다</p>
+
+  <p style="margin:0 0 .35em 0;">법이 낳은</p>
+  <p style="margin:0 0 .35em 0;">인공 자녀들이 아닌</p>
+  <p style="margin:0 0 .35em 0;">사생아들을 볼 수 있었다</p>
+
+  <p style="margin:0 0 .35em 0;">역사의 유지비는 당신의 내면의 소리로도 충분하다</p>
+
+  <p style="margin:0 0 .35em 0;">무엇을 떠올리고 있는가</p>
+
+  <p style="margin:0 0 .35em 0;">무엇을 미워하고 있는가</p>
+
+  <p style="margin:0 0 .35em 0;">무엇을 잊어가고 있는가</p>
+
+  <p style="margin:0 0 .35em 0;">*</p>
+
+  <p style="margin:0 0 .35em 0;">랑은 히아신이 바깥으로 돌아다닌 덕에 연극도 많이 볼 수 있었다</p>
+
+  <p style="margin:0 0 .35em 0;">오늘은 다친 새가 하늘로 날아오르기까지 풀밭에서 무너지는 고독을 표현한 이야기였다</p>
+  <p style="margin:0 0 .35em 0;">긴긴밤을 헤쳐</p>
+  <p style="margin:0 0 .35em 0;">언덕에서 자신을 버리는 일만 떠올리던</p>
+  <p style="margin:0 0 .35em 0;">날 수 없는 새의 여정이었다</p>
+
+  <p style="margin:0 0 .35em 0;">상처의 수신호였다</p>
+
+  <p style="margin:0 0 .35em 0;">그리고</p>
+  <p style="margin:0 0 .35em 0;">최초의 도약이 있었다</p>
+
+  <p style="margin:0 0 .35em 0;">상처를 딛고 고향으로 날아가는 새</p>
+
+  <p style="margin:0 0 .35em 0;">처음으로 응원을 받은 것 같았다</p>
+
+  <p style="margin:0 0 .35em 0;">빨간 천막 예언자는 그날</p>
+  <p style="margin:0 0 .35em 0;">곧 힘든 일이 올 거라고</p>
+  <p style="margin:0 0 .35em 0;">비 오는 날 걸을 거라고</p>
+  <p style="margin:0 0 .35em 0;">당신은 비에 젖은 새인 것 같았다고 </p>
+  <p style="margin:0 0 .35em 0;">깃털은 어디에나</p>
+  <p style="margin:0 0 .35em 0;">학교에도</p>
+  <p style="margin:0 0 .35em 0;">집에도</p>
+  <p style="margin:0 0 .35em 0;">거리에도</p>
+  <p style="margin:0 0 .35em 0;">아지트에도</p>
+  <p style="margin:0 0 .35em 0;">잔뜩 빠져 있었다고</p>
+
+  <p style="margin:0 0 .35em 0;">곧 무너뜨리러 올 운명에 대해</p>
+  <p style="margin:0 0 .35em 0;">잘 지내보고 싶어서</p>
+
+  <p style="margin:0 0 .35em 0;">일기를 썼다</p>
+
+  <p style="margin:0 0 .35em 0;">궁금했어</p>
+  <p style="margin:0 0 .35em 0;">늘 불행인 듯 살아가는 네가</p>
+
+  <p style="margin:0 0 .35em 0;">랑은</p>
+  <p style="margin:0 0 .35em 0;">지저귀는 내면의 소리를 들었다</p>
+
+  <p style="margin:0 0 .35em 0;">미워하지 않아서 혼자일 수 있었다</p>
+</div>

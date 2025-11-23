@@ -1,0 +1,92 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>가우시안 블러 33화</title>
+<style>
+  .ep-wrap { max-width: 720px; margin: 0 auto; padding: 24px 20px; }
+  @media (max-width: 480px) {
+    .ep-wrap { font-size: 17px !important; line-height: 1.38 !important; padding: 22px 16px; }
+    .ep-wrap p { word-break: keep-all; }
+  }
+</style>
+<div class="ep-wrap" style="font-family:Pretendard,'Noto Sans KR',system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,'Apple SD Gothic Neo','Noto Sans','Malgun Gothic',sans-serif;font-size:16px;line-height:1.14;letter-spacing:-0.01em;color:#EEE;background:transparent;">
+
+  <p style="margin:0 0 .35em 0;">좋아하는 건가?</p>
+  <p style="margin:0 0 .35em 0;">왠지 수업에 집중되지 않던 날. 해골 가면이 불쑥 떠오른 날</p>
+
+  <p style="margin:0 0 .35em 0;">감시는 이어졌지만 슬픔은 이어지지 않았다</p>
+  <p style="margin:0 0 .35em 0;">붉은 달이 나타나지 않았다</p>
+
+  <p style="margin:0 0 .35em 0;">이 얘기는 랑이 감옥에 갇혔을 때의 얘기</p>
+  <p style="margin:0 0 .35em 0;">K에게 편지를 받은 이후의 시점이다</p>
+  <p style="margin:0 0 .35em 0;">현재에서 조금은 뒷걸음친 날들이다. 둘의 관계가 싹 튼 계기</p>
+  <p style="margin:0 0 .35em 0;">아직 존댓말 하던 때</p>
+
+  <p style="margin:0 0 .35em 0;">K가 장문의 글로 자신의 얘기를 한 날이었다</p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p style="margin:0 0 .35em 0;">편지를 써요</p>
+  <p style="margin:0 0 .35em 0;">생각이 나서</p>
+
+  <p style="margin:0 0 .35em 0;">야외 축구장에서 한 얘기를 떠올려봤어요</p>
+  <p style="margin:0 0 .35em 0;">해방이란 말을 오래 담아두었어요</p>
+  <p style="margin:0 0 .35em 0;">병실에 누워계신 엄마를 보며</p>
+  <p style="margin:0 0 .35em 0;">생각했습니다</p>
+
+  <p style="margin:0 0 .35em 0;">여기저기서 괴성이 들린 2018년</p>
+  <p style="margin:0 0 .35em 0;">고목에 매달려 돌을 맞고 있는 한 여자애를 보았어요</p>
+
+  <p style="margin:0 0 .35em 0;">무서웠어요</p>
+  <p style="margin:0 0 .35em 0;">세상이</p>
+
+  <p style="margin:0 0 .35em 0;">2차 보이드</p>
+
+  <p style="margin:0 0 .35em 0;">엄마가 무서웠지만</p>
+  <p style="margin:0 0 .35em 0;">그래도 계속 소리를 질러줬으면 했어요</p>
+  <p style="margin:0 0 .35em 0;">돌이 되어버리면</p>
+  <p style="margin:0 0 .35em 0;">정말 끝나는 거니까</p>
+
+  <p style="margin:0 0 .35em 0;">죽지 말고</p>
+  <p style="margin:0 0 .35em 0;">소리를 질러줬으면</p>
+  <p style="margin:0 0 .35em 0;">힘겹더라도</p>
+
+  <p style="margin:0 0 .35em 0;">지금 엄마는 병실에 누워 코르타, 코르타를 외치며 사라지고 계세요</p>
+  <p style="margin:0 0 .35em 0;">(병실에 코르타 지역의 월계화를 잔뜩 가져다 두었어요)</p>
+
+  <p style="margin:0 0 .35em 0;">여기서 해방은 무엇일까요</p>
+
+  <p style="margin:0 0 .35em 0;">17살. 저는 학교에 다니지 않고 아르바이트를 하고 있습니다</p>
+  <p style="margin:0 0 .35em 0;">이번에 우승 상금으로 암표를 구하고 있어요</p>
+
+  <p style="margin:0 0 .35em 0;">좋은 일은 올까요</p>
+
+  <p style="margin:0 0 .35em 0;">현자를 만나면 다 괜찮아질까요</p>
+
+  <p style="margin:0 0 .35em 0;">어릴 적에 속 썩이지 않았다면</p>
+  <p style="margin:0 0 .35em 0;">엄마는 괜찮았을 거예요</p>
+  <p style="margin:0 0 .35em 0;">마음의 일이라니까</p>
+
+  <p style="margin:0 0 .35em 0;">제가 죄라는 사실은 담아두고 있어요</p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p style="margin:0 0 .35em 0;">랑은 주말 독수리의 사념탑에 갔다 온 적 있다. 하두의 외곽에 지어진 탑이다</p>
+  <p style="margin:0 0 .35em 0;">현자 어깨에 있는 독수리가 마음이 내킬 때</p>
+  <p style="margin:0 0 .35em 0;">날아서 탑에 온다. 대신 진료해준다</p>
+  <p style="margin:0 0 .35em 0;">어떨 땐 무릎 꿇은 사람의 머리를 뜯어 하늘로 날아가기도 한다(죽인다는 소리다)</p>
+  <p style="margin:0 0 .35em 0;">기준은 알 수 없다(뭔가 진실한 마음이 아닐까? 하는 추측만 있을 뿐)</p>
+  <p style="margin:0 0 .35em 0;">시기도 알 수 없다</p>
+  <p style="margin:0 0 .35em 0;">기다리고 기다린다</p>
+
+  <p style="margin:0 0 .35em 0;">2차 보이드에 걸린 사람들은 방음 마스크를 끼고 있었다. 양 손목에 쇠줄을 찬 채</p>
+  <p style="margin:0 0 .35em 0;">보호자에 의해 인솔되고 있었다</p>
+  <p style="margin:0 0 .35em 0;">노을이 지고 있었다</p>
+
+  <p style="margin:0 0 .35em 0;">독수리가 언제 올지 몰라도 매일 오픈런 하는 사람들</p>
+
+  <p style="margin:0 0 .35em 0;">랑은 하두의 전역을 내려다봤다. 어릴 적 죽은 개에게 이제야 말을 걸 수 있을 것 같았다</p>
+
+  <p style="margin:0 0 .35em 0;">너는 무엇을 보며 죽어가고 있었니</p>
+
+</div>

@@ -1,0 +1,59 @@
+---
+// src/pages/episodes/[num].astro
+import EpisodeLayout from '../../layouts/EpisodeLayout.astro';
+
+// 1) 빌드 타임에 /src/assets/episodes 아래의 원문 HTML들을 전부 스캔해 번호를 뽑아 정적 경로 생성
+export async function getStaticPaths() {
+  // 절대경로 글롭: 공백·(1) 파일까지 포함
+  const maps = import.meta.glob('/src/assets/episodes/episode_*_inline_light_v3*.html');
+
+  // 파일 경로에서 숫자만 뽑아 경로 배열 생성
+  const nums = Object.keys(maps)
+    .map((p) => {
+      // 예: /src/assets/episodes/episode_02_inline_light_v3 (1).html
+      const m = p.match(/episode_(\d+)_inline_light_v3/);
+      return m?.[1];
+    })
+    .filter(Boolean);
+
+  // 중복 제거 + 정렬
+  const uniq = Array.from(new Set(nums)).sort((a, b) => Number(a) - Number(b));
+
+  return uniq.map((num) => ({ params: { num } }));
+}
+
+// 2) 요청된 회차의 원문을 문자열로 로드
+const num = Astro.params.num!.padStart(2, '0');
+
+// 원문들(문자열) 매핑 테이블
+const rawMaps = import.meta.glob('/src/assets/episodes/episode_*_inline_light_v3*.html', { as: 'raw' });
+
+// 기본/대안 파일키 모두 시도
+const key    = `/src/assets/episodes/episode_${num}_inline_light_v3.html`;
+const keyAlt = `/src/assets/episodes/episode_${num}_inline_light_v3 (1).html`;
+
+let raw = '';
+if (rawMaps[key]) {
+  raw = await rawMaps[key]!();
+} else if (rawMaps[keyAlt]) {
+  raw = await rawMaps[keyAlt]!();
+} else {
+  throw new Error(`[episodes/${num}] 원문 HTML을 찾을 수 없어요: ${key}`);
+}
+
+// body만 추출(있으면)
+if (/<body[\s\S]*?>/i.test(raw)) {
+  raw = raw.replace(/^[\s\S]*?<body[^>]*>/i, '').replace(/<\/body>[\s\S]*$/i, '');
+}
+// 빈 문단/연갈이 정리
+raw = raw.replace(/<p[^>]*>\s*<\/p>/gi, '<p></p>');
+raw = raw.replace(/<\/p>\s*\n\s*\n\s*<p/gi, '</p>\n<p></p>\n<p');
+
+const title = `에피소드 ${num}`;
+const subtitle = '';
+const html = `<div class="ep-raw">${raw}</div>`;
+---
+
+<EpisodeLayout {title} {subtitle}>
+  <div set:html={html} />
+</EpisodeLayout>

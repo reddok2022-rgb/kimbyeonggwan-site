@@ -1,0 +1,119 @@
+/* ===========================
+   inline-light v3 (dark / poem)
+   =========================== */
+
+/* 💡 에피소드 전용 토큰 (사이트 전체 :root는 건드리지 않기) */
+:root {
+  --ep-bg: transparent;
+  --ep-text: #eeeeee;
+  --ep-muted: #9aa3b4;
+  --ep-max: 720px;
+}
+
+/* 기본 박스 설정 (전역 리셋 X, 에피소드 영역 안에서만) */
+.ep-wrap {
+  max-width: var(--ep-max);
+  margin: 0 auto;
+  padding: 24px 20px;
+  font-family: Pretendard, "Noto Sans KR", system-ui, -apple-system,
+    "Segoe UI", Roboto, Helvetica, Arial, "Apple SD Gothic Neo",
+    "Noto Sans", "Malgun Gothic", sans-serif;
+  font-size: 16px;
+  line-height: 1.14;
+  letter-spacing: -0.01em;
+  color: var(--ep-text);
+  background: var(--ep-bg);
+}
+
+/* 공통 타이포 (에피소드 내부에만 적용되도록 스코프 한정) */
+.ep-wrap p {
+  margin: 0 0 0.35em 0;
+}
+
+.ep-wrap a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.ep-wrap em {
+  font-style: italic;
+}
+
+.ep-wrap strong {
+  font-weight: 700;
+}
+
+.ep-wrap h2,
+.ep-wrap h3 {
+  margin: 1.5em 0 0.6em;
+  line-height: 1.35;
+}
+
+.ep-wrap blockquote {
+  margin: 1em 0;
+  padding: 0.6em 1em;
+  border-left: 3px solid #333;
+  color: var(--ep-muted);
+}
+
+.ep-wrap hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  margin: 1.5em 0;
+}
+
+.ep-wrap img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* 각주 (사용자 선호 반영) */
+.ep-wrap p.footnote {
+  margin: 0.35em 0;
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+/* ===========================
+   시 레이아웃(.poem) & 연갈이
+   =========================== */
+
+/* .ep-wrap 에 poem 클래스를 함께 붙인 경우
+   예: <div class="ep-wrap poem"> */
+.ep-wrap.poem p {
+  margin: 0;            /* 기본 줄 사이 간격 제거 */
+  line-height: 1.7;     /* 줄 간격만 넉넉하게 */
+}
+
+/* 같은 연 안의 다음 줄 */
+.ep-wrap.poem p + p {
+  margin-top: 0.35em;
+}
+
+/* 새 연의 첫 줄: stanza 클래스로 표시
+   예: <p class="stanza"> */
+.ep-wrap.poem p.stanza {
+  margin-top: 1.4em;    /* 연갈이 간격 */
+}
+
+/* ===========================
+   모바일 튜닝
+   =========================== */
+@media (max-width: 480px) {
+  .ep-wrap {
+    font-size: 17px !important;
+    line-height: 1.38 !important;
+    padding: 22px 16px;
+  }
+
+  .ep-wrap p {
+    word-break: keep-all;
+  }
+
+  .ep-wrap.poem p.stanza {
+    margin-top: 1.2em;  /* 모바일에선 살짝 줄여서 */
+  }
+}

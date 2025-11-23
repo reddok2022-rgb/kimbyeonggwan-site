@@ -1,0 +1,105 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>가우시안 블러 38화</title>
+<style>
+  .ep-wrap { max-width: 720px; margin: 0 auto; padding: 24px 20px; }
+  @media (max-width: 480px) {
+    .ep-wrap { font-size: 17px !important; line-height: 1.38 !important; padding: 22px 16px; }
+    .ep-wrap p { word-break: keep-all; }
+  }
+</style>
+<div class="ep-wrap" style="font-family:Pretendard,'Noto Sans KR',system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,'Apple SD Gothic Neo','Noto Sans','Malgun Gothic',sans-serif;font-size:16px;line-height:1.14;letter-spacing:-0.01em;color:#EEE;background:transparent;">
+
+  <p style="margin:0 0 .35em 0;">크루슈</p>
+  <p style="margin:0 0 .35em 0;">비밀번호를 입력하자 검은 화면이 사라진다. 새로 생성된 채팅창이 떠 있는 바탕 화면</p>
+  <p style="margin:0 0 .35em 0;">요. 무슨 일이야? 약은 최근에 받아 갔잖아?</p>
+  <p style="margin:0 0 .35em 0;">대화명 ‘뻐꾸기 34_크루슈’는 물었다. 뻐꾸기는 밀딜 유통업자들을 부르는 명칭이었다</p>
+
+  <p style="margin:0 0 .35em 0;">꽃을 들고 있는 한 여자</p>
+  <p style="margin:0 0 .35em 0;">프로필 사진이 화사했다</p>
+
+  <p style="margin:0 0 .35em 0;">묘진은 머뭇거렸다. 어떻게 말할까? 이때 이즈사가 키보드 위에 재빨리 손을 얹는다</p>
+  <p style="margin:0 0 .35em 0;">새로 약을 받고 싶어 하는 이들이 있어서요 ㅎ_ㅎ;</p>
+
+  <p style="margin:0 0 .35em 0;">묘진이 뜨악한 표정으로 이즈사를 쳐다봤다</p>
+  <p style="margin:0 0 .35em 0;">그 말투 아니에요…</p>
+
+  <p style="margin:0 0 .35em 0;">밀딜 유통 업계가 지나치게 평등하다는 사실이 뻐꾸기 34_크루슈와 묘진을 반말하게 했다. 이전 채팅 기록을 확인할 방법이 없던 이즈사에겐 꽤 억울한 상황. 대화는 끝난 것과 다름없었다</p>
+
+  <p style="margin:0 0 .35em 0;">으악</p>
+  <p style="margin:0 0 .35em 0;">이즈사는 미리 말을 해줬어야지, 하는 심정으로 묘진을 쳐다봤지만</p>
+  <p style="margin:0 0 .35em 0;">게임 속에선 단지 무미건조하게 요정 캐릭터가 NPC를 쳐다보는 것으로 표현됐을 것이다</p>
+
+  <p style="margin:0 0 .35em 0;">누구?</p>
+  <p style="margin:0 0 .35em 0;">당신은</p>
+
+  <p style="margin:0 0 .35em 0;">엎지른 물은 주워 담을 수 없었다</p>
+  <p style="margin:0 0 .35em 0;">더군다나 메시지니까</p>
+
+  <p style="margin:0 0 .35em 0;">다들 채팅창을 보며 가만히 있었다. 뻐꾸기 34_크루슈가 말하기 전까지</p>
+
+  <p style="margin:0 0 .35em 0;">말이 이렇게까지 없을 수가 없는데 말이야. 당신 설마 &lt;외부인&gt;?</p>
+
+  <p style="margin:0 0 .35em 0;">외부인…</p>
+  <p style="margin:0 0 .35em 0;">랑은 지난날의 크루슈를 떠올리며 채팅 하나하나 가슴 아프게 보고 있었다. ‘34’라고 표현된 것이 자신의 잘못과 연관된 일임을 랑은 잘 알고 있었다</p>
+
+  <p style="margin:0 0 .35em 0;">여기까지 올 만한 인물은 한 명밖에 없는 거로 아는데</p>
+  <p style="margin:0 0 .35em 0;">당신</p>
+  <p style="margin:0 0 .35em 0;">설마 ‘고등어반크림수프반’이야?</p>
+
+  <p style="margin:0 0 .35em 0;">고등어반크림수프반</p>
+  <p style="margin:0 0 .35em 0;">이즈사의 게임 캐릭터 닉네임으로 NPC들 사이에서 특히 유명했다. 별 이상한 부탁까지 다 들어주는 요정이 있다고. 요정은 NPC들과 대화를 하며 이런 얘기를 하고는 한다고 알려져 있다</p>
+
+  <p style="margin:0 0 .35em 0;">세계를 구하기 위해 여기 있어</p>
+
+  <p style="margin:0 0 .35em 0;">뻐꾸기 34_크루슈는 요정의 소문에 대해 말하며, 채팅을 입력했다</p>
+
+  <p style="margin:0 0 .35em 0;">정말 구할 수 있을 거라 생각해?</p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p style="margin:0 0 .35em 0;">경기가 없는 빈 축구장</p>
+  <p style="margin:0 0 .35em 0;">뻐꾸기 34_크루슈와 직접 보기로 했다</p>
+  <p style="margin:0 0 .35em 0;">선글라스를 끼고 머리에 두건을 두른 뻐꾸기 34_크루슈는 누가 봐도 수상해 보였다</p>
+
+  <p style="margin:0 0 .35em 0;">랑은 머뭇거렸다. 크루슈. 지난날 숲속으로 사라져버린 그녀. 누가 봐도 그녀가 아님을 랑은 다시 한번 확인할 수 있었다. 오프라인 상태의 친구창을 쳐다봤기 때문이다</p>
+
+  <p style="margin:0 0 .35em 0;">뻐꾸기 34_크루슈는 담배를 꺼내 불을 붙였다. &lt;외부인&gt;들과는 그때 이후로 처음이네. 담배를 한 모금 피우며 [천공의 유적지 : 영웅의 시작] 3 Round를 떠올리고 있었다</p>
+  <p style="margin:0 0 .35em 0;">고등어반크림수프반을 포함하여</p>
+  <p style="margin:0 0 .35em 0;">K</p>
+  <p style="margin:0 0 .35em 0;">CARROT RABBIT(랑의 게임 닉네임)</p>
+  <p style="margin:0 0 .35em 0;">결승에서 봤던 얼굴들도 있고. 뭐 궁금한 게 있으면 물어보라고. 피차 그러려고 만난 거니까</p>
+
+  <p style="margin:0 0 .35em 0;">랑은 뒤 없이 물었다</p>
+  <p style="margin:0 0 .35em 0;">도대체 당신은 누구인가요</p>
+
+  <p style="margin:0 0 .35em 0;">뻐꾸기 34_크루슈는 피식 웃었다</p>
+  <p style="margin:0 0 .35em 0;">질문이 재밌네?</p>
+  <p style="margin:0 0 .35em 0;">음, 크루슈야. 크루슈. 당신들을 봤을 땐 꽃집을 운영했었고, 지금은 보다시피 마약 유통업자. 그 이전엔 공장에서 일하기도 했지. 아마 이쪽에 더 흥미가 있으려나? 우리는 같은 티셔츠를 입고 공장에서 일했지. 500명이 같은 얼굴로 같은 티셔츠를 입고 다른 존재로</p>
+  <p style="margin:0 0 .35em 0;">그렇게 생각하면 좋지</p>
+  <p style="margin:0 0 .35em 0;">대답이 됐으려나?</p>
+
+  <p style="margin:0 0 .35em 0;">뻐꾸기 34_크루슈는</p>
+  <p style="margin:0 0 .35em 0;">공장 단지에서 월계화에 밀딜을 코팅하던 공정 과정을 떠올린다</p>
+
+  <p style="margin:0 0 .35em 0;">랑은 뒤이어</p>
+  <p style="margin:0 0 .35em 0;">숲속으로 사라진 크루슈를 혹시 알고 있느냐고 물었는데, 그 물음에 뻐꾸기 34_크루슈는</p>
+
+  <p style="margin:0 0 .35em 0;">글쎄? 우린 너무 많아서?</p>
+  <p style="margin:0 0 .35em 0;">그런 건 있지</p>
+  <p style="margin:0 0 .35em 0;">특정 단어를 들으면</p>
+  <p style="margin:0 0 .35em 0;">우린 파기되게 돼 있거든. 뭐 네가 숲속으로 사라지게 했다면 아마 ‘특정 단어’를 말한 게 아닌가 싶고?</p>
+  <p style="margin:0 0 .35em 0;">근데 잘 몰라. 죽었을 수도 있고. 아닐 수도</p>
+
+  <p style="margin:0 0 .35em 0;">랑은 그날 크루슈에게 했던 말을</p>
+
+  <p style="margin:0 0 .35em 0;">당신은 진짜가 아니잖아요</p>
+
+  <p style="margin:0 0 .35em 0;">숲속으로 누군가를 떠나 보내버린 말을 다시금 떠올릴 수밖에 없었는데, 더는 질문이 없이 가만히 있는 모습을 보고 뻐꾸기 34_크루슈는 랑이 지금 어떤 감정을 느끼고 있는지 짐작할 수 있었다</p>
+
+  <p style="margin:0 0 .35em 0;">설마 죄책감 느끼는 건 아니지? 에이 장난치지 마. 유저들은 그렇게 죽여놓고? 고작 NPC에?</p>
+
+  <p style="margin:0 0 .35em 0;">둘은 다른 거야?</p>
+
+</div>

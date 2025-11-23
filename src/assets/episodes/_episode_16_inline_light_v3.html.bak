@@ -1,0 +1,84 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>가우시안 블러 16화</title>
+<style>
+  .ep-wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 24px 20px;
+  }
+  @media (max-width: 480px) {
+    .ep-wrap { font-size: 17px !important; line-height: 1.38 !important; padding: 22px 16px; }
+    .ep-wrap p { word-break: keep-all; }
+  }
+</style>
+<div class="ep-wrap" style="font-family:Pretendard,'Noto Sans KR',system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,'Apple SD Gothic Neo','Noto Sans','Malgun Gothic',sans-serif;font-size:16px;line-height:1.14;letter-spacing:-0.01em;color:#EEE;background:transparent;">
+
+  <p style="margin:0 0 .35em 0;">랑은 잠시 하려 했던 &lt;애프터 셀렉트&gt;를</p>
+  <p style="margin:0 0 .35em 0;">평일엔 새벽</p>
+  <p style="margin:0 0 .35em 0;">주말엔 내내</p>
+  <p style="margin:0 0 .35em 0;">하게 되었다. 자유라고 하는 것</p>
+
+  <p style="margin:0 0 .35em 0;">지금 멀쩡해 보인다고 아무렇지 않은 게 아니다</p>
+  <p style="margin:0 0 .35em 0;">우리는 현재와 손을 잡으려고 얼마만큼 아파야 하나</p>
+
+  <p style="margin:0 0 .35em 0;">랑이 캐릭터 커스터마이징할 때 토끼탈을 선택하고 당근을 쥔 건 해소와 관련된 것이다</p>
+
+  <p style="margin:0 0 .35em 0;">다 기억하고 있다고</p>
+
+  <p style="margin:0 0 .35em 0;">도덕이 정말 옳은가</p>
+
+  <p style="margin:0 0 .35em 0;">&lt;애프터 셀렉트&gt; 10일 차였던 월요일 새벽</p>
+  <p style="margin:0 0 .35em 0;">랑은 아르바이트 마치고 게임에 접속</p>
+  <p style="margin:0 0 .35em 0;">도시에 소환되자마자</p>
+  <p style="margin:0 0 .35em 0;">경찰들이 쫓아왔다</p>
+  <p style="margin:0 0 .35em 0;">난데없이 추격전이었는데</p>
+  <p style="margin:0 0 .35em 0;">경찰들의 체력이 꽤 높은 수치를 자랑해</p>
+  <p style="margin:0 0 .35em 0;">7km나 뛰어야 했다</p>
+  <p style="margin:0 0 .35em 0;">그렇지만 랑은 잡히지 않는다</p>
+  <p style="margin:0 0 .35em 0;">이러려고 올(All) 체력으로 스텟을 찍었기 때문</p>
+  <p style="margin:0 0 .35em 0;">도망치려고</p>
+
+  <p style="margin:0 0 .35em 0;">랑은 빈 건물</p>
+  <p style="margin:0 0 .35em 0;">옥상의 정경을 경찰들 따돌리고</p>
+  <p style="margin:0 0 .35em 0;">바라봤다. 시티 라이트</p>
+  <p style="margin:0 0 .35em 0;">신고가 누적된 거겠지</p>
+  <p style="margin:0 0 .35em 0;">랑은 미온수 한 병을 마시며 생각했다</p>
+  <p style="margin:0 0 .35em 0;">과일 가게 사과, 바나나 훔친 것부터 시작된</p>
+
+  <p style="margin:0 0 .35em 0;">사실 랑은 실험해본 것이었다. 여기선 어떻게 할지</p>
+
+  <p style="margin:0 0 .35em 0;">경범죄로 잡히고 평범하게 퀘스트 받으며 몬스터나 잡을 것인가</p>
+  <p style="margin:0 0 .35em 0;">취직할 것인가</p>
+  <p style="margin:0 0 .35em 0;">혹은 자영업</p>
+  <p style="margin:0 0 .35em 0;">아카데미 입학?</p>
+
+  <p style="margin:0 0 .35em 0;">대범죄자가 되어 악명을 떨치고 싶은데? 가상 공간의 목소리에 불과하더라도</p>
+  <p style="margin:0 0 .35em 0;">다 기억하고 있다고</p>
+  <p style="margin:0 0 .35em 0;">이게 뭐냐고</p>
+  <p style="margin:0 0 .35em 0;">누군가에겐 의미가 없을지라도</p>
+  <p style="margin:0 0 .35em 0;">그래서 의미인 건데? 복수는</p>
+
+  <p style="margin:0 0 .35em 0;">랑은 잠시 하려 했던 &lt;애프터 셀렉트&gt;를 평일엔 새벽 주말엔 내내</p>
+  <p style="margin:0 0 .35em 0;">하게 되었다. 게임 내에서도</p>
+  <p style="margin:0 0 .35em 0;">커뮤니티에서도</p>
+  <p style="margin:0 0 .35em 0;">네임드로 거듭나기 시작한다</p>
+
+  <p style="margin:0 0 .35em 0;">서풍의 토끼탈 혹은 당근좌</p>
+  <p style="margin:0 0 .35em 0;">(서풍은 일반적으로 방향성 바람 가운데 가장 온화하고 가장 순조로운 바람으로 간주된다)</p>
+  <p style="margin:0 0 .35em 0;">조용한 스텝으로</p>
+  <p style="margin:0 0 .35em 0;">상대의 목을 베는</p>
+  <p style="margin:0 0 .35em 0;">(무기의 외형은 당근이지만 이는 외형 스킨이다. 당근의 실제 물성은 검이다)</p>
+  <p style="margin:0 0 .35em 0;">캐시 아이템은 거의 없고 오로지 컨트롤과 실력만이 전부인</p>
+  <p style="margin:0 0 .35em 0;">&lt;애프터 셀렉트&gt;에서의 랑의 재능은</p>
+  <p style="margin:0 0 .35em 0;">오늘도 빛이 나고</p>
+
+  <p style="margin:0 0 .35em 0;">칼은</p>
+  <p style="margin:0 0 .35em 0;">겨눈다는 데 의미가 있는 것. 향한다는 것. 향함은 방향을 안다는 것</p>
+
+  <p style="margin:0 0 .35em 0;">미온수 한 병을 마시며</p>
+  <p style="margin:0 0 .35em 0;">토끼탈</p>
+
+  <p style="margin:0 0 .35em 0;">시티 라이트</p>
+</div>

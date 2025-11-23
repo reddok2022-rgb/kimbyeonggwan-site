@@ -1,0 +1,125 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>가우시안 블러 26화</title>
+<style>
+  .ep-wrap { max-width: 720px; margin: 0 auto; padding: 24px 20px; }
+  @media (max-width: 480px) {
+    .ep-wrap { font-size: 17px !important; line-height: 1.38 !important; padding: 22px 16px; }
+    .ep-wrap p { word-break: keep-all; }
+  }
+</style>
+<div class="ep-wrap" style="font-family:Pretendard,'Noto Sans KR',system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,'Apple SD Gothic Neo','Noto Sans','Malgun Gothic',sans-serif;font-size:16px;line-height:1.14;letter-spacing:-0.01em;color:#EEE;background:transparent;">
+
+  <p style="margin:0 0 .35em 0;">복도엔 꽃을 한가득 든 학생들이 많았다</p>
+  <p style="margin:0 0 .35em 0;">플라워데이</p>
+  <p style="margin:0 0 .35em 0;">한 달에 한 번 꽃을 전해주는 날이었다</p>
+  <p style="margin:0 0 .35em 0;">랑은 엎드려서 힐끔</p>
+  <p style="margin:0 0 .35em 0;">서로 주고받는 관계의 얼굴을 본다</p>
+
+  <p style="margin:0 0 .35em 0;">꽃의 둥지 혹은</p>
+  <p style="margin:0 0 .35em 0;">성지라 불리는 코르타 지역의 꽃들은 유독 이날 향기가 더 짙다</p>
+
+  <p style="margin:0 0 .35em 0;">상징인 것이다</p>
+  <p style="margin:0 0 .35em 0;">흰 머리 노인이 눈을 감고 한 소년의 머리에 자기 손을 얹은 것으로</p>
+  <p style="margin:0 0 .35em 0;">돌이 되는 것을</p>
+  <p style="margin:0 0 .35em 0;">막았다는 이유로</p>
+
+  <p style="margin:0 0 .35em 0;">월계화가 유명하다고 하죠</p>
+  <p style="margin:0 0 .35em 0;">리포터가 꽃의 둥지에서 분홍, 빨강, 노랑, 흰색의 층을 이루는 월계화의 계단을</p>
+  <p style="margin:0 0 .35em 0;">카메라를 통해 보여주며 사람들을 인터뷰하는 모습을 랑은 본 적 있다</p>
+
+  <p style="margin:0 0 .35em 0;">현자의 탄생을 기리며</p>
+
+  <p style="margin:0 0 .35em 0;">월계화는 특히 마음에 좋은 성분이 깃든다고 해요</p>
+
+  <p style="margin:0 0 .35em 0;">고마워</p>
+  <p style="margin:0 0 .35em 0;">너무 예쁘다</p>
+
+  <p style="margin:0 0 .35em 0;">교실에선 커플이 탄생했다. 한 달에 한 번 고백하기에도 좋은</p>
+  <p style="margin:0 0 .35em 0;">여자애는 꽃에 얼굴을 파묻었다</p>
+
+  <p style="margin:0 0 .35em 0;">랑 근처엔 누구도 오지 않았다. 이 익숙함을 랑은 안다</p>
+  <p style="margin:0 0 .35em 0;">K 생각이 났다</p>
+
+  <p style="margin:0 0 .35em 0;">결승전이 끝나고</p>
+  <p style="margin:0 0 .35em 0;">만나자던 밤의 길거리에서</p>
+  <p style="margin:0 0 .35em 0;">둘은 벤치에 앉아 음료수를 따</p>
+  <p style="margin:0 0 .35em 0;">짠</p>
+  <p style="margin:0 0 .35em 0;">캔끼리 부딪치는 소리가 나며</p>
+  <p style="margin:0 0 .35em 0;">왜 그때 살려준 것인지</p>
+
+  <p style="margin:0 0 .35em 0;">지금은 좀 어때요?</p>
+
+  <p style="margin:0 0 .35em 0;">조금, 지쳤</p>
+  <p style="margin:0 0 .35em 0;">랑은 타자를 치다 백스페이스를 누르고</p>
+
+  <p style="margin:0 0 .35em 0;">지금은 괜찮아요</p>
+  <p style="margin:0 0 .35em 0;">둘은 어색한 침묵을 공유했다. 이럴 땐 스몰토크가 좋은데</p>
+
+  <p style="margin:0 0 .35em 0;">음료수… 맛있네요</p>
+
+  <p style="margin:0 0 .35em 0;">랑이 K를 쳐다봤다</p>
+  <p style="margin:0 0 .35em 0;">K도 랑을 쳐다봤다</p>
+
+  <p style="margin:0 0 .35em 0;">K가 랑을 벤치에서 밀쳤다. 총알이 날아와서였다</p>
+  <p style="margin:0 0 .35em 0;">경찰이에요. 우리는 뛰어야 해요</p>
+
+  <p style="margin:0 0 .35em 0;">밤의 길거리에서 둘은 어둠을 넘고 넘어</p>
+  <p style="margin:0 0 .35em 0;">드문드문</p>
+  <p style="margin:0 0 .35em 0;">시티 라이트가 닿는</p>
+  <p style="margin:0 0 .35em 0;">폐건물 꼭대기에서</p>
+
+  <p style="margin:0 0 .35em 0;">난 당신이 괴로워서 잊을 수 없어요</p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p style="margin:0 0 .35em 0;">오랜 꿈에서부터 내가 나왔다니, 랑은 책상에 엎드려 알 수 없는 기분에 잠긴다</p>
+  <p style="margin:0 0 .35em 0;">햇빛이 세다</p>
+  <p style="margin:0 0 .35em 0;">머리가 띵한 기분이 들었다</p>
+  <p style="margin:0 0 .35em 0;">날달걀이 터진 것이었다</p>
+
+  <p style="margin:0 0 .35em 0;">헐. 미안</p>
+  <p style="margin:0 0 .35em 0;">맞힐 생각 없었는데 맞았네? 어떡해</p>
+
+  <p style="margin:0 0 .35em 0;">처음 보는 애가</p>
+  <p style="margin:0 0 .35em 0;">랑의 머리에 날달걀을 던진 것이었는데</p>
+
+  <p style="margin:0 0 .35em 0;">그래도… 조금 익숙하지?</p>
+  <p style="margin:0 0 .35em 0;">같은 반 애들이 킥킥 웃었다</p>
+
+  <p style="margin:0 0 .35em 0;">처음 보는 애가 날달걀을 맞히고 생글생글 웃는 모습에 랑은</p>
+  <p style="margin:0 0 .35em 0;">그 애에게 다가가</p>
+  <p style="margin:0 0 .35em 0;">뺨을 때렸다</p>
+  <p style="margin:0 0 .35em 0;">교실이 아수라장이 됐다</p>
+
+  <p style="margin:0 0 .35em 0;">1교시는 마음 단련 시간</p>
+  <p style="margin:0 0 .35em 0;">바르게 살아요</p>
+  <p style="margin:0 0 .35em 0;">바르게 살아요 우리</p>
+  <p style="margin:0 0 .35em 0;">학생들은 눈 감는다</p>
+
+  <p style="margin:0 0 .35em 0;">달걀 냄새가 아직 완전히 걷히지 않은, 창문에서 바람이 다가오지 않는 날에</p>
+  <p style="margin:0 0 .35em 0;">랑은 K를 떠올렸다</p>
+
+  <p style="margin:0 0 .35em 0;">아르바이트를 위해 걸음을 옮기는 날이었다</p>
+  <p style="margin:0 0 .35em 0;">어물쩍거리는 우울감이 자기소개를 제대로 안 한 날이었다</p>
+  <p style="margin:0 0 .35em 0;">햇빛이 센 날이었다</p>
+  <p style="margin:0 0 .35em 0;">따갑다,</p>
+
+  <p style="margin:0 0 .35em 0;">태양을 바라보는데</p>
+  <p style="margin:0 0 .35em 0;">검은 그림자가 자신을 향해 날아오던 날이었다</p>
+  <p style="margin:0 0 .35em 0;">굉음이 귓속을 잠시</p>
+  <p style="margin:0 0 .35em 0;">왔다 간 날이었다</p>
+  <p style="margin:0 0 .35em 0;">충격파로 주변 건물이</p>
+  <p style="margin:0 0 .35em 0;">모두 무너진 날이었다</p>
+  <p style="margin:0 0 .35em 0;">랑만이 공간에서 아무 영향 없이 단지 놀라 멈춰 있던 것이었을 때</p>
+
+  <p style="margin:0 0 .35em 0;">괴물이었다</p>
+  <p style="margin:0 0 .35em 0;">랑이 옛날 고목에서 떨어졌을 때</p>
+  <p style="margin:0 0 .35em 0;">마주쳤던 기억이 있는, 붉은 초승달 형태의 상처가 안면에 있는</p>
+
+  <p style="margin:0 0 .35em 0;">경보음이 시끄럽게 울렸다. 1급 위험 경보였다</p>
+
+  <p style="margin:0 0 .35em 0;">괴물이 뭐라 뭐라 짧게 말하며</p>
+  <p style="margin:0 0 .35em 0;">랑에게 다가왔다. 손을 뻗었다. 경보음이 울리고 있었다. 랑은 아무것도 할 수 없었다. 괴물은 랑의 머리칼에 자그맣게 붙어 있는 달걀 껍데기를 떼어주었다</p>
+</div>

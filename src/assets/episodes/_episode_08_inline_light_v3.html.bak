@@ -1,0 +1,84 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>가우시안 블러 8화</title>
+<style>
+  .ep-wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 24px 20px;
+  }
+  @media (max-width: 480px) {
+    .ep-wrap {
+      font-size: 17px !important;
+      line-height: 1.38 !important;
+      padding: 22px 16px;
+    }
+    .ep-wrap p { word-break: keep-all; }
+  }
+</style>
+<div class="ep-wrap" style="font-family:Pretendard,'Noto Sans KR',system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,'Apple SD Gothic Neo','Noto Sans','Malgun Gothic',sans-serif;font-size:16px;line-height:1.14;letter-spacing:-0.01em;color:#EEE;background:transparent;">
+
+  <p style="margin:0 0 .35em 0;">공중에서 떨어지던 게 기억나</p>
+  <p style="margin:0 0 .35em 0;">따스한 대낮</p>
+
+  <p style="margin:0 0 .35em 0;">미세하게 몸이 떨리는 랑을 보며</p>
+  <p style="margin:0 0 .35em 0;">히아신은 의도치 않게 대화로 시간이 어긋나고 있음을</p>
+  <p style="margin:0 0 .35em 0;">인지했다. 숙연함이 자신을 물어</p>
+  <p style="margin:0 0 .35em 0;">끌고 가고 있음을</p>
+
+  <p style="margin:0 0 .35em 0;">1인 3역 행복한 가정의 모습 폐공장 단지 컨테이너로</p>
+
+  <p style="margin:0 0 .35em 0;">랑은 가정사를 끝마치고</p>
+  <p style="margin:0 0 .35em 0;">보던 페이지를 히아신에게 보여줬다</p>
+  <p style="margin:0 0 .35em 0;">유명한 바이러스 학자인 랑의 아버지 고든과 부인이 해리테트 연구회에서 찍은 사진이다</p>
+  <p style="margin:0 0 .35em 0;">제목은 사이좋은 부부 관계(2010)</p>
+  <p style="margin:0 0 .35em 0;">가족사진이 없는 랑은 기사로 사진을 보곤 했다</p>
+
+  <p style="margin:0 0 .35em 0;">얼굴에 짐이 있네</p>
+  <p style="margin:0 0 .35em 0;">그것도 아주 무거운 짐이</p>
+
+  <p style="margin:0 0 .35em 0;">히아신은 너스레 떨며 관상을 보는 척했다. 빈자리여서 지나쳤다는 랑의 말을 기억하며</p>
+
+  <p style="margin:0 0 .35em 0;">점이나 보러 갈래?</p>
+
+  <p style="margin:0 0 .35em 0;">*</p>
+
+  <p style="margin:0 0 .35em 0;">빨간 천막 예언자는 원대한 안개 속</p>
+  <p style="margin:0 0 .35em 0;">현재-미래의 이중국적을 따르고 있다</p>
+  <p style="margin:0 0 .35em 0;">불 켜진 미래의 일들이 잠시 소등될 때</p>
+  <p style="margin:0 0 .35em 0;">죽어가고 있음에 감사함을 느낀다</p>
+
+  <p style="margin:0 0 .35em 0;">*</p>
+
+  <p style="margin:0 0 .35em 0;">히아신이 빨간 천막 예언자를 떠올렸던 건</p>
+  <p style="margin:0 0 .35em 0;">랑이 텅 빈 고가도로(길고 긴 지난날의-결핍)를 오토바이로 지나갔으면 해서다. 조금이라도 벗어날 수 있다면</p>
+
+  <p style="margin:0 0 .35em 0;">이 마음은</p>
+  <p style="margin:0 0 .35em 0;">월세를 받았기에 생긴 유대감이나 싱거운 동정심일지도 모른다</p>
+
+  <p style="margin:0 0 .35em 0;">*</p>
+
+  <p style="margin:0 0 .35em 0;">그럼에도</p>
+  <p style="margin:0 0 .35em 0;">사람은 사람으로 살아가니까</p>
+
+  <p style="margin:0 0 .35em 0;">*</p>
+
+  <p style="margin:0 0 .35em 0;">히아신과 랑은 천막으로 들어가기 위해 줄을 섰고</p>
+
+  <p style="margin:0 0 .35em 0;">*</p>
+
+  <p style="margin:0 0 .35em 0;">빨간 천막 예언자는 기다리고 있었다</p>
+
+  <p style="margin:0 0 .35em 0;">*</p>
+
+  <p style="margin:0 0 .35em 0;">랑은 그냥 아주 단순히 지금처럼</p>
+  <p style="margin:0 0 .35em 0;">잔잔함을 꿈꾼다</p>
+  <p style="margin:0 0 .35em 0;">친구가 한 명 있는 정도</p>
+  <p style="margin:0 0 .35em 0;">적당히 외롭고</p>
+  <p style="margin:0 0 .35em 0;">적당히 슬픈</p>
+
+  <p style="margin:0 0 .35em 0;">이해는 여벌의 옷을 필요로 하지 않으니까</p>
+
+  <p style="margin:0 0 .35em 0;">여기 서 있는</p>
+</div>

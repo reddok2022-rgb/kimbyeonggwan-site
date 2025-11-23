@@ -1,0 +1,155 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>가우시안 블러 14화</title>
+<style>
+  .ep-wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 24px 20px;
+  }
+  @media (max-width: 480px) {
+    .ep-wrap {
+      font-size: 17px !important;
+      line-height: 1.38 !important;
+      padding: 22px 16px;
+    }
+    .ep-wrap p { word-break: keep-all; }
+  }
+</style>
+<div class="ep-wrap" style="font-family:Pretendard,'Noto Sans KR',system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,'Apple SD Gothic Neo','Noto Sans','Malgun Gothic',sans-serif;font-size:16px;line-height:1.14;letter-spacing:-0.01em;color:#EEE;background:transparent;">
+
+  <p style="margin:0 0 .35em 0;">패스트푸드점 아르바이트생의 일과란 친절에 날개를 달아 주는 일</p>
+  <p style="margin:0 0 .35em 0;">보내야만 해서</p>
+  <p style="margin:0 0 .35em 0;">18 to 24</p>
+
+  <p style="margin:0 0 .35em 0;">로이에 교복을 입은 중학생들이 코코 카드 주세요, 랑에게 말했다</p>
+  <p style="margin:0 0 .35em 0;">현재는 이벤트 기간</p>
+  <p style="margin:0 0 .35em 0;">새로 출시된 셀렉트 버거 세트를 사면</p>
+  <p style="margin:0 0 .35em 0;">신작 RPG 게임 &lt;애프터 셀렉트&gt;의 캐릭터 카드를 고를 수 있다</p>
+  <p style="margin:0 0 .35em 0;">랑은 주문 리스트를 확인한 뒤</p>
+  <p style="margin:0 0 .35em 0;">매대 수납함에서 코코 캐릭터 카드 한 장을 뽑아 건네주었다</p>
+  <p style="margin:0 0 .35em 0;">코코는</p>
+  <p style="margin:0 0 .35em 0;">차원의 지팡이를 이용해 이계의 마법으로 적을 처단하는 캐릭터</p>
+  <p style="margin:0 0 .35em 0;">특히 10대들에게 인기가 많다</p>
+  <p style="margin:0 0 .35em 0;">덕질 요소를 갖춘 카리스마가 카드 전면에도 드러나 있다</p>
+  <p style="margin:0 0 .35em 0;">코코보다 세 배는 더 커다란 차원의 지팡이, 크기가 커 프린팅도 잘린</p>
+  <p style="margin:0 0 .35em 0;">무기를</p>
+  <p style="margin:0 0 .35em 0;">코코는 싱긋 웃으며 들고 있다. 자신감이 넘치는 듯하다</p>
+
+  <p style="margin:0 0 .35em 0;">저희 다섯 개 시켰는데요?</p>
+  <p style="margin:0 0 .35em 0;">로이에 학교 중학생들은 랑에게 짜증을 냈다</p>
+  <p style="margin:0 0 .35em 0;">앗, 잠시만 기다려주세요</p>
+  <p style="margin:0 0 .35em 0;">랑은 주문 리스트를 다시 확인한다</p>
+  <p style="margin:0 0 .35em 0;">셀렉트 버거 세트 X 1</p>
+  <p style="margin:0 0 .35em 0;">셀렉트 버거 단품 X 2</p>
+  <p style="margin:0 0 .35em 0;">스파이시 버거 단품 X 1</p>
+  <p style="margin:0 0 .35em 0;">클래식 버거 세트 X 1</p>
+  <p style="margin:0 0 .35em 0;">적용 대상은 셀렉트 버거 세트만 해당하여 캐릭터 카드 또한 한 장임을 랑은 확인했다</p>
+
+  <p style="margin:0 0 .35em 0;">설명했다. 이벤트 명시 사항을. 공지의 위치를. 정확한 정보와 고객에 대한 공감을. 불편 사항에 대한 이해를. 끝으로 죄송함을</p>
+
+  <p style="margin:0 0 .35em 0;">아, 그럼 바꿔주세요. 전부</p>
+
+  <p style="margin:0 0 .35em 0;">랑이 시간제로 일하는 이 패스트푸드점은 주문을 무인 기계로 받은 뒤</p>
+  <p style="margin:0 0 .35em 0;">주방에 전달되는 시스템으로</p>
+  <p style="margin:0 0 .35em 0;">이미 주문을 들어갔으나</p>
+  <p style="margin:0 0 .35em 0;">랑은 메뉴를 바꿀 수 있는지 물어봤고</p>
+  <p style="margin:0 0 .35em 0;">버거와 세트는 준비되고 있었다. 나올 준비를 마치고 있었다</p>
+  <p style="margin:0 0 .35em 0;">그러니 죄송합니다, 고개를 숙이는데</p>
+
+  <p style="margin:0 0 .35em 0;">진짜 개짜증나</p>
+
+  <p style="margin:0 0 .35em 0;">로이에 학교 중학생들은 매대 앞에서 자기들끼리 성질을 내고 있었다</p>
+  <p style="margin:0 0 .35em 0;">소규모는 집단의 광기를 받아들일 최초의 수단이다</p>
+  <p style="margin:0 0 .35em 0;">타인의 아웃사이드 라인이다</p>
+  <p style="margin:0 0 .35em 0;">하지만 매장은 음악 소리가 큰 편</p>
+  <p style="margin:0 0 .35em 0;">소리와 소리가 서로 만나 보강간섭이 시작된다</p>
+  <p style="margin:0 0 .35em 0;">일시적 증폭</p>
+  <p style="margin:0 0 .35em 0;">소리가 겹쳐 커지는</p>
+  <p style="margin:0 0 .35em 0;">로이에 학교 중학생들의 불만이 지속되지는 않아 음악이 크다</p>
+  <p style="margin:0 0 .35em 0;">매장이 음악으로 평화로움을 유지하는 경우</p>
+
+  <p style="margin:0 0 .35em 0;">중학생들은 주문한 음식이 나오자 테이블로 사라졌다</p>
+
+  <p style="margin:0 0 .35em 0;">요즘 많이 팔리죠?</p>
+  <p style="margin:0 0 .35em 0;">점장은 랑에게 근교에 좋은 카페가 있다고 말하는 사람이다</p>
+  <p style="margin:0 0 .35em 0;">주말에 뭐 하는지 묻는 사람이다</p>
+  <p style="margin:0 0 .35em 0;">랑의 신비한 분위기와 예쁜 얼굴을 좋아하는 사람이다</p>
+  <p style="margin:0 0 .35em 0;">네</p>
+
+  <p style="margin:0 0 .35em 0;">손님은 온다</p>
+
+  <p style="margin:0 0 .35em 0;">리시드 주세요</p>
+  <p style="margin:0 0 .35em 0;">코코를</p>
+  <p style="margin:0 0 .35em 0;">오신카를</p>
+  <p style="margin:0 0 .35em 0;">…</p>
+
+  <p style="margin:0 0 .35em 0;">셀렉트 버거 세트는 불티나게 팔려나가고</p>
+  <p style="margin:0 0 .35em 0;">랑은 바쁘고</p>
+  <p style="margin:0 0 .35em 0;">패스트푸드점 아르바이트생의 일과란 친절에 날개를 달아 주는 일</p>
+  <p style="margin:0 0 .35em 0;">보내는 것이어서</p>
+  <p style="margin:0 0 .35em 0;">18 to 24</p>
+  <p style="margin:0 0 .35em 0;">그나저나 광고를 요즘 많이 한다고 해도</p>
+  <p style="margin:0 0 .35em 0;">이 정도 인기라니</p>
+
+  <p style="margin:0 0 .35em 0;">그러니 죄송합니다, 고개를 숙이는데</p>
+  <p style="margin:0 0 .35em 0;">오늘은 카드가 다 떨어졌어요. 정말 죄송합니다</p>
+  <p style="margin:0 0 .35em 0;">일과를 마치고서</p>
+
+  <p style="margin:0 0 .35em 0;">어디 방향으로 가세요?</p>
+
+  <p style="margin:0 0 .35em 0;">멀리 여행 다녀오려고요</p>
+
+  <p style="margin:0 0 .35em 0;">24시 야간 버스를 타고 랑은 여행 떠나지 않았다</p>
+  <p style="margin:0 0 .35em 0;">금요일이 아니었더라면 다른 이유를 댔을 것이다. 점장의 플러팅을 피하기 위해</p>
+
+  <p style="margin:0 0 .35em 0;">마른 컵라면 용기. 라벨지를 두른 빈 물병. 물기 없는 수세미. 열린 창문으로 공기의 전생. 화이트톤 인테리어. 그러니 하얀 침묵</p>
+  <p style="margin:0 0 .35em 0;">랑은 집에 돌아와</p>
+  <p style="margin:0 0 .35em 0;">석양이 진다</p>
+  <p style="margin:0 0 .35em 0;">1인칭 슈팅 게임 &lt;오버워치&gt;를 한다. 캐서디란 캐릭터의 궁극기를 쓴다. 캐서디는 말한다. 석양이 진다</p>
+  <p style="margin:0 0 .35em 0;">게임 진짜 더럽게 하네</p>
+  <p style="margin:0 0 .35em 0;">오늘도 채팅창은 평화롭다. 극찬을 들으며 새벽을 정주행하고 있다. 랑이 게임에 빠지게 된 이유</p>
+  <p style="margin:0 0 .35em 0;">게임은 자신을 숨기는 데 유효하며, 드러내는데 유효하다</p>
+  <p style="margin:0 0 .35em 0;">내일은 주말이기에 랑은 밤새 게임이나 할 생각이었으나 게임 내 보이스톡. 점장이 생각나는 목소리가</p>
+  <p style="margin:0 0 .35em 0;">목소리 너무 예쁘세요, 하는 탓에</p>
+  <p style="margin:0 0 .35em 0;">게임도 지고</p>
+  <p style="margin:0 0 .35em 0;">기분도 졌다</p>
+  <p style="margin:0 0 .35em 0;">스윗한 그들의 목소리는 어디에나 빠짐없이</p>
+
+  <p style="margin:0 0 .35em 0;">랑은</p>
+  <p style="margin:0 0 .35em 0;">&lt;오버워치&gt;를 종료하고 새벽의 환향을 본다</p>
+  <p style="margin:0 0 .35em 0;">불을 끈</p>
+  <p style="margin:0 0 .35em 0;">화이트톤 인테리어가 모니터의 144hz 빛의 분산으로 춘광사설*春光乍洩을 말한다 </p>
+
+  <p style="margin:0 0 .35em 0;">생각 없이 킨 웹사이트에선 &lt;애프터 셀렉트&gt;의 광고가 나오고 있다</p>
+  <p style="margin:0 0 .35em 0;">무한 자유도 RPG &lt;애프터 셀렉트&gt; 당신은 어디로 가나요?</p>
+  <p style="margin:0 0 .35em 0;">랑은</p>
+  <p style="margin:0 0 .35em 0;">RPG는 혼자 하면 재미없어 안 해왔던 것인데</p>
+  <p style="margin:0 0 .35em 0;">이번 주말을 보내기엔 어쩌면 최적이라는 생각을. 킬링타임으로</p>
+
+  <p style="margin:0 0 .35em 0;">그리고 인기가 너무 많으니 한 번쯤은 좋겠지</p>
+
+  <p style="margin:0 0 .35em 0;">랑은 게임을 받으며 회원가입하고</p>
+  <p style="margin:0 0 .35em 0;">트레일러 영상을 하나 봤다</p>
+
+  <p style="margin:0 0 .35em 0;">그들은 영웅. 우리도 길을 걸을 수 있겠죠</p>
+  <p style="margin:0 0 .35em 0;">천사는 날개가 없으면 외로울까요?</p>
+  <p style="margin:0 0 .35em 0;">많은 캐릭터가 자신의 욕망을 위해 빛에 다가선다</p>
+  <p style="margin:0 0 .35em 0;">빛은 사라진다</p>
+
+  <p style="margin:0 0 .35em 0;">게임이 켜진다</p>
+  <p style="margin:0 0 .35em 0;">커스터마이징으로 초대된다</p>
+  <p style="margin:0 0 .35em 0;">이제 아무도 알아보지 못하는 곳에서, 익명성 속에서</p>
+  <p style="margin:0 0 .35em 0;">랑은 커스터마이징 중 토끼탈을 쓰고 당근을 들고 있는 모습이 마음에 들었다</p>
+  <p style="margin:0 0 .35em 0;">예전 생각도 나고</p>
+  <p style="margin:0 0 .35em 0;">히아신은 잘 지내고 있으려나</p>
+  <p style="margin:0 0 .35em 0;">이 모습은 왠지 유머가 넘쳐 보인다</p>
+  <p style="margin:0 0 .35em 0;">모니터 속</p>
+  <p style="margin:0 0 .35em 0;">토끼탈로 정체를 숨기고 당근을 쥔 캐릭터</p>
+
+  <p style="margin:0 0 .35em 0;">자신의 모습이</p>
+  <p style="margin:0 0 .35em 0;">어쩐지 다른 타입의 운명으로 느껴짐</p>
+
+  <p style="margin:0 0 .35em 0;opacity:.7;font-size:14px;">* 봄의 풍광이 문득 드러나다 혹은 은밀한 부위를 갑자기 드러낸다는 뜻.</p>
+</div>

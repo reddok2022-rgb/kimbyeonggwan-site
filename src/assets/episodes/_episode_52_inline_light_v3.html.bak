@@ -1,0 +1,520 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>가우시안 블러 52화</title>
+<style>
+  .ep-wrap { max-width: 720px; margin: 0 auto; padding: 24px 20px; }
+  @media (max-width: 480px) {
+    .ep-wrap { font-size: 17px !important; line-height: 1.38 !important; padding: 22px 16px; }
+    .ep-wrap p { word-break: keep-all; }
+  }
+</style>
+<div class="ep-wrap" style="font-family:Pretendard,'Noto Sans KR',system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,'Apple SD Gothic Neo','Noto Sans','Malgun Gothic',sans-serif;font-size:16px;line-height:1.14;letter-spacing:-0.01em;color:#EEE;background:transparent;">
+
+  <p style="margin:0 0 .35em 0;">그리고</p>
+  <p style="margin:0 0 .35em 0;">영상이 바뀌었다</p>
+  <p style="margin:0 0 .35em 0;">빛의 공간으로 들어가는 세 명의 캐릭터</p>
+  <p style="margin:0 0 .35em 0;">토끼탈, 해골가면, 요정</p>
+  <p style="margin:0 0 .35em 0;">빛을 머금고 사라지다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">키튼은 자신을 기다렸다는 듯 얘기하던</p>
+  <p style="margin:0 0 .35em 0;">영상 속 고스트 스토어를 찾아보려 했지만 어디에도</p>
+  <p style="margin:0 0 .35em 0;">고스트 스토어의 흔적은 남아 있지 않았다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">과연 적은 누구인지</p>
+  <p style="margin:0 0 .35em 0;">이곳은 무엇인지</p>
+  <p style="margin:0 0 .35em 0;">하물며</p>
+  <p style="margin:0 0 .35em 0;">자신은 누구인지</p>
+  <p style="margin:0 0 .35em 0;">무엇 하나 명확해지지 않는</p>
+  <p style="margin:0 0 .35em 0;">파도 파도 괴담처럼 느껴지는</p>
+  <p style="margin:0 0 .35em 0;">알 수 없는</p>
+  <p style="margin:0 0 .35em 0;">징후와도 같은 일들이</p>
+  <p style="margin:0 0 .35em 0;">어느덧</p>
+  <p style="margin:0 0 .35em 0;">키튼의 일상에 어울렸고</p>
+  <p style="margin:0 0 .35em 0;">방금 나타났다 사라진 고스트 스토어도</p>
+  <p style="margin:0 0 .35em 0;">그런 하루다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">영상이 새로 재생되었다</p>
+  <p style="margin:0 0 .35em 0;">빛을 머금고 사라졌던 토끼탈, 해골가면, 요정</p>
+  <p style="margin:0 0 .35em 0;">서로 쳐다보다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">이게 뭔</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">당황한 영상 속 토끼탈</p>
+  <p style="margin:0 0 .35em 0;">해골가면</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">이때 요정이 말한다. 당장은 믿기지 않을 거라고. 처음엔 자기도 그랬으니까. 요정은 이어 말한다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">우리는 이 세계에 빙의된 거야</p>
+  <p style="margin:0 0 .35em 0;">우리의 캐릭터 안에</p>
+  <p style="margin:0 0 .35em 0;">각자 자신의 캐릭터 안에 말야</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">이번엔 빙의냐</p>
+  <p style="margin:0 0 .35em 0;">영상을 지켜보던 키튼은 다시금 비현실과 마주했다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">영상 속 요정은</p>
+  <p style="margin:0 0 .35em 0;">담담히</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">혼란스러울 거 알아. 그래도 다들 느꼈을 거야. 빛의 공간으로 들어가며</p>
+  <p style="margin:0 0 .35em 0;">모니터에서 쏟아지는 빛이</p>
+  <p style="margin:0 0 .35em 0;">모종의 전환을 이끌어냈다는 걸</p>
+  <p style="margin:0 0 .35em 0;">이 세계의 주민으로 인정하듯</p>
+  <p style="margin:0 0 .35em 0;">상품 바코드 찍히듯</p>
+  <p style="margin:0 0 .35em 0;">우리는</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">영상 속 토끼탈은 주위를 둘러본다. 해골가면은 권총을 만져본다. 그러다 해골가면이 말한다</p>
+  <p style="margin:0 0 .35em 0;">어떻게 아는 건데?</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">자칫하면 쏠 수도 있을 것처럼 해골가면은 권총을 만지작거리며 눈앞의 있는 자가 누구인지 식별해보는 듯했다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">과연 적은 누구인지</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">요정은 힐끔 권총을 쳐다보며 말했다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">예전 &lt;애프터 셀렉트&gt; 클로즈베타 당시 게임 속에 들어와 본 적 있어</p>
+  <p style="margin:0 0 .35em 0;">초대권을 받았거든</p>
+  <p style="margin:0 0 .35em 0;">요정은 토끼탈의 눈치를 살짝 보며</p>
+  <p style="margin:0 0 .35em 0;">크리스탈 크리스탈</p>
+  <p style="margin:0 0 .35em 0;">그 자에게 받은 거라고</p>
+  <p style="margin:0 0 .35em 0;">말을 이었다</p>
+  <p style="margin:0 0 .35em 0;">자신의 삶은</p>
+  <p style="margin:0 0 .35em 0;">어떤 진실을 향해 나아가는 여정이었다고</p>
+  <p style="margin:0 0 .35em 0;">그런 세계라서</p>
+  <p style="margin:0 0 .35em 0;">이곳엔 모든 답이 있을 거라고</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">요정은</p>
+  <p style="margin:0 0 .35em 0;">천천히 읊조리듯</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">나는 2차 보이드의 첫 발생지</p>
+  <p style="margin:0 0 .35em 0;">미녜스 참사의 유일한 생존자</p>
+  <p style="margin:0 0 .35em 0;">이즈사</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">키튼은 잠시 영상을 멈췄다</p>
+  <p style="margin:0 0 .35em 0;">키튼은</p>
+  <p style="margin:0 0 .35em 0;">미녜스 참사를 들어본 적 있다</p>
+  <p style="margin:0 0 .35em 0;">사람들이 어느 날 괴인으로 변해 서로를 죽이고 죽였던</p>
+  <p style="margin:0 0 .35em 0;">최초의 2차 보이드</p>
+  <p style="margin:0 0 .35em 0;">미녜스 참사</p>
+  <p style="margin:0 0 .35em 0;">이 이야기는</p>
+  <p style="margin:0 0 .35em 0;">새벽을 지새우고</p>
+  <p style="margin:0 0 .35em 0;">한 명의 소녀만이 그곳에 남아 있었다고 알려져 있다</p>
+  <p style="margin:0 0 .35em 0;">자기들끼리 싸우다</p>
+  <p style="margin:0 0 .35em 0;">끝내 피냄새를 풍겨대던 시체들 속에</p>
+  <p style="margin:0 0 .35em 0;">소녀 한 명만</p>
+  <p style="margin:0 0 .35em 0;">살았다던 이야기</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">키튼은 노트를 펴고 내용을 끄적여본다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">현실과 연동된 이 세계</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">게임 속 : 환각의 끝에 악마를 보게 된다는 밀딜, 공장에서 월계화에 밀딜을 코팅하던 크루슈들, 폐공장, 병아리 캐릭터의 오트보르자, 눈알 보스, 마녀, 좀비들, 고스트 스토어, NPC들, 이 세계를 구해달라는 말과 함께 연기가 되어 사라진 뻐꾸기 34_크루슈</p>
+  <p style="margin:0 0 .35em 0;">현실 : 1,2차 보이드, 사기꾼 고든, 현자와 독수리의 사념탑, 2차 보이드 감염자들의 석상이 있는 곳 루벡, 마음 단련 시간, 현자를 숭배하는 사람들, 월계화, 플라워데이, &lt;애프터 셀렉트&gt; 디렉터 오트보르자, 미녜스 참사, 붉은 달, 크리스탈 크리스탈(배후?)</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">이 사이의 연관성</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">키튼은 다시 영상을 재생한다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">요정은 말한다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">내 인생은 그들을 찾는 거였지</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">내가 살아남았을 때</p>
+  <p style="margin:0 0 .35em 0;">불타는 마을과</p>
+  <p style="margin:0 0 .35em 0;">그 불길 속에 있던</p>
+  <p style="margin:0 0 .35em 0;">가면 2인조를 기억해</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">2차 보이드는 명백한 조작</p>
+  <p style="margin:0 0 .35em 0;">나는 그들을 찾기 위해 존재했어</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">그들은 대놓고</p>
+  <p style="margin:0 0 .35em 0;">나를 귀여워했거든</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">불길 속에서</p>
+  <p style="margin:0 0 .35em 0;">내 볼살을 만지는 이들</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">그 말을 어떻게 잊겠어</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">-유일한 생존자인 아이야. 이 모든 건 우리의 장난이란다. 너는 이 이야기를 써 내려갈 펜. 진실을 향해 쫓아오렴. 너의 글씨를 따라, 발자취를 따라 길을 걷는 이들이 생길지니</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">그들의 흔적을 찾기 위해 노력했어</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">길에 다다름에</p>
+  <p style="margin:0 0 .35em 0;">크리스탈 크리스탈을 만났지</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">그 사람이 범인이었을까?</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">알 수 없었어</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">단지 그녀는 게임 초대 코드를 주며</p>
+  <p style="margin:0 0 .35em 0;">이야기는 그곳에 다 잠들어있다 했지</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">클로즈베타에선 누구를 만났게</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">고든</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">알고 있지?</p>
+  <p style="margin:0 0 .35em 0;">사기꾼 고든</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">언젠가부터</p>
+  <p style="margin:0 0 .35em 0;">괴성이 잦아지기 시작한 게</p>
+  <p style="margin:0 0 .35em 0;">그의 바이러스 유포 때문이라는 뉴스가 퍼졌던</p>
+  <p style="margin:0 0 .35em 0;">바이러스 학자 고든</p>
+  <p style="margin:0 0 .35em 0;">세계는 그가 행방불명됐다고 했지</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">난</p>
+  <p style="margin:0 0 .35em 0;">마주하게 된 거야</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">행방불명으로부터 꽤 지난 시점의</p>
+  <p style="margin:0 0 .35em 0;">그를</p>
+  <p style="margin:0 0 .35em 0;">게임 속에서</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">그는</p>
+  <p style="margin:0 0 .35em 0;">사람들을 구하기 위해 치료제를 만들고 있었어</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">그때쯤</p>
+  <p style="margin:0 0 .35em 0;">난</p>
+  <p style="margin:0 0 .35em 0;">빙의했었다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">난 고든과 함께 치료제를 만들기 시작한 거야</p>
+  <p style="margin:0 0 .35em 0;">바람이 살살 불어오는 섬이었지</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">고든은 참</p>
+  <p style="margin:0 0 .35em 0;">좋은 사람이었어</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">요정의 말이 계속 이어진다. 다른 이들은 말이 없었다. 그곳엔 응시만 있을 뿐이었다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">그는 아직 거기 있을지도 모르지</p>
+  <p style="margin:0 0 .35em 0;">지금쯤이면 치료제를 만들었을지도 모르지</p>
+  <p style="margin:0 0 .35em 0;">홀로 기다리고 있을지도 모르지</p>
+  <p style="margin:0 0 .35em 0;">NPC는 기다리는 일밖에 못하니까</p>
+  <p style="margin:0 0 .35em 0;">그래서 이곳에 오면</p>
+  <p style="margin:0 0 .35em 0;">난 찾아야 해</p>
+  <p style="margin:0 0 .35em 0;">현실과 연동되는 이 세계에서</p>
+  <p style="margin:0 0 .35em 0;">답을 찾아야 해</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">요정이 말이 영상에서 끝난다. 토끼탈은 담담했고, 해골가면은 만지작거리던 총을 내려둔다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">해골가면이 물었다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">그럼 당장 해야할 건?</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">글쎄. 찾아봐야겠지</p>
+  <p style="margin:0 0 .35em 0;">그 지형에 다다르기 위해 이곳저곳 다녀봤지만</p>
+  <p style="margin:0 0 .35em 0;">아무런 흔적도 찾을 수 없었어</p>
+  <p style="margin:0 0 .35em 0;">단지</p>
+  <p style="margin:0 0 .35em 0;">게임이 우리에게 말하는 방식</p>
+  <p style="margin:0 0 .35em 0;">우리에게 선언하는 방식</p>
+  <p style="margin:0 0 .35em 0;">퀘스트</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">따라가다보면 답이 있을 거야</p>
+  <p style="margin:0 0 .35em 0;">퀘스트를 따라가니</p>
+  <p style="margin:0 0 .35em 0;">빙의까지 오게 된 것처럼 말야</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">일단은 비히 왕을 찾아가야겠지</p>
+  <p style="margin:0 0 .35em 0;">퀘스트가 여기 온 뒤로 바뀌었으니까</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">*****************************</p>
+  <p style="margin:0 0 .35em 0;">[퀘스트] 왕을 만나시오</p>
+  <p style="margin:0 0 .35em 0;">빛의 공간을 넘어온 그대들</p>
+  <p style="margin:0 0 .35em 0;">왕이 찾는다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">왕과의 만남 실패시 : 죽음</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">*****************************</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">영상 속 그들은 왕을 만나기 위해 움직이려한다</p>
+  <p style="margin:0 0 .35em 0;">그런데 이상한 풍경</p>
+  <p style="margin:0 0 .35em 0;">영상 속 사람들의 상태가 다 이상하다</p>
+  <p style="margin:0 0 .35em 0;">바닥을 핥는 자들</p>
+  <p style="margin:0 0 .35em 0;">하얀 가루를 혀로 날름거리며 핥고 있다</p>
+  <p style="margin:0 0 .35em 0;">밀딜을</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">왕궁에 도착한 그들은</p>
+  <p style="margin:0 0 .35em 0;">비히 왕의 부탁을 듣는다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">마녀의 부활을 막아주시오</p>
+  <p style="margin:0 0 .35em 0;">약을 먹어 악마를 보고 사라진 자들은 모두 마녀의 제물로 바쳐진다더군</p>
+  <p style="margin:0 0 .35em 0;">막지 않으면 크나큰 재앙이 올 것이오</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">그러나 왕 자체도 이미 취해있었다</p>
+  <p style="margin:0 0 .35em 0;">퀘스트를 건넨 뒤 열심히 하얀 가루를 핥고 있다</p>
+  <p style="margin:0 0 .35em 0;">땅바닥에 누워</p>
+  <p style="margin:0 0 .35em 0;">바닥을</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">그러니까 그들은 세계를 본다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">왕궁에서 바라보는 도시</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">모두가 마약을 핥는 저 모습을 보라</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">도시엔 노을이 지고 있었다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">요정이 말했다</p>
+  <p style="margin:0 0 .35em 0;">어쩌면 우리의 시간이 조금 바뀌었을지도 모르겠네</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">우리가 빛의 공간을 들어오며</p>
+  <p style="margin:0 0 .35em 0;">시간이 꽤 흘렀을지도 몰라</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">이런 장면은 없었으니까</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">노을이 지는 도시</p>
+  <p style="margin:0 0 .35em 0;">떨어진 하얀 가루를 핥는 자들</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">게임 속 세계에서의</p>
+  <p style="margin:0 0 .35em 0;">며칠이 흘렀다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">그들은 사람들에게서 마약을 떼어놓으려</p>
+  <p style="margin:0 0 .35em 0;">노력을 했고</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">욕을 먹었다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">왜</p>
+  <p style="margin:0 0 .35em 0;">왜</p>
+  <p style="margin:0 0 .35em 0;">도대체 우리를 방해하는 거냐고</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">돌을 맞고</p>
+  <p style="margin:0 0 .35em 0;">멸시 받았다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">빛의 공간이 커져가고 있었다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">러던 어느날</p>
+  <p style="margin:0 0 .35em 0;">요정 캐릭터 이즈사가 말했다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">어</p>
+  <p style="margin:0 0 .35em 0;">얘들아</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">마녀가 만약 온다면 말야</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">요정 캐릭터는 빛의 공간을 멀뚱히 쳐다보며</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">마녀가 만약 온다면</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">꼭</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">요정 캐릭터는 빛의 공간을 하염없이 쳐다보며</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">꼭</p>
+  <p style="margin:0 0 .35em 0;">이겨내자</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">요정 캐릭터는 빛의 공간을 쳐다보며</p>
+  <p style="margin:0 0 .35em 0;">베시시 웃었다</p>
+  <p style="margin:0 0 .35em 0;">그다음의 말</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">나</p>
+  <p style="margin:0 0 .35em 0;">사실 요즘 이상한 꿈을 꿔</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">요정 캐릭터는 이제 빛의 공간을 쳐다보지 않고 눈을 감으며</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">악마가 자꾸 보여</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">요정 캐릭터는 눈을 감고 있었다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">이즈사는 밀딜을 흡입한 적 있다</p>
+  <p style="margin:0 0 .35em 0;">퀘스트가 명령한 일이었다</p>
+</div>

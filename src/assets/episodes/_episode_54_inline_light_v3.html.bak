@@ -1,0 +1,311 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>가우시안 블러 54화</title>
+<style>
+  .ep-wrap { max-width: 720px; margin: 0 auto; padding: 24px 20px; }
+  @media (max-width: 480px) {
+    .ep-wrap { font-size: 17px !important; line-height: 1.38 !important; padding: 22px 16px; }
+    .ep-wrap p { word-break: keep-all; }
+  }
+</style>
+<div class="ep-wrap" style="font-family:Pretendard,'Noto Sans KR',system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,'Apple SD Gothic Neo','Noto Sans','Malgun Gothic',sans-serif;font-size:16px;line-height:1.14;letter-spacing:-0.01em;color:#EEE;background:transparent;">
+
+  <p style="margin:0 0 .35em 0;">영상 속</p>
+  <p style="margin:0 0 .35em 0;">랑</p>
+  <p style="margin:0 0 .35em 0;">키튼은 피를 토하고</p>
+  <p style="margin:0 0 .35em 0;">이즈사는 낙서를 끄적거리고 있다</p>
+  <p style="margin:0 0 .35em 0;">이때</p>
+  <p style="margin:0 0 .35em 0;">고스트 스토어가 손짓한다</p>
+  <p style="margin:0 0 .35em 0;">유령들이 그들을 공중으로 끌고 온다</p>
+  <p style="margin:0 0 .35em 0;">꺄르륵</p>
+  <p style="margin:0 0 .35em 0;">꺄르륵거리는 유령들과는 반대로</p>
+  <p style="margin:0 0 .35em 0;">하아</p>
+  <p style="margin:0 0 .35em 0;">후</p>
+  <p style="margin:0 0 .35em 0;">그들은 처참했다</p>
+  <p style="margin:0 0 .35em 0;">이것이 영웅이란 이름으로</p>
+  <p style="margin:0 0 .35em 0;">이곳에 있는 자들인가, 세계를 구하려는 자들의 모습인가</p>
+  <p style="margin:0 0 .35em 0;">공기는 어떤 비정함과 솔직함으로 이뤄져 있다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">랑과 키튼은 계속해서 피를 토했다</p>
+  <p style="margin:0 0 .35em 0;">공중에 흩날리는 피. 힘없이 바람에 떠밀려간다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">고스트 스토어는 그들을 향해 흥이 다 깨졌다고 말한다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">이렇게 전의를 잃으면 재미없다고요… 조금 더 재밌게 해주라고요!</p>
+  <p style="margin:0 0 .35em 0;">고스트 스토어는 도발한다</p>
+  <p style="margin:0 0 .35em 0;">세계를 지키겠다고, 그렇게 애쓰며 소리쳤으면서!</p>
+  <p style="margin:0 0 .35em 0;">멋진 척 다했으면서!</p>
+  <p style="margin:0 0 .35em 0;">동태눈이나 하고 있고!</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">이즈사는 동태눈을 하고 있다. 허공에 멍하니 손짓을 하고 있다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">고스트 스토어는 타겟을 옮겨 피를 토하고 있는 랑과 키튼을 힐끗 쳐다본다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">그리고 당신 둘도 뭐…</p>
+  <p style="margin:0 0 .35em 0;">무슨 재능이니 뭐니</p>
+  <p style="margin:0 0 .35em 0;">꾸며진 연극인 줄도 모르고</p>
+  <p style="margin:0 0 .35em 0;">너무 쉽다고 생각하지 않았나요?</p>
+  <p style="margin:0 0 .35em 0;">아이템도 잘 나오는 것 같고</p>
+  <p style="margin:0 0 .35em 0;">게임 자체가 너무 편하다, 느끼지 않았나요?</p>
+  <p style="margin:0 0 .35em 0;">누구보다 익숙한 것처럼</p>
+  <p style="margin:0 0 .35em 0;">오만하지 않았나요?</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">고스트 스토어의 혼잣말이 이 하늘을 다 사랑한다. 차지한다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">진짜 재미없다!</p>
+  <p style="margin:0 0 .35em 0;">고스트 스토어는 한숨을 푹 쉬며, 재밌는 얘기 하나 해준다고 한다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">그러니까요. 그런 얘기에요</p>
+  <p style="margin:0 0 .35em 0;">제가 저기 있는 크루슈를 한 명 없애면</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">고스트 스토어의 손짓 한번으로 크루슈 한 명이 이 세계에서 지워진다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">키튼 씨</p>
+  <p style="margin:0 0 .35em 0;">뻐꾸기 34_크루슈가 검은 연기로 사라질 때요. 그 뒤에 뭔가 일어나지 않았나요? 갑자기 어머니가 아파서 병원에서 연락이 왔다던가?</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">고스트 스토어는 말을 마친 뒤 주체할 수 없다는 듯 혼자 깔깔거렸다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">분명 뻐꾸기 34_크루슈가 검은 연기가 되어 이 세계에서 사라지자마자</p>
+  <p style="margin:0 0 .35em 0;">병원에서 연락이 온 기억이 키튼의 이성을 가져간다</p>
+  <p style="margin:0 0 .35em 0;">엄마가 갑자기 아프다고 온 연락이</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">키튼은</p>
+  <p style="margin:0 0 .35em 0;">일순간 고스트 스토어에게 다가선다</p>
+  <p style="margin:0 0 .35em 0;">공중에서</p>
+  <p style="margin:0 0 .35em 0;">공중으로</p>
+  <p style="margin:0 0 .35em 0;">그러나 하늘을 나는 능력 따위는 없다. 그대로 떨어진다</p>
+  <p style="margin:0 0 .35em 0;">푹</p>
+  <p style="margin:0 0 .35em 0;">키튼의 머리가 지상의 돌에 부딪혀 터진다</p>
+  <p style="margin:0 0 .35em 0;">고스트 스토어는 그 모습을 보며 박수를 친다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">그래요! 이거예요! 고스트 스토어는 손짓으로 키튼을 되살린다. 시간이 루프 되듯, 시체에서 다시 하나의 형태로 키튼은 공중에 서 있다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">너는 이게 재밌지</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">키튼의 말에 고스트 스토어는 고개를 끄덕인다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">숨을 거칠게 몰아쉬며 키튼은 크루슈와 엄마가 어떤 관계성을 지니는지. 이것은 도대체 어디서부터가 얽혀 있는 이야기인지. 자신의 상상은 맞는 것인지. 이것 또한 장난인지</p>
+  <p style="margin:0 0 .35em 0;">두려웠다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">고스트 스토어의 손짓으로</p>
+  <p style="margin:0 0 .35em 0;">모두 다시 땅으로 쳐박힌다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">사이좋게 모두 다 피를 토하며 고스트 스토어 아래에 있다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">키튼은</p>
+  <p style="margin:0 0 .35em 0;">두려웠지만</p>
+  <p style="margin:0 0 .35em 0;">그래도</p>
+  <p style="margin:0 0 .35em 0;">다시</p>
+  <p style="margin:0 0 .35em 0;">일어선다. 다가선다. 절뚝거리며 나아간다. 고스트 스토어는 쳐다보고 있다. 자신에게 오기를 기다리고 있다. 키튼은 주먹을 붕 휘두른다. 고스트 스토어는 맞지 않는다. 그대로 키튼은 홀로 넘어진다</p>
+  <p style="margin:0 0 .35em 0;">넘어진 채</p>
+  <p style="margin:0 0 .35em 0;">손을 뻗어</p>
+  <p style="margin:0 0 .35em 0;">고스트 스토어의 발목을 붙잡는다. 올려다본다. 숨겨둔 권총을 들어 쏜다. 고스트 스토어는 얼굴이 뚫려도 아무렇지도 않다. 고스트 스토어는 키튼을 신나게 밟는다. 키튼의 얼굴이 실시간으로 뭉개진다</p>
+  <p style="margin:0 0 .35em 0;">랑이 피를 토하며, 고스트 스토어에게 전진한다. 당근을 휘두른다. 스치지도 않는다. 고스트 스토어는 랑의 배를 뻥 찬다. 신음이 터져 나온다. 고스트 스토어는 랑을 다시 일으켜 세운다</p>
+  <p style="margin:0 0 .35em 0;">어디서 소환된 야구 배트로 랑의 뒤통수를 친다. 고스트 스토어는 만족하며, 작게 랑에게 귓속말한다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">전에 있잖아. 옛날에</p>
+  <p style="margin:0 0 .35em 0;">야구 배트로 후려쳤던 거 기억나?</p>
+  <p style="margin:0 0 .35em 0;">발코니에서 말이야</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">고스트 스토어는 사정없이 야구 배트로 랑을 후려친다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">랑은 피투성이가 된다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">그때 말이야</p>
+  <p style="margin:0 0 .35em 0;">내가 널 들판으로 던져버리긴 했지만</p>
+  <p style="margin:0 0 .35em 0;">음</p>
+  <p style="margin:0 0 .35em 0;">많이 참은 거라고?</p>
+  <p style="margin:0 0 .35em 0;">흠흠. 그때 생각하니까 또 그립네</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">좋은 시절이었지</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">키튼의 얼굴은 멍으로 가득하였고</p>
+  <p style="margin:0 0 .35em 0;">랑의 뒤통수는 깨져 있다</p>
+  <p style="margin:0 0 .35em 0;">이즈사는 피투성이가 된 채</p>
+  <p style="margin:0 0 .35em 0;">피로</p>
+  <p style="margin:0 0 .35em 0;">낙서를 끄적거리고 있다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">후우</p>
+  <p style="margin:0 0 .35em 0;">고스트 스토어는 이 광경을 보며 숨을 내쉰다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">그리고 다시 살려낸다. 랑과 키튼은 맞고 또 맞고. 그러나 고스트 스토어에게 또 다가가고. 또 죽고. 또 일어나고</p>
+  <p style="margin:0 0 .35em 0;">반복이었다</p>
+  <p style="margin:0 0 .35em 0;">그들은 굴렀다. 아무 희망도 없이 굴렀다. 그것밖에 할 게 없었다. 할 수 있는 게 적에게 다가가서 죽기</p>
+  <p style="margin:0 0 .35em 0;">그것 말고</p>
+  <p style="margin:0 0 .35em 0;">무엇도 없었다</p>
+  <p style="margin:0 0 .35em 0;">피투성이가 된 그들이 전장에 쓰러져 있다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">아이고, 삭신이야</p>
+  <p style="margin:0 0 .35em 0;">오랜만에 몸 푸니까 여기저기 다 쑤시네</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">고스트 스토어는 피가 가득한 전장에서 스트레칭을 한다</p>
+  <p style="margin:0 0 .35em 0;">그후</p>
+  <p style="margin:0 0 .35em 0;">마이크를 뿅 꺼낸다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">아아, 들리십니까?</p>
+  <p style="margin:0 0 .35em 0;">네네. 제가 랑의 엄마이자 모든 흑막인 고스트 스토어입니다</p>
+  <p style="margin:0 0 .35em 0;">거기서 잘 보고 계시지요?</p>
+  <p style="margin:0 0 .35em 0;">고스트 스토어는 영상 밖에서 모든 걸 보고 있는 현실의 키튼과 시선을 마주한다</p>
+  <p style="margin:0 0 .35em 0;">자, 이런 일이 있었답니다</p>
+  <p style="margin:0 0 .35em 0;">제가 왜 이런 이벤트를 만들었느냐!</p>
+  <p style="margin:0 0 .35em 0;">궁금하진 않으신지요? 기억은 조금 날 듯 말 듯 하신지요? 그래요</p>
+  <p style="margin:0 0 .35em 0;">여기에서 일어난 일들은 사실 제가 다 기억을 쓱싹쓱싹</p>
+  <p style="margin:0 0 .35em 0;">청소를 해버렸답니다. 이건 오로지</p>
+  <p style="margin:0 0 .35em 0;">거기서</p>
+  <p style="margin:0 0 .35em 0;">지켜보고 있는 당신을 위한 이벤트! 빠밤!</p>
+  <p style="margin:0 0 .35em 0;">옵저버도 괜히 살려둔 게 아닙죠</p>
+  <p style="margin:0 0 .35em 0;">이제 당신이 움직일 차례입니다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">후… 담배 마렵네요</p>
+  <p style="margin:0 0 .35em 0;">고스트 스토어는 패딩 주머니 속에서 담배를 꺼낸다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">연기를 들이마시고</p>
+  <p style="margin:0 0 .35em 0;">뱉는다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">후</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">비행기 사고로 기억을 잃은 키튼 씨가 이제 찾는 거죠</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">사라진 랑을</p>
+  <p style="margin:0 0 .35em 0;">모든 걸 알고자 하는 랑을, 이 세계의 진실을 알리기 위해 도전하는 랑을</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">고스트 스토어는</p>
+  <p style="margin:0 0 .35em 0;">연기를 들이마시고</p>
+  <p style="margin:0 0 .35em 0;">뱉는다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">후</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">이야기는 계속 철수되고 있는 거예요</p>
+  <p style="margin:0 0 .35em 0;">여기서부터 재구성되는 거예요</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">고스트 스토어는</p>
+  <p style="margin:0 0 .35em 0;">연기를 들이마시고</p>
+  <p style="margin:0 0 .35em 0;">뱉는다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">후</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">이야기는 모두 조작되어 있습니다</p>
+  <p style="margin:0 0 .35em 0;">모든 것이 엇갈리도록</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">로맨틱하지 않나요?</p>
+  <p style="margin:0 0 .35em 0;">기억을 잃은 자만이 모든 걸 알고 있다는 사실이?</p>
+  <p style="margin:0 0 .35em 0;">당신만이 세계의 진실을 온전히 알고 있다는 사실이?</p>
+  <p style="margin:0 0 .35em 0;">그리고 당신이</p>
+  <p style="margin:0 0 .35em 0;">찾는 거예요</p>
+  <p style="margin:0 0 .35em 0;">떠난 랑을</p>
+  <p style="margin:0 0 .35em 0;">랑은 어디로 갔을까요?</p>
+  <p style="margin:0 0 .35em 0;">당신에게 일기장과 책을 휙 던져두고서</p>
+  <p style="margin:0 0 .35em 0;">무엇을 준비하고 있는 걸까요?</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">앞으로 어떤 이야기가 펼쳐질지 궁금하지 않나요?</p>
+  <p style="margin:0 0 .35em 0;">두근거리지 않나요?</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">고스트 스토어는 담배를 피우다 말고</p>
+  <p style="margin:0 0 .35em 0;">휙</p>
+  <p style="margin:0 0 .35em 0;">꽁초를 던진다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">불이 삽시간에 붙는다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">고스트 스토어가 불 속에서 현실의 키튼을 쳐다보고 있다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">키튼은 자신에게 주어진 이야기를 쳐다보고 있었다</p>
+</div>

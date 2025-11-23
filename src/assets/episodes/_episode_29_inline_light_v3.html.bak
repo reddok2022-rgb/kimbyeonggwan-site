@@ -1,0 +1,166 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>가우시안 블러 29화</title>
+<style>
+  .ep-wrap { max-width: 720px; margin: 0 auto; padding: 24px 20px; }
+  @media (max-width: 480px) {
+    .ep-wrap { font-size: 17px !important; line-height: 1.38 !important; padding: 22px 16px; }
+    .ep-wrap p { word-break: keep-all; }
+  }
+</style>
+<div class="ep-wrap" style="font-family:Pretendard,'Noto Sans KR',system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,'Apple SD Gothic Neo','Noto Sans','Malgun Gothic',sans-serif;font-size:16px;line-height:1.14;letter-spacing:-0.01em;color:#EEE;background:transparent;">
+
+  <p style="margin:0 0 .35em 0;">한가로운 새벽</p>
+  <p style="margin:0 0 .35em 0;">랑은 마우스를 딸깍거리고 있다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">던전을 클리어했습니다</p>
+  <p style="margin:0 0 .35em 0;">보스 몬스터가 피를 흘리며 쓰러졌다</p>
+  <p style="margin:0 0 .35em 0;">미궁의</p>
+  <p style="margin:0 0 .35em 0;">미노타우로스</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">랑은 클리어한 던전을 바로 나가지 않고</p>
+  <p style="margin:0 0 .35em 0;">발로 벽을 툭툭 치거나</p>
+  <p style="margin:0 0 .35em 0;">죽은 미노타우로스를 쿡쿡 손가락으로 찔러보거나</p>
+  <p style="margin:0 0 .35em 0;">갑자기 좁은 보스 방에서 인터벌 러닝을 하기도</p>
+  <p style="margin:0 0 .35em 0;">물구나무서서 맵을 돌아다니기도 했다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">푹</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">바닥이 꺼졌다</p>
+  <p style="margin:0 0 .35em 0;">떨어졌다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">일그러지는 이미지들</p>
+  <p style="margin:0 0 .35em 0;">픽셀이 깨지듯</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">랑은 낙하하며 봤다</p>
+  <p style="margin:0 0 .35em 0;">일그러지는 이미지들 사이에서 염탐하듯 쳐다보는 거대한 눈을</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">랑은 생각했다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">복선이라면 빨리 나와라. 시시해서 죽고 싶어졌다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">랑은</p>
+  <p style="margin:0 0 .35em 0;">숨겨진 장소에 도착한다. 흰빛의 공간이다. 바닥에 작은 달걀이 놓여 있다</p>
+  <p style="margin:0 0 .35em 0;">랑은 바로 까서 먹었다. 모든 능력치가 골고루 소폭 상승했다</p>
+  <p style="margin:0 0 .35em 0;">&lt;애프터 셀렉트&gt; 총괄 디렉터 오트보르자가 게임 곳곳에 배치해둔 요소였다</p>
+  <p style="margin:0 0 .35em 0;">이러니 레벨이 똑같더라도</p>
+  <p style="margin:0 0 .35em 0;">차이가 있다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">히든</p>
+  <p style="margin:0 0 .35em 0;">숨겨진 것에 도달하기 위하여</p>
+  <p style="margin:0 0 .35em 0;">랑은 &lt;애프터 셀렉트&gt; 한다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">랑은 자신의 아지트</p>
+  <p style="margin:0 0 .35em 0;">폐건물로 복귀해</p>
+  <p style="margin:0 0 .35em 0;">하얀 식탁 하나 펴놓고 미온수 한 병 마신다. 도시의 전광판에선</p>
+  <p style="margin:0 0 .35em 0;">닌자 캐릭터 오신카가 밤의 그림자를 사용해 마녀를 단독으로 잡아내는 장면이</p>
+  <p style="margin:0 0 .35em 0;">광고로 나오고 있었다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">난 당신이 괴로워서 잊을 수 없어요</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">K의 말이 틈새로 떠올랐다</p>
+  <p style="margin:0 0 .35em 0;">현생의 일 때문에 제대로 생각할 시간이 없던 랑이었지만</p>
+  <p style="margin:0 0 .35em 0;">이제는 가능하다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">오랜 꿈에서부터 자신을 본 사람</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">왠지 뻘줌했다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">진위가 어찌 됐든</p>
+  <p style="margin:0 0 .35em 0;">랑은 K를 떠올리고 있었다. 보고 싶기도 했다</p>
+  <p style="margin:0 0 .35em 0;">다시 한번</p>
+  <p style="margin:0 0 .35em 0;">승부를 겨뤄보고 싶었다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">승부욕이 8이라면</p>
+  <p style="margin:0 0 .35em 0;">단순히 보고 싶은 마음은 2</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">랑은 객관적으로도 더 세지고 강해졌으므로</p>
+  <p style="margin:0 0 .35em 0;">결승전 때와는 달리 정신력도 온전하므로</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">귓속말했다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">원수는 외나무다리에서</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">맵 이름이 좀 그렇지만 여기가 1:1 특화 맵이라서</p>
+  <p style="margin:0 0 .35em 0;">골라봤어요</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">달밤</p>
+  <p style="margin:0 0 .35em 0;">외나무다리 양쪽에 둘은 서 있었다. 다리가 흔들리고 있었다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">일부러 근접 딜러 캐릭터가 유리한 장소를 고른 거겠지</p>
+  <p style="margin:0 0 .35em 0;">랑은 생각했다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">그렇지만</p>
+  <p style="margin:0 0 .35em 0;">이기고 싶다!</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">늑대의 울음소리를 신호음으로</p>
+  <p style="margin:0 0 .35em 0;">당근과 권총이</p>
+  <p style="margin:0 0 .35em 0;">다시 마주친다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">승부는 갈릴 것이다. 둘의 이야기는 이렇게 시작된다</p>
+</div>

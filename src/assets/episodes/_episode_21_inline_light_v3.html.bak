@@ -1,0 +1,164 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>가우시안 블러 21화</title>
+<style>
+  .ep-wrap { max-width: 720px; margin: 0 auto; padding: 24px 20px; }
+  @media (max-width: 480px) {
+    .ep-wrap { font-size: 17px !important; line-height: 1.38 !important; padding: 22px 16px; }
+    .ep-wrap p { word-break: keep-all; }
+  }
+</style>
+<div class="ep-wrap" style="font-family:Pretendard,'Noto Sans KR',system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,'Apple SD Gothic Neo','Noto Sans','Malgun Gothic',sans-serif;font-size:16px;line-height:1.14;letter-spacing:-0.01em;color:#EEE;background:transparent;">
+
+  <p style="margin:0 0 .35em 0;">히네는 쉬는 시간</p>
+  <p style="margin:0 0 .35em 0;">자고 있는 랑을 굳이 깨워 하소연했다</p>
+  <p style="margin:0 0 .35em 0;">아니 남자친구가 있잖아</p>
+  <p style="margin:0 0 .35em 0;">멍한 상태로 랑은 히네의 싸운 얘기</p>
+  <p style="margin:0 0 .35em 0;">들어줬다</p>
+
+  <p style="margin:0 0 .35em 0;">어떻게 내가 바퀴벌레가 됐는데 바로 죽인다고 해?</p>
+  <p style="margin:0 0 .35em 0;">얘기를 들어보니</p>
+  <p style="margin:0 0 .35em 0;">요즘 유행하는</p>
+  <p style="margin:0 0 .35em 0;">바퀴벌레 테스트(내가 바퀴벌레가 된다면 너 어떻게 할 거야)를 남자친구에게 물어본 모양이었다</p>
+  <p style="margin:0 0 .35em 0;">랑은 피곤했다</p>
+  <p style="margin:0 0 .35em 0;">나빴네, 나빴다. 반응해주고 자고 싶었다. 히네는</p>
+  <p style="margin:0 0 .35em 0;">얘기를 제대로 듣는 건지 안 듣는 건지</p>
+  <p style="margin:0 0 .35em 0;">피곤해하는 랑을 보며</p>
+  <p style="margin:0 0 .35em 0;">반응이 왜 그래? 난 진지하게 물어보고 있는 건데</p>
+  <p style="margin:0 0 .35em 0;">화내는 동시에</p>
+
+  <p style="margin:0 0 .35em 0;">시간이 사과에 빚을 졌다</p>
+
+  <p style="margin:0 0 .35em 0;">미안</p>
+  <p style="margin:0 0 .35em 0;">요즘 계속 밤을 새우다 보니 피곤했나 봐</p>
+
+  <p style="margin:0 0 .35em 0;">쉬는 시간을 다 써 랑은 히네에게 용서를 구했다. 종이 치고 자기 반으로 돌아가는</p>
+  <p style="margin:0 0 .35em 0;">히네의 뒷모습에서</p>
+  <p style="margin:0 0 .35em 0;">랑은</p>
+  <p style="margin:0 0 .35em 0;">현실에 조금 지쳤다</p>
+  <p style="margin:0 0 .35em 0;">피곤해…</p>
+
+  <p style="margin:0 0 .35em 0;">[천공의 유적지 : 영웅의 시작]이 시작된 이후로 랑은 제대로 잠에</p>
+  <p style="margin:0 0 .35em 0;">들지 못했다</p>
+  <p style="margin:0 0 .35em 0;">랑은 햇살이 가득 담긴 차창 밖 체육 수업을 준비하는 다른 반 애들을 오해하지 않았다</p>
+  <p style="margin:0 0 .35em 0;">선생님이 나오기 전까지 자기들끼리 떠들고 있는 모습이</p>
+  <p style="margin:0 0 .35em 0;">즐겁다면</p>
+
+  <p style="margin:0 0 .35em 0;">랑은 생각한다. 관계는 왜 내게 해를 끼칠까</p>
+  <p style="margin:0 0 .35em 0;">왜 너는 굳이 쉬는 시간에 자고 있는 나를 깨운 걸까</p>
+  <p style="margin:0 0 .35em 0;">너는 친구일까</p>
+
+  <p style="margin:0 0 .35em 0;">랑은</p>
+  <p style="margin:0 0 .35em 0;">수업 시간 내내 깊은 잠에 들었다</p>
+
+  <p style="margin:0 0 .35em 0;">표정이 왜 그래? 좀 웃어요. 예쁘게 생겨선</p>
+  <p style="margin:0 0 .35em 0;">손님이 햄버거 세트를 가져가며 말했다</p>
+
+  <p style="margin:0 0 .35em 0;">점장이</p>
+  <p style="margin:0 0 .35em 0;">오늘 무슨 일 있어요? 도와줄 수 있는 거라면 도와줄 수 있는데</p>
+
+  <p style="margin:0 0 .35em 0;">퇴근 버스에서</p>
+  <p style="margin:0 0 .35em 0;">라디오</p>
+
+  <p style="margin:0 0 .35em 0;">현자의 다음 행보에 대해, 말씀에 대해, 창궐한 병에 대해</p>
+
+  <p style="margin:0 0 .35em 0;">노인들은 배낭을 메고 랑 포함 사람들을 열심히 밀치며 자기 갈 길 갔다</p>
+
+  <p style="margin:0 0 .35em 0;">랑은</p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p style="margin:0 0 .35em 0;">눈에 띄고 싶지도 갈구하고 있지도 않잖아. 가만히 눈을 감은 것인데. 자는 척인데</p>
+  <p style="margin:0 0 .35em 0;">왜 자꾸 칼로 눈꺼풀을 위로 들어 올려</p>
+
+  <p style="margin:0 0 .35em 0;">잠깐</p>
+  <p style="margin:0 0 .35em 0;">생각했다가</p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p style="margin:0 0 .35em 0;">집에 도착하자마자 침대에 누웠다. 집에 오니 이상하게 정신이 멀쩡해짐을 느꼈다</p>
+  <p style="margin:0 0 .35em 0;">결국</p>
+  <p style="margin:0 0 .35em 0;">오늘도 컴퓨터 책상 앞</p>
+  <p style="margin:0 0 .35em 0;">&lt;애프터 셀렉트&gt; 로딩 화면을 본다</p>
+
+  <p style="margin:0 0 .35em 0;">친구도</p>
+  <p style="margin:0 0 .35em 0;">길드도</p>
+  <p style="margin:0 0 .35em 0;">들어와도</p>
+  <p style="margin:0 0 .35em 0;">아무런 인사</p>
+  <p style="margin:0 0 .35em 0;">없는 공간에서</p>
+  <p style="margin:0 0 .35em 0;">랑은</p>
+  <p style="margin:0 0 .35em 0;">안락함을 느꼈다</p>
+  <p style="margin:0 0 .35em 0;">근처에 어슬렁거리는</p>
+  <p style="margin:0 0 .35em 0;">눈사람 몬스터를</p>
+  <p style="margin:0 0 .35em 0;">일격으로 죽였다</p>
+  <p style="margin:0 0 .35em 0;">눈사람 몬스터는 죽으며</p>
+  <p style="margin:0 0 .35em 0;">녹았다</p>
+  <p style="margin:0 0 .35em 0;">녹아</p>
+  <p style="margin:0 0 .35em 0;">고인 물이 되어</p>
+  <p style="margin:0 0 .35em 0;">랑은</p>
+  <p style="margin:0 0 .35em 0;">고인 물을</p>
+  <p style="margin:0 0 .35em 0;">쳐다봤다</p>
+  <p style="margin:0 0 .35em 0;">토끼탈이 보였다. 토끼탈은 왜</p>
+  <p style="margin:0 0 .35em 0;">토끼탈</p>
+  <p style="margin:0 0 .35em 0;">랑이 영혼에 심혈을 기울일 때</p>
+  <p style="margin:0 0 .35em 0;">물은 비치는 성질로</p>
+  <p style="margin:0 0 .35em 0;">이 공간의 현실감</p>
+
+  <p style="margin:0 0 .35em 0;">눈이 내리는 중</p>
+
+  <p style="margin:0 0 .35em 0;">랑은</p>
+  <p style="margin:0 0 .35em 0;">눈을 좀 맞다가</p>
+  <p style="margin:0 0 .35em 0;">3 Round 전용 맵으로 이동하기 위해 호루라기를 불었다. 거대한 새가 눈을 뚫고 날아와</p>
+  <p style="margin:0 0 .35em 0;">500개의 꽃집이 있는 마을에 도착했다</p>
+
+  <p style="margin:0 0 .35em 0;">선별 과정의 마지막은 500명 중에서 단 2명만을 뽑는 것</p>
+  <p style="margin:0 0 .35em 0;">각자 자기의 꽃집을 찾아 들어가야 했다</p>
+  <p style="margin:0 0 .35em 0;">다른 유저들의 살생과 방해에 맞서</p>
+  <p style="margin:0 0 .35em 0;">꽃집에 들어가</p>
+  <p style="margin:0 0 .35em 0;">꽃집 주인 NPC와 대화의 끝을</p>
+  <p style="margin:0 0 .35em 0;">봐야 하는</p>
+  <p style="margin:0 0 .35em 0;">(꽃집 주인 NPC와 대화 도중이더라도 다른 유저는 창문을 통해 이를 확인할 수 있으며 침투 또한 가능하다)</p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p style="margin:0 0 .35em 0;">항상 이 시간에 들어오더라고?</p>
+  <p style="margin:0 0 .35em 0;">1 Round에서부터 지속적으로 괴롭히던 집단의 인원 몇몇이</p>
+  <p style="margin:0 0 .35em 0;">랑이</p>
+  <p style="margin:0 0 .35em 0;">모습을 드러낸</p>
+  <p style="margin:0 0 .35em 0;">꽃집 앞에서</p>
+  <p style="margin:0 0 .35em 0;">큭큭</p>
+  <p style="margin:0 0 .35em 0;">웃었다</p>
+  <p style="margin:0 0 .35em 0;">그들은 랑은 기다리고 있던 것이다. 그들은 손을 들며 인사했다</p>
+
+  <p style="margin:0 0 .35em 0;">그들의 손이 잘렸다</p>
+  <p style="margin:0 0 .35em 0;">토끼탈에</p>
+  <p style="margin:0 0 .35em 0;">피가 잔뜩 튀었다. 난도질이</p>
+  <p style="margin:0 0 .35em 0;">4명의 시체를</p>
+  <p style="margin:0 0 .35em 0;">만들었다</p>
+
+  <p style="margin:0 0 .35em 0;">바로 죽였어야지</p>
+  <p style="margin:0 0 .35em 0;">알았으면</p>
+
+  <p style="margin:0 0 .35em 0;">꽃집 앞에는 피 웅덩이가</p>
+  <p style="margin:0 0 .35em 0;">그곳엔 토끼탈이</p>
+
+  <p style="margin:0 0 .35em 0;">랑이</p>
+  <p style="margin:0 0 .35em 0;">꽃집 문을 열었다</p>
+
+  <p style="margin:0 0 .35em 0;">꽃집 주인은 플라워박스를 만들고 있었다. 꽃집 주인은 랑을 조금 쳐다보다</p>
+
+  <p style="margin:0 0 .35em 0;">호흡</p>
+  <p style="margin:0 0 .35em 0;">언어 입력 시간에 따라</p>
+  <p style="margin:0 0 .35em 0;">이모티콘에 따라</p>
+  <p style="margin:0 0 .35em 0;">진심인지</p>
+  <p style="margin:0 0 .35em 0;">진심은 아닌 일이겠지만</p>
+  <p style="margin:0 0 .35em 0;">꽃집 주인과 만나면 정말로 현실과 마주하는 기분이고</p>
+
+  <p style="margin:0 0 .35em 0;">피가 좀 많이 묻으셨어요</p>
+
+  <p style="margin:0 0 .35em 0;">걱정된다는 듯 말하는 나긋한 톤에</p>
+  <p style="margin:0 0 .35em 0;">랑의 마음이 뭉그러졌다. 고작 그래픽인데 왜 하루의 위안인지</p>
+
+  <p style="margin:0 0 .35em 0;">한마디가 대화였다</p>
+</div>

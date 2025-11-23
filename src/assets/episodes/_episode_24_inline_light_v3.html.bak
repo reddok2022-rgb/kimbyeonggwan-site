@@ -1,0 +1,88 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>가우시안 블러 24화</title>
+<style>
+  .ep-wrap { max-width: 720px; margin: 0 auto; padding: 24px 20px; }
+  @media (max-width: 480px) {
+    .ep-wrap { font-size: 17px !important; line-height: 1.38 !important; padding: 22px 16px; }
+    .ep-wrap p { word-break: keep-all; }
+  }
+</style>
+<div class="ep-wrap" style="font-family:Pretendard,'Noto Sans KR',system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,'Apple SD Gothic Neo','Noto Sans','Malgun Gothic',sans-serif;font-size:16px;line-height:1.14;letter-spacing:-0.01em;color:#EEE;background:transparent;">
+
+  <p style="margin:0 0 .35em 0;">크루슈의 동공이 탁해지며 뒤돌아섰다. 그대로 자신의 꽃집이 아닌</p>
+  <p style="margin:0 0 .35em 0;">숲속으로 들어가는 모습을 랑은 오랫동안 생각했다</p>
+  <p style="margin:0 0 .35em 0;">불러 세우지 못했다</p>
+  <p style="margin:0 0 .35em 0;">당시 입은 꽃을 피우기에 적합한 기관이 아니어서</p>
+  <p style="margin:0 0 .35em 0;">왜 그랬지? 랑은 이해할 수 없는 그 날의 모습에</p>
+  <p style="margin:0 0 .35em 0;">죄책감을 붙여뒀었다</p>
+  <p style="margin:0 0 .35em 0;">스티커처럼</p>
+  <p style="margin:0 0 .35em 0;">기억이 허가한 죄처럼</p>
+  <p style="margin:0 0 .35em 0;">게임에 접속할 때마다</p>
+  <p style="margin:0 0 .35em 0;">크루슈에게</p>
+  <p style="margin:0 0 .35em 0;">연락했다. 대답은 오지 않았다. 연락처에만 남아 있는 이름이 되어버렸다</p>
+
+  <p style="margin:0 0 .35em 0;">랑은 이 일이 자신의 일상에 궤도와 같이 오르는 것을 느끼고 있었다</p>
+  <p style="margin:0 0 .35em 0;">눈에 영 힘이 빠진 채로</p>
+  <p style="margin:0 0 .35em 0;">복도에서</p>
+  <p style="margin:0 0 .35em 0;">누군가와 어깨 부딪쳤을 때</p>
+  <p style="margin:0 0 .35em 0;">사과하지 않았다. 기분을 축내지 않았다</p>
+  <p style="margin:0 0 .35em 0;">자신을 보며 수군거리는 시선을 느끼고 있었다. 히네가 쉬는 시간</p>
+  <p style="margin:0 0 .35em 0;">랑을 더는 찾아오지 않을 무렵</p>
+
+  <p style="margin:0 0 .35em 0;">랑에겐 최종전이 남아 있었다</p>
+
+  <p style="margin:0 0 .35em 0;">중대한 문제는 그것뿐인 것처럼. 이 일이 다 지나간다면 뭐가 달라질 수 있나? 묻고 싶은 것처럼</p>
+
+  <p style="margin:0 0 .35em 0;">대기실의 문이 열리기만을 기다리고 있었다</p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p style="margin:0 0 .35em 0;">축구 경기를 직관한다 생각하면 이 이미지를 떠올리는 일이 수월할 것이다</p>
+  <p style="margin:0 0 .35em 0;">그들은 빈 콜로세움 경기장을 지금은 주목하지 않고 수다를 떨고 있었다</p>
+  <p style="margin:0 0 .35em 0;">경기를 기다리는 관객들은</p>
+  <p style="margin:0 0 .35em 0;">모두 천공의 유적지 관중석에 앉아</p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p style="margin:0 0 .35em 0;">한쪽의 문에선</p>
+  <p style="margin:0 0 .35em 0;">랑이</p>
+  <p style="margin:0 0 .35em 0;">다른 한쪽의 문에선</p>
+  <p style="margin:0 0 .35em 0;">K가</p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p style="margin:0 0 .35em 0;">중앙의 콜로세움 경기장을 향해 걸어오고 있었다</p>
+  <p style="margin:0 0 .35em 0;">둘은 마주쳤다</p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p style="margin:0 0 .35em 0;">해골 가면의 권총</p>
+  <p style="margin:0 0 .35em 0;">K</p>
+
+  <p style="margin:0 0 .35em 0;">토끼탈</p>
+  <p style="margin:0 0 .35em 0;">당근 모형의 칼</p>
+  <p style="margin:0 0 .35em 0;">랑</p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p style="margin:0 0 .35em 0;">K는 기다렸었다. 당근을 든 토끼탈과 마주하는 순간을</p>
+  <p style="margin:0 0 .35em 0;">꿈과 한 치의 오차도 없는 이 장면을</p>
+  <p style="margin:0 0 .35em 0;">해답을 얻을 수 있을 거라 생각했다</p>
+
+  <p style="margin:0 0 .35em 0;">랑은 기다렸었다. 이해할 수 없는 감각이 다시 자신을 붙잡기를</p>
+  <p style="margin:0 0 .35em 0;">열감이 자신을 덮어 그 무엇도 연관 없어지는 이 장면을</p>
+  <p style="margin:0 0 .35em 0;">해답을 얻을 수 있을 거라 생각했다</p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p style="margin:0 0 .35em 0;">서로에게 겨누는 타점은 분명 달랐다</p>
+  <p style="margin:0 0 .35em 0;">운명이 겨우 한 움큼 섞인 것이다</p>
+  <p style="margin:0 0 .35em 0;">그들이 아주 오래전</p>
+  <p style="margin:0 0 .35em 0;">싸웠던 전장</p>
+  <p style="margin:0 0 .35em 0;">서로 죽이지 못했던 그 장소에서</p>
+  <p style="margin:0 0 .35em 0;">마주 봐서</p>
+
+  <p style="margin:0 0 .35em 0;">달라진 것이 없었다</p>
+</div>

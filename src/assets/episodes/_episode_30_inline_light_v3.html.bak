@@ -1,0 +1,181 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>가우시안 블러 30화</title>
+<style>
+  .ep-wrap { max-width: 720px; margin: 0 auto; padding: 24px 20px; }
+  @media (max-width: 480px) {
+    .ep-wrap { font-size: 17px !important; line-height: 1.38 !important; padding: 22px 16px; }
+    .ep-wrap p { word-break: keep-all; }
+  }
+</style>
+<div class="ep-wrap" style="font-family:Pretendard,'Noto Sans KR',system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,'Apple SD Gothic Neo','Noto Sans','Malgun Gothic',sans-serif;font-size:16px;line-height:1.14;letter-spacing:-0.01em;color:#EEE;background:transparent;">
+
+  <p style="margin:0 0 .35em 0;">둘은 싸웠다</p>
+  <p style="margin:0 0 .35em 0;">둘은 정확히 한 달 동안 쉬지 않고 싸웠다</p>
+  <p style="margin:0 0 .35em 0;">랑은 게임으로 자기 계발했다</p>
+
+  <p style="margin:0 0 .35em 0;">수증기 가득한 사우나탕에서</p>
+  <p style="margin:0 0 .35em 0;">축하 풍선이 올라오는 졸업 축하 학교 맵에서</p>
+  <p style="margin:0 0 .35em 0;">아이돌이 공연하고 있는 스테이지</p>
+  <p style="margin:0 0 .35em 0;">스타디움 뒤편 주차장에서</p>
+
+  <p style="margin:0 0 .35em 0;">둘은</p>
+
+  <p style="margin:0 0 .35em 0;">오늘은 어디서</p>
+
+  <p style="margin:0 0 .35em 0;">랑은 게임에 접속하면 K를 찾았다. 전패를 기록하며 재미를 느끼고 있었다</p>
+  <p style="margin:0 0 .35em 0;">학교에서도</p>
+  <p style="margin:0 0 .35em 0;">노트에 구도를 적어가며 열심히 분석했다</p>
+  <p style="margin:0 0 .35em 0;">K</p>
+  <p style="margin:0 0 .35em 0;">권총을 든 원거리 캐릭터 피사</p>
+  <p style="margin:0 0 .35em 0;">이 캐릭터는</p>
+  <p style="margin:0 0 .35em 0;">기본적으로 근접전은 약하다는 평이다</p>
+  <p style="margin:0 0 .35em 0;">그렇다면 다른 플레이어와 그의 차이점은 무엇일까?</p>
+  <p style="margin:0 0 .35em 0;">수업은 듣지도 않고 랑은 떠올렸다</p>
+  <p style="margin:0 0 .35em 0;">K와의 대치를</p>
+  <p style="margin:0 0 .35em 0;">권총 무기술의 근접 움직임을</p>
+  <p style="margin:0 0 .35em 0;">거리에 상관없이 날아오는 총탄의 궤적을</p>
+  <p style="margin:0 0 .35em 0;">멀리 떨어지면</p>
+  <p style="margin:0 0 .35em 0;">오히려 손을 쓸 수도 없어지는 스킬의 다양성을</p>
+
+  <p style="margin:0 0 .35em 0;">머릿속에 움직임 하나하나</p>
+
+  <p style="margin:0 0 .35em 0;">아르바이트 중에도</p>
+  <p style="margin:0 0 .35em 0;">움직임 하나하나</p>
+
+  <p style="margin:0 0 .35em 0;">잠들 때도</p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p style="margin:0 0 .35em 0;">한 달 전</p>
+  <p style="margin:0 0 .35em 0;">원수는 외나무다리 맵에서 붙었을 때</p>
+  <p style="margin:0 0 .35em 0;">랑은 느낄 수 있는 격차를 느꼈다</p>
+  <p style="margin:0 0 .35em 0;">무엇을 해도 이길 수 없겠다는 벽을</p>
+
+  <p style="margin:0 0 .35em 0;">그러므로 과정이 좋았다</p>
+  <p style="margin:0 0 .35em 0;">부딪히고 쓰러지는 게 좋았다</p>
+  <p style="margin:0 0 .35em 0;">전력으로 무너지는 게 좋았다</p>
+  <p style="margin:0 0 .35em 0;">인정이 좋았다</p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p style="margin:0 0 .35em 0;">랑은 오늘도 누워 있었다</p>
+  <p style="margin:0 0 .35em 0;">HP가 20가량 남은 상태로</p>
+
+  <p style="margin:0 0 .35em 0;">하늘을 보고 있다</p>
+  <p style="margin:0 0 .35em 0;">인조 잔디의 촉감이 좋았다</p>
+  <p style="margin:0 0 .35em 0;">오늘의 맵은 축구장이었다</p>
+
+  <p style="margin:0 0 .35em 0;">매번 극소량의 HP만을 남긴 채</p>
+  <p style="margin:0 0 .35em 0;">둘의 대결은 끝이 난다</p>
+  <p style="margin:0 0 .35em 0;">죽이면 캐릭터가 사라지니까</p>
+
+  <p style="margin:0 0 .35em 0;">물 마실래요?</p>
+
+  <p style="margin:0 0 .35em 0;">K는 생수를 건넨다. 랑은 받는다. 둘 사이에 이제 이 정도의 거리감은 없다</p>
+  <p style="margin:0 0 .35em 0;">랑은 바람의 이펙트를 본다</p>
+  <p style="margin:0 0 .35em 0;">생경하게 흔들리는 잔디의 움직임을 본다</p>
+  <p style="margin:0 0 .35em 0;">야외 축구장의 탁 트인 평지가 바람의 모션을 더 생생하게 만들어줬다</p>
+
+  <p style="margin:0 0 .35em 0;">랑은 마침내 끝났다는 느낌을 받았다</p>
+  <p style="margin:0 0 .35em 0;">좋은 쪽으로</p>
+
+  <p style="margin:0 0 .35em 0;">랑은 누워 있어 하늘을 볼 수 있었다</p>
+  <p style="margin:0 0 .35em 0;">구름은 움직였다</p>
+  <p style="margin:0 0 .35em 0;">실제보다 더 실제 같은 그래픽이</p>
+  <p style="margin:0 0 .35em 0;">위안을 줬다</p>
+
+  <p style="margin:0 0 .35em 0;">평소와 달리 감정이 찾아왔다</p>
+  <p style="margin:0 0 .35em 0;">할 말을 하고 싶었다</p>
+
+  <p style="margin:0 0 .35em 0;">저는 해방이 필요했던 게 아닐까</p>
+  <p style="margin:0 0 .35em 0;">랑은 말한다</p>
+
+  <p style="margin:0 0 .35em 0;">어렸을 적부터 고민이 많았거든요</p>
+  <p style="margin:0 0 .35em 0;">저 사람은 나를 왜 이렇게 싫어할까</p>
+  <p style="margin:0 0 .35em 0;">사람들은 나를 왜 이렇게 싫어할까</p>
+  <p style="margin:0 0 .35em 0;">시간이 지나고 멀쩡한 척했지만</p>
+  <p style="margin:0 0 .35em 0;">달라진 건 없었던 것 같아요. 근본적으로?</p>
+
+  <p style="margin:0 0 .35em 0;">옛날에 나쁜 짓을 한 적이 있었어요</p>
+  <p style="margin:0 0 .35em 0;">그곳은 사람을 사고, 팔고</p>
+  <p style="margin:0 0 .35em 0;">갈취하고</p>
+  <p style="margin:0 0 .35em 0;">때리고</p>
+  <p style="margin:0 0 .35em 0;">울고</p>
+  <p style="margin:0 0 .35em 0;">또 그것이 통용되고</p>
+  <p style="margin:0 0 .35em 0;">저는 거기 서 있었어요</p>
+
+  <p style="margin:0 0 .35em 0;">이 게임에서 대범죄자가 되고 싶었던 건 그 마음에서였어요</p>
+  <p style="margin:0 0 .35em 0;">복수</p>
+  <p style="margin:0 0 .35em 0;">남을 탓해버린 거</p>
+  <p style="margin:0 0 .35em 0;">남에게 향하는 거</p>
+  <p style="margin:0 0 .35em 0;">그게 편하니까</p>
+  <p style="margin:0 0 .35em 0;">이런 식의 해방을 원했던 거 같아요</p>
+
+  <p style="margin:0 0 .35em 0;">어때</p>
+  <p style="margin:0 0 .35em 0;">패배감이?</p>
+
+  <p style="margin:0 0 .35em 0;">가만히 멈춰서 보는 난 어때 보여?</p>
+
+  <p style="margin:0 0 .35em 0;">저는 알아주길 바란 거예요</p>
+  <p style="margin:0 0 .35em 0;">너희가 나 미워했으니까 소심한 복수라도 할래</p>
+
+  <p style="margin:0 0 .35em 0;">약간 이상할까요?</p>
+
+  <p style="margin:0 0 .35em 0;">그래도 지금은</p>
+  <p style="margin:0 0 .35em 0;">당신과 싸우면서, 이런 게 다 뭘까 싶기도 하고</p>
+
+  <p style="margin:0 0 .35em 0;">그냥 즐거웠어요</p>
+
+  <p style="margin:0 0 .35em 0;">랑은 화면 밖으로도, 게임 안에서도 살짝 미소를 지었다</p>
+  <p style="margin:0 0 .35em 0;">바람에 인조 잔디가 흔들렸다</p>
+  <p style="margin:0 0 .35em 0;">K가 무슨 말을 하려고 했던 것 같다</p>
+
+  <p style="margin:0 0 .35em 0;">저…</p>
+
+  <p style="margin:0 0 .35em 0;">어디서 나타났는지 모를 경찰들이 또 랑을 잡으러 왔다</p>
+
+  <p style="margin:0 0 .35em 0;">저놈 잡아!</p>
+  <p style="margin:0 0 .35em 0;">완전 평지다. 오늘은 잡는다</p>
+
+  <p style="margin:0 0 .35em 0;">K는 랑과 함께 있을 때</p>
+  <p style="margin:0 0 .35em 0;">이런 상황이 많다 보니 이제 아예 투명 망토도 구비해놓고 다닌다</p>
+
+  <p style="margin:0 0 .35em 0;">여기로</p>
+  <p style="margin:0 0 .35em 0;">투명 망토 안으로 들어오라는 K의 손놀림</p>
+
+  <p style="margin:0 0 .35em 0;">랑은 잠시 멈칫거렸다</p>
+
+  <p style="margin:0 0 .35em 0;">어서요</p>
+  <p style="margin:0 0 .35em 0;">K의 손은 다급했다. 랑은 가까스로 K의 투명 망토 속으로 들어간다</p>
+  <p style="margin:0 0 .35em 0;">둘의 흔적은 사라진다</p>
+
+  <p style="margin:0 0 .35em 0;">서로의 호흡만 아주 가까운 거리에 있었다</p>
+  <p style="margin:0 0 .35em 0;">둘은 투명 망토 안에서 곁이라는 말이 되고</p>
+
+  <p style="margin:0 0 .35em 0;">조금 걷다</p>
+
+  <p style="margin:0 0 .35em 0;">이제 그만할래요</p>
+
+  <p style="margin:0 0 .35em 0;">랑의 말에</p>
+  <p style="margin:0 0 .35em 0;">둘은 멈춘 장소가 되기도 했다</p>
+
+  <p style="margin:0 0 .35em 0;">대범죄자는 이제 그만</p>
+
+  <p style="margin:0 0 .35em 0;">랑은</p>
+  <p style="margin:0 0 .35em 0;">투명 망토를 벗으며 안녕이라 말하지 않았다</p>
+
+  <p style="margin:0 0 .35em 0;">감옥에 갔다 올게요</p>
+  <p style="margin:0 0 .35em 0;">편지 써주실 거죠?</p>
+
+  <p style="margin:0 0 .35em 0;">K는 랑의 손을 붙잡을 수도 있었지만 그러지 않았다. 랑이 두 손을 들고 경찰에게 다가가는 모습만을 눈에 담았다</p>
+  <p style="margin:0 0 .35em 0;">다행인 일이라고 생각하기도 했다. 결심을 존중한 것이어서. 마지막이 아니란 걸 K도 알고 있으니까</p>
+
+  <p style="margin:0 0 .35em 0;">투명 망토는 투명의 속성을 유지했다. K는 유령처럼 랑이 연행되는 모습을 지켜보고 있었다</p>
+
+  <p style="margin:0 0 .35em 0;">랑은</p>
+  <p style="margin:0 0 .35em 0;">양손에 수갑을 채운 채 손을 흔들었다. 아무도 보지 못할 투명에게</p>
+
+  <p style="margin:0 0 .35em 0;">둘은 암호처럼</p>
+</div>

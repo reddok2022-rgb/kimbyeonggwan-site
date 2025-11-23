@@ -1,0 +1,167 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>가우시안 블러 47화</title>
+<style>
+  .ep-wrap { max-width: 720px; margin: 0 auto; padding: 24px 20px; }
+  @media (max-width: 480px) {
+    .ep-wrap { font-size: 17px !important; line-height: 1.38 !important; padding: 22px 16px; }
+    .ep-wrap p { word-break: keep-all; }
+  }
+</style>
+<div class="ep-wrap" style="font-family:Pretendard,'Noto Sans KR',system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,'Apple SD Gothic Neo','Noto Sans','Malgun Gothic',sans-serif;font-size:16px;line-height:1.14;letter-spacing:-0.01em;color:#EEE;background:transparent;">
+
+  <p style="margin:0 0 .35em 0;">눈의 정중앙으로 가 당근을 찔러 넣었다</p>
+  <p style="margin:0 0 .35em 0;">랑은 뭔가 잘못되었다는 것을 깨닫게 된다</p>
+  <p style="margin:0 0 .35em 0;">눈이 자신을 받아들이는 느낌이랄까?</p>
+  <p style="margin:0 0 .35em 0;">어떤 따스함을 느끼며 그대로 빨려 들어갔다</p>
+  <p style="margin:0 0 .35em 0;">포근함을 느끼며</p>
+  <p style="margin:0 0 .35em 0;">어둠이었다</p>
+  <p style="margin:0 0 .35em 0;">이 어둠은</p>
+  <p style="margin:0 0 .35em 0;">컴컴함만 계속되는 좌표 평면의 이동이라 생각하면 되는 걸까?</p>
+  <p style="margin:0 0 .35em 0;">다리를 움직이면 다리가 이끄는 대로 어두웠다</p>
+  <p style="margin:0 0 .35em 0;">x값만큼 움직이면</p>
+  <p style="margin:0 0 .35em 0;">x값만큼의 어두움이었다</p>
+  <p style="margin:0 0 .35em 0;">랑은 주저앉아 서러운 적 있다</p>
+  <p style="margin:0 0 .35em 0;">뭐 어쩌라고</p>
+  <p style="margin:0 0 .35em 0;">어떻게 깨라고</p>
+  <p style="margin:0 0 .35em 0;">어떻게…</p>
+  <p style="margin:0 0 .35em 0;">처음 1년이었다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">1년이 지나고 랑은 이 어둠에 대해 하나 깨닫게 된다. 그건 상상으로 이 어둠이 표현된다는 것이었는데</p>
+  <p style="margin:0 0 .35em 0;">예를 들어 이런 식이었다. 나는 따듯한 모닥불이 필요해. 생각하면 따듯한 모닥불이 생기는 식이었다</p>
+  <p style="margin:0 0 .35em 0;">나는 2층 침대가 필요해. 독서를 할 스탠드가 필요해. 이건 조금 조명이 마음에 안 드는군. 다른 걸로 바꿀 필요가 있겠어. 오늘 점심은 무엇을 먹으면 좋을까. 나는 친구가 필요해</p>
+  <p style="margin:0 0 .35em 0;">어둠은 더 이상 어둡지 않았다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">3년이 지났다</p>
+  <p style="margin:0 0 .35em 0;">랑에게 이 어둠 공간은 그 어느 곳보다 안락했으며 이제 이 어둠 공간에 환한 도시를 세웠다</p>
+  <p style="margin:0 0 .35em 0;">시민들이 일자리를 요구하고 은행이 세워졌다. 편의점을 만들었고 도로 공사는 예전에 끝났다</p>
+  <p style="margin:0 0 .35em 0;">나는 뭔가가 필요해</p>
+  <p style="margin:0 0 .35em 0;">3년이 지나가고 있었다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">랑은 이 어둠 공간에서 다른 이들과 같이 살아가지만, 자신은 신적인 존재라는 걸 알고 있다. 자신의 마음에 따라 이곳은 무엇이든지 변하게 되며 자신을 거스르면 그 무엇도 예외 없었다</p>
+  <p style="margin:0 0 .35em 0;">저기 산등성이에 거주하고 있는 노인은 이곳에 대해 불만을 말하곤 했다. 이곳은 입지와 시설에 비해 집값이 너무 비싸. 조금만 더 내렸으면 좋겠어. 물론 그는 일반적인 바람을 말했던 것이지만 랑은 자신을 부정하는 듯한 소문? 말본새?에 대해 어처구니가 없었다. 그날 바로 산등성이를 깎아 없애버렸다. 이제 노인의 집은 없다. 노인은 이제 어디로 갈 것인가?</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">10년이 지나고 모든 건 익숙해졌다. 건물을 지어주고, 불만도 허허 웃으며 귀로 흘리게 됐다. 건설 경영 시뮬레이션의 나른한 신이랄까? 그래 너희 맘대로 짖어대라. 난 내 맘대로 산다. 약간은 이런</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">1,000년이 지나도</p>
+  <p style="margin:0 0 .35em 0;">자신은 늙지 않고 이 자리에서 죽어가는 사람들을 보고 살아가는 사람들을 보고 그것은 자신의 생명이며 싹을 틔우고 물을 주고 건설하고 철학이니, 과학이니, 행복이니, 사랑이니 하는 지루한 논쟁을 생각하지 않게 됐다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">100,000년이 지나면 무엇이 바뀔까?</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">나 여기서 뭐 하고 있나</p>
+  <p style="margin:0 0 .35em 0;">랑은 이곳을 한번 부숴버렸다. 실수는 아니었다. 부숴버리면 뭐 달라지는가</p>
+  <p style="margin:0 0 .35em 0;">부쉈다 만들었다 부쉈다 만들었다… 무엇이 달라지는가?</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">랑은 처음 이곳에 왔을 때를 떠올려봤다. 왠지 자신은 게임을 하고 있었던 것 같은데 어느 순간 어둠이었고… 그리고</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">랑은 주저앉아 눈을 감아보았다. 어둠이었다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">1,000,000년이 지났다</p>
+  <p style="margin:0 0 .35em 0;">나는 뭔가가 필요해</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">13,700,000,000년*이 지났다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">단지 너라는 사람을 만나게 될 확률은 몇 퍼센트일까? 이 우주에서 너라는 사람을 만나게 될 확률</p>
+  <p style="margin:0 0 .35em 0;">우리는 서로 단 한 번의 시간을 지난다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">어둠의 바깥에서 문이 열리고 그게 너였을 때. 키튼</p>
+  <p style="margin:0 0 .35em 0;">나는 죽음을 건너온 기분이었어</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">다시 게임을 보고 있는 화면으로 온전히 돌아왔을 때</p>
+  <p style="margin:0 0 .35em 0;">랑은 둥둥 떠 있는 보스</p>
+  <p style="margin:0 0 .35em 0;">눈을 오히려 반갑게 생각했다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">랑</p>
+  <p style="margin:0 0 .35em 0;">키튼</p>
+  <p style="margin:0 0 .35em 0;">이즈사</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">무언가 많이 지나왔다고 생각했지만 바뀐 것은 어쩌면 아무것도 없을 거라고</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">정상적으로</p>
+  <p style="margin:0 0 .35em 0;">이제야 게임처럼 보스는 체력 게이지바를 드러냈다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">셋은</p>
+  <p style="margin:0 0 .35em 0;">서로</p>
+  <p style="margin:0 0 .35em 0;">얼굴을 바라봤다. 무언가 많이 지나왔다고 생각했지만 바뀐 것은 어쩌면</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">셋은</p>
+  <p style="margin:0 0 .35em 0;">다가간다</p>
+  <p style="margin:0 0 .35em 0;">보스의 피를 깎는다</p>
+  <p style="margin:0 0 .35em 0;">의도된 죽음이라는 듯</p>
+  <p style="margin:0 0 .35em 0;">어둠이 걷힌다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">랑</p>
+  <p style="margin:0 0 .35em 0;">키튼</p>
+  <p style="margin:0 0 .35em 0;">이즈사</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">어둠이 사라진 후의 눈앞의 찬란한 빛의 공간을 맞이하는 데 있어</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">셋은</p>
+  <p style="margin:0 0 .35em 0;">이런 느낌을 동시에 떠올리게 된다</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">빛이 감쌌다</p>
+  <p style="margin:0 0 .35em 0;">그렇게 우리는</p>
+
+  <p></p>
+
+  <p style="margin:0 0 .35em 0;">* 과학자들이 허블상수로 계산해 본 우주의 추정 나이.</p>
+</div>

@@ -1,0 +1,139 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>가우시안 블러 19화</title>
+<style>
+  .ep-wrap { max-width: 720px; margin: 0 auto; padding: 24px 20px; }
+  @media (max-width: 480px) {
+    .ep-wrap { font-size: 17px !important; line-height: 1.38 !important; padding: 22px 16px; }
+    .ep-wrap p { word-break: keep-all; }
+  }
+</style>
+<div class="ep-wrap" style="font-family:Pretendard,'Noto Sans KR',system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,'Apple SD Gothic Neo','Noto Sans','Malgun Gothic',sans-serif;font-size:16px;line-height:1.14;letter-spacing:-0.01em;color:#EEE;background:transparent;">
+
+  <p style="margin:0 0 .35em 0;">해골 가면은 이런 건 익숙하다는 듯</p>
+  <p style="margin:0 0 .35em 0;">일상적인 워킹으로</p>
+  <p style="margin:0 0 .35em 0;">흙먼지 속에서 천천히</p>
+
+  <p style="margin:0 0 .35em 0;">그가 조용히 난사라 읊조리자</p>
+  <p style="margin:0 0 .35em 0;">하늘을 포함한 전 범위에서 총탄이 날아왔다</p>
+  <p style="margin:0 0 .35em 0;">땅</p>
+  <p style="margin:0 0 .35em 0;">마을의 집 창가</p>
+  <p style="margin:0 0 .35em 0;">꽃잎들에서도</p>
+
+  <p style="margin:0 0 .35em 0;">그건 지금껏 랑이 본 적 없는 광경이었다. 자신을 죽이려 한 광포의 집단과</p>
+  <p style="margin:0 0 .35em 0;">거대 개구리 떼</p>
+  <p style="margin:0 0 .35em 0;">어쩌면 이곳의 모든 존재가 사라졌을지도 모르겠다고 랑은 생각했다</p>
+  <p style="margin:0 0 .35em 0;">실제로 모든 소리가 잦아들자 정적이</p>
+  <p style="margin:0 0 .35em 0;">해골 가면이 흙먼지를 잠시 멈추었다</p>
+
+  <p style="margin:0 0 .35em 0;">K</p>
+  <p style="margin:0 0 .35em 0;">랑은 언젠가 마주쳐야만 했던 그를</p>
+
+  <p style="margin:0 0 .35em 0;">바라보고 있었다. 그가 걸친 망토가 바람에 휘날리고 있었다</p>
+  <p style="margin:0 0 .35em 0;">1위 길드 SCENE의 정예이자</p>
+  <p style="margin:0 0 .35em 0;">미개척 던전 개척률 1위</p>
+  <p style="margin:0 0 .35em 0;">최고의 총잡이 혹은 최고의 플레이어</p>
+  <p style="margin:0 0 .35em 0;">그의 손으로부터 모든 건 시작된다. 갓즈 핸드(God’s Hand)</p>
+  <p style="margin:0 0 .35em 0;">피의 축제</p>
+
+  <p style="margin:0 0 .35em 0;">그를 지칭하는 말은 무던히도 많았지만, 오늘의 장면은 몸속 깊이 차오르는 뜨거움이었다. 저게</p>
+  <p style="margin:0 0 .35em 0;">K</p>
+  <p style="margin:0 0 .35em 0;">랑은 그의 길드 호칭을 슬쩍 봤다. 미드나잇 키튼. 한밤중의 고양이? 고양이가 밤을 걷는다. 랑은 현실 세계에서</p>
+  <p style="margin:0 0 .35em 0;">창밖을 봤다. 밤이 기울어지고 있었다. 밤 유저라는 뜻인가? 왠지 어울리네</p>
+
+  <p style="margin:0 0 .35em 0;">다시 거대 개구리 떼가 아무 일 없었다는 듯 소환됐지만 묘하게 둘을 피해 갔다</p>
+  <p style="margin:0 0 .35em 0;">둘만의 장소였다</p>
+  <p style="margin:0 0 .35em 0;">지근거리에서 흙먼지가 일었다</p>
+
+  <p style="margin:0 0 .35em 0;">자리 옮길까요?</p>
+
+  <p style="margin:0 0 .35em 0;">왠지 모르게 랑은 따라가게 되는 형국이었는데</p>
+  <p style="margin:0 0 .35em 0;">푸른 언덕으로 향하는 길이었다. 꽃도 있고, 나비도 있고</p>
+  <p style="margin:0 0 .35em 0;">들판이 나오고</p>
+  <p style="margin:0 0 .35em 0;">거대 개구리 떼가 지나가는 것을 지켜볼 수 있었다</p>
+  <p style="margin:0 0 .35em 0;">이런 곳이 있었구나</p>
+  <p style="margin:0 0 .35em 0;">랑은 지형을 다 파악했다 생각했는데</p>
+  <p style="margin:0 0 .35em 0;">검은 적막에 도달하기 전 아슬아슬 걸쳐 있는 언덕이었다. 흙먼지가 유독 많이 번지는</p>
+  <p style="margin:0 0 .35em 0;">그래서 안 보이는</p>
+  <p style="margin:0 0 .35em 0;">K는 푸른 언덕으로 올라가기 전 입구에 무선 선풍기를 놔뒀다. 바람이</p>
+  <p style="margin:0 0 .35em 0;">흙먼지를 덜어냈다</p>
+
+  <p style="margin:0 0 .35em 0;">둘은 푸른 언덕에 앉아 흙먼지에 뒤덮인 마을을 내려다보고 있었다</p>
+  <p style="margin:0 0 .35em 0;">랑은 K를 믿는 건 아니었으나</p>
+  <p style="margin:0 0 .35em 0;">지금이 전투 시즌이 아님은 알 수 있었다. 직감이었다</p>
+  <p style="margin:0 0 .35em 0;">둘은 한참을 말없이</p>
+  <p style="margin:0 0 .35em 0;">마을에서 사라지고 사라지면 나타나는 거대 개구리 떼 행렬을</p>
+  <p style="margin:0 0 .35em 0;">구경했다</p>
+
+  <p style="margin:0 0 .35em 0;">거대 개구리로 운송 사업을 하려 했었대요</p>
+  <p style="margin:0 0 .35em 0;">…</p>
+  <p style="margin:0 0 .35em 0;">네?</p>
+  <p style="margin:0 0 .35em 0;">랑은 뜬금없이 뜬금없는 말을 하는 K를 쳐다보았다. 해골 가면은 진지했다</p>
+  <p style="margin:0 0 .35em 0;">그러다</p>
+  <p style="margin:0 0 .35em 0;">거대 개구리가 집을 부순 거예요. 시범 운영에서</p>
+  <p style="margin:0 0 .35em 0;">랑은 그냥 듣고 있었다</p>
+  <p style="margin:0 0 .35em 0;">그런데</p>
+  <p style="margin:0 0 .35em 0;">거기 사람이 있었대요. 사람이 다치고. 누군가 분노하고</p>
+  <p style="margin:0 0 .35em 0;">싸웠대요</p>
+  <p style="margin:0 0 .35em 0;">분노한 자들과</p>
+  <p style="margin:0 0 .35em 0;">거대 개구리로 운송 사업을 하려 했던 사업가가</p>
+
+  <p style="margin:0 0 .35em 0;">K가 랑을 쳐다봤다</p>
+  <p style="margin:0 0 .35em 0;">이 마을의 설정이래요</p>
+
+  <p style="margin:0 0 .35em 0;">K는 픽 웃더니 가방에서 음료수 두 캔을 꺼냈다. 그중 한 캔을 랑에게 건넸다</p>
+  <p style="margin:0 0 .35em 0;">랑은 거절하진 않았지만 음료의 뚜껑을 따진 않았다. 들고 있었다. K가 캔을 땄다</p>
+
+  <p style="margin:0 0 .35em 0;">랑은</p>
+  <p style="margin:0 0 .35em 0;">뭔가 이상한 사람이라고 생각했다. 그렇지만 그 이상함에 대한 호기심은</p>
+
+  <p style="margin:0 0 .35em 0;">왜 살려줬어요?</p>
+  <p style="margin:0 0 .35em 0;">질문으로 입 밖에 나오게 된다</p>
+
+  <p style="margin:0 0 .35em 0;">그건</p>
+  <p style="margin:0 0 .35em 0;">우리가 만나는 최종 라운드에서 알려드릴게요</p>
+  <p style="margin:0 0 .35em 0;">저기 위에서</p>
+
+  <p style="margin:0 0 .35em 0;">K는 손가락으로 하늘을 가리켰다</p>
+
+  <p style="margin:0 0 .35em 0;">최후의 결전. 천공의 유적지에서</p>
+
+  <p style="margin:0 0 .35em 0;">랑은 당연하다는 듯 말하는 K의 자신감과 언행이 싫지 않았다. 오히려 자신과 비슷한 면을 발견한 것 같았다. 아니 비슷하지만 이질적인… 드러내지 못했던 가면의 안과 바깥 그 차이를</p>
+  <p style="margin:0 0 .35em 0;">둘은</p>
+  <p style="margin:0 0 .35em 0;">푸른 언덕에서 거대 개구리 떼가 지나가는 것을 보며 아침을 맞이했다</p>
+
+  <p style="margin:0 0 .35em 0;">랑은 학교 갈 준비를 했다. 이제 끌 거예요</p>
+  <p style="margin:0 0 .35em 0;">K는 이모티콘으로 안녕을 표현했다</p>
+
+  <p style="margin:0 0 .35em 0;">백수인가?</p>
+
+  <p style="margin:0 0 .35em 0;">랑은 속으로 생각했지만, 음료수 고맙다고. 손 흔들며 게임을</p>
+  <p style="margin:0 0 .35em 0;">종료했다. 학교에 갔다. 시간은 지나갔다. 학교를 마칠 때쯤 랑은 &lt;애프터 셀렉트&gt; 커뮤니티를 봤다</p>
+
+  <p style="margin:0 0 .35em 0;">K에 대한 얘기로 가득했다. 전부 그에게 죽었다는 내용뿐이었다</p>
+  <p style="margin:0 0 .35em 0;">&lt;애프터 셀렉트&gt; 공지에서 해당 내용을 자세히 확인할 수 있었다</p>
+
+  <p style="margin:0 0 .35em 0;">우선 게임 이용에 불편을 드려 죄송합니다</p>
+  <p style="margin:0 0 .35em 0;">[천공의 유적지 : 영웅의 시작]은</p>
+  <p style="margin:0 0 .35em 0;">참가 신청 인원의 절반을 1 Round 통과 기준으로 잡았으나</p>
+  <p style="margin:0 0 .35em 0;">한 플레이어의 PK로</p>
+  <p style="margin:0 0 .35em 0;">현 인원이 3명밖에 남지 않았음을 뒤늦게 확인하였습니다</p>
+  <p style="margin:0 0 .35em 0;">시스템 오류로</p>
+  <p style="margin:0 0 .35em 0;">확인과 조치 과정에서 미숙한 운영에 사과를 드립니다</p>
+  <p style="margin:0 0 .35em 0;">운영진은 위와 같은 사항에 대하여</p>
+  <p style="margin:0 0 .35em 0;">회의 결과</p>
+  <p style="margin:0 0 .35em 0;">일정 플레이 타임을 가진 현 3명의 인원에 대해선 2 Round 진출을 확정 지으며</p>
+  <p style="margin:0 0 .35em 0;">확정된 3명의 인원을 제외한…</p>
+
+  <p style="margin:0 0 .35em 0;">공지는 확정된 3명의 인원(랑 포함)을 제외한 1 Round의 재개 소식을 알렸다. 3명을 제외한 리셋 상태로</p>
+  <p style="margin:0 0 .35em 0;">시스템 점검 이후에</p>
+
+  <p style="margin:0 0 .35em 0;">랑은 길가를 걸으며</p>
+  <p style="margin:0 0 .35em 0;">클립으로 따진 K의 영상을 봤다. 흙먼지 속에서 끊임없이 총탄 소리가 들리는. 다른 유저의 관점에선 정말 원인도 모르고 죽는</p>
+  <p style="margin:0 0 .35em 0;">압도적인</p>
+  <p style="margin:0 0 .35em 0;">무의 상징이 그려지고 있었다. 그의 옆엔 거대 개구리 떼의 죽음이 너무 많이 쌓여있었다. 거대 개구리를 침대 삼아 총을 쏘고 있는 모습이</p>
+  <p style="margin:0 0 .35em 0;">놀이 같았다</p>
+
+  <p style="margin:0 0 .35em 0;">해골 가면은 웃고 있었다고. 그의 얼굴까진 다가설 수 없어 말할 수 있는 소문이 있었다. 제삼자가 보기엔</p>
+</div>

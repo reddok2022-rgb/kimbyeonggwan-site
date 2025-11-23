@@ -1,0 +1,142 @@
+---
+/** props: title / subtitle */
+const { title = '', subtitle = '' } = Astro.props;
+
+/** 회차 숫자 추출 (예: /episodes/05 → 5) */
+const slug = Astro.url.pathname.split('/').pop() ?? '';
+const current = Number(slug.replace(/^0+/, '')) || 0;
+
+const prev = current > 1  ? `/episodes/${String(current - 1).padStart(2, '0')}` : null;
+const next = current > 0 && current < 55 ? `/episodes/${String(current + 1).padStart(2, '0')}` : null;
+---
+
+<head>
+  <!-- UTF-8 보장 (모지바케 방지) -->
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<main class="ep-root">
+  <article class="ep-wrap">
+    {title && <h1 class="ep-title">{title}</h1>}
+    {subtitle && <p class="ep-sub">{subtitle}</p>}
+
+    <!-- 본문 -->
+    <div class="ep-raw">
+      <slot />
+    </div>
+
+    <!-- Readdy 톤의 이전/다음 네비게이션 -->
+    {(prev || next) && (
+      <nav class="ep-nav">
+        {prev && <a class="btn prev" href={prev}>이전화</a>}
+        {next && <a class="btn next" href={next}>다음화</a>}
+      </nav>
+    )}
+  </article>
+</main>
+
+<style is:global>
+  :root{
+    /* 본문/배경/보조색 */
+    --fg:#ECECEC;
+    --bg:#0b0d10;
+    --fg-dim:#cfcfcf;
+
+    /* readdy 톤 */
+    --card:#101317;
+    --line:#20242b;
+    --accent:#ff4b4b;
+
+    /* 타이포 기본값 */
+    --base-size:16px;
+    --base-leading:1.14;
+    --base-tracking:-0.01em;
+  }
+
+  html, body{
+    background:var(--bg);
+    color:var(--fg);
+    margin:0;
+    font-family:Pretendard,"Noto Sans KR",system-ui,-apple-system,"Segoe UI",
+                 Roboto,Helvetica,Arial,"Apple SD Gothic Neo","Noto Sans","Malgun Gothic",sans-serif;
+  }
+
+  /* 페이지 좌우 여백 + 가운데 정렬 */
+  .ep-root{ padding-inline:12px; }
+  .ep-wrap{ max-width:720px; margin:0 auto; padding:24px 20px; }
+
+  /* 제목/부제 */
+  .ep-title{ margin:0 0 18px; font-size:28px; line-height:1.25; letter-spacing:-0.01em; }
+  .ep-sub{ margin:-10px 0 18px; color:var(--fg-dim); font-size:14px; }
+
+  /* 본문 문단 기본 간격 */
+  .ep-wrap p{ margin:0 0 .35em 0; word-break:keep-all; }
+
+  /* 인라인 스타일 상속 강제 (라이트 인라인 v3 글에서 색/크기 강제되는 것 무력화) */
+  .ep-raw, .ep-raw *{
+    color:inherit !important;
+    font-size:inherit !important;
+    line-height:inherit !important;
+    letter-spacing:inherit !important;
+  }
+  .ep-raw{
+    color:var(--fg);
+    font-size:var(--base-size);
+    line-height:var(--base-leading);
+    letter-spacing:var(--base-tracking);
+    background:transparent;
+  }
+
+  /* 모바일 타이포 */
+  @media (max-width:480px){
+    .ep-wrap{ font-size:17px !important; line-height:1.38 !important; padding:22px 16px; }
+  }
+
+  /* ===== Readdy 톤 네비게이션 ===== */
+  .ep-nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:48px;
+    border-top:1px solid var(--line);
+    padding-top:20px;
+    gap:12px;
+  }
+  .btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:12px 18px;
+    background:var(--card);
+    color:var(--fg);
+    border:1px solid var(--line);
+    border-radius:10px;
+    text-decoration:none;
+    font-size:15px;
+    transition:all .18s ease;
+    box-shadow:inset 0 0 0 0 var(--accent);
+  }
+  .btn:hover{
+    border-color:var(--accent);
+    color:var(--accent);
+    transform:translateY(-1px);
+    box-shadow:0 0 6px #ff4b4b33;
+  }
+  .btn.prev::before{
+    content:"◀";
+    font-size:13px;
+    margin-right:6px;
+    opacity:.8;
+  }
+  .btn.next::after{
+    content:"▶";
+    font-size:13px;
+    margin-left:6px;
+    opacity:.8;
+  }
+  @media (max-width:520px){
+    .btn{ flex:1; text-align:center; padding:11px 0; font-size:14px; }
+  }
+</style>

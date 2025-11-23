@@ -1,0 +1,123 @@
+---
+/* intro 페이지는 독립 페이지로, 레이아웃을 쓰지 않습니다. */
+---
+
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>kimbyeonggwan</title>
+
+    <style>
+      :root {
+        --bg: #000000;
+        --fg: #ececec;
+        --accent: #da6767;
+      }
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        background: var(--bg);
+        color: var(--fg);
+        font-family: Pretendard, "Noto Sans KR", system-ui, -apple-system,
+          "Segoe UI", Roboto, Helvetica, Arial, "Apple SD Gothic Neo",
+          "Noto Sans", "Malgun Gothic", sans-serif;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+      }
+
+      /* 화면 전체에서 가운데(살짝 위) 배치 */
+      .intro-wrap {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;          /* 세로 가운데 기준 */
+        padding: 40px 16px 40px;          /* 위를 살짝 더 줘서 '조금 위' 느낌 */
+      }
+
+      /* 그림+텍스트 묶음 */
+      .intro-block {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;          /* 그림/텍스트 x축 기준 */
+      }
+
+      /* 메인 일러스트 */
+      .intro-image {
+        display: block;
+        width: min(500px, 50vw);          /* 데스크탑 기준 크기 */
+        border-radius: 8px;
+        cursor: pointer;
+      }
+
+      /* 소개 문구: 그림 폭에 맞춰 왼쪽 정렬 */
+      .intro-text {
+        margin-top: 18px;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: -0.01em;
+        color: #ececec;
+        white-space: pre-line;
+        text-align: left;
+
+        max-width: min(500px, 50vw);
+        width: 100%;                      /* intro-block 기준으로 꽉 채우기 */
+      }
+
+      @media (max-width: 600px) {
+  .intro-wrap {
+    /* 기존 flex 가운데 정렬 제거 */
+    justify-content: flex-start !important;
+
+    /* 원래 min-height:100vh 제거 → 높이 강제 X */
+    min-height: auto !important;
+
+    /* 화면 위에서 적당히 시작되게 */
+    padding-top: 200px !important;  /* 원하는 만큼 조절 */
+    padding-bottom: 40px;
+  }
+
+  .intro-image {
+    width: 90vw;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  .intro-text {
+    width: 90vw;
+    max-width: 360px;
+    margin-top: 20px;
+    font-size: 15px;
+  }
+}
+    </style>
+  </head>
+
+  <body>
+    <main class="intro-wrap">
+      <div class="intro-block">
+        <!-- 클릭하면 /series 로 이동 -->
+        <img
+          src="/assets/intro-illustration.png"
+          alt="붉은 눈을 한 인물이 안경 너머로 도시를 바라보고 있는 일러스트"
+          class="intro-image"
+          onclick="window.location.href='/series'"
+        />
+
+        <div class="intro-text">
+안녕하세요. 시 쓰는 김병관입니다.
+이곳은 저의 시 연재물을 모아둔 웹페이지로,
+
+사람들에게 희망과 영감을 주는
+괴물 같은 이야기를 만들고자 합니다.
+
+감상을 원하신다면 그림을 클릭해 주세요.
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

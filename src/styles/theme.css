@@ -1,0 +1,16 @@
+/* src/styles/theme.css */
+
+:root {
+  --bg: #05070a;      /* 전 페이지 공통 배경색 */
+  --fg: #ececec;      /* 기본 글자색 (이미 쓰고 있던 톤이면 이것도 맞춰서) */
+  --accent: #da6767;  /* 포인트 컬러 */
+  --muted: #9aa3b4;   /* 회색 텍스트 */
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--fg);
+}

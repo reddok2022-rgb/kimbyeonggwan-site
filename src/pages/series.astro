@@ -1,0 +1,1117 @@
+---
+/* src/pages/series.astro */
+
+type Series = {
+  id: string;
+  title: string;
+  desc: string;
+  tags: string[];
+  items: { n: number; title: string }[];
+};
+
+const SERIES: Series[] = [
+  {
+    id: 'yusil',
+    title: '유실',
+    desc: '중견 기업에서 미화 업무를 하는 인영은 오늘도 나이가 지긋한 선배의 조언을 듣는다. 젊은 나이에 이런 데서 일하면 도무지 벗어날 수 없다고, 당장 자격증 공부라도 하라고. 인영은 청소를 하다 쓰레기를 쳐다본다. 자기의 인생과 닮은 점을 묻는다.',
+    tags: ['단편', '일상', '현대'],
+    items: [
+      { n: 401, title: '1화 생일' },
+    ],
+  },
+
+{
+    id: 'gaussian-blur',
+    title: '가우시안 블러',
+    desc:
+      '가우시안 블러는 랑과 미드나잇 키튼(이하 키튼)의 이야기를 엮은 현대 판타지+시 연재물이다. ' +
+      '보통 포토샵이나 영상 편집에서 쓰이는 가우시안 블러는 흐릿한 효과를 만들기 위해 이미지에 수학 함수를 적용한 것을 말한다. ' +
+      '여기서 적용 대상은 키튼의 기억이다. 블러의 효과는 전방위적이다. 그러나 바라보는 입장에서 우리는 알아볼 수 있다. ' +
+      '저 너머에 있는 것이 무엇인지를. 정확히 예측할 수 없지만 예감할 수 있다. 흐릿한 장면은 원본의 상실을 의미하며, 해석의 가능성을 조금이라도 높인 결과물이 된다. ' +
+      '한 사람의 기억을 없앤 것으로부터 이야기를 슬쩍 접지해보는 것이다. 그러나 거기서 더 클로즈업하면 형태가 아닌 “픽셀, 픽셀, 정사각형”이 나온다. 이것은 궁금해졌다. ' +
+      '“이 이야기는 사실 정사각형 픽셀로 이뤄져 있습니다. 이것을 확대본으로 보실까요.” 물었을 때 사람들은 각각 무엇을 바라볼지를.',
+    tags: ['장편', '사념 3부작', '1부', '현대판타지', '로맨스'],
+    items: [
+      { n: 1,  title: '1화 가우시안 블러*' },
+      { n: 2,  title: '2화 미지로 들어가기 위해 명심할 것 이곳에 문은 없다' },
+      { n: 3,  title: '3화 그날 모두가 열중쉬어 자세에서 킥킥거렸고 선생들은 난감했지만 뭘 할 수 있지' },
+      { n: 4,  title: '4화 교육은 삶 전반의 기념일 or 얼룩 스타일리스트 언어 씨에게' },
+      { n: 5,  title: '5화 구도 잡기' },
+      { n: 6,  title: '6화 당직 생활' },
+      { n: 7,  title: '7화 유형' },
+      { n: 8,  title: '8화 여기' },
+      { n: 9,  title: '9화 코폴라' },
+      { n:10,  title: '10화 클리셰' },
+      { n:11,  title: '11화 사랑은 없고 여기 바다와 함께 살아가는 거라면 어떻게 증명할 수 있겠어 모닥불을 피워놓고 춤을 추는 여우와 꼬리를 붙잡고 같이 도는 아이가 총을 맞고 쓰러졌을 때 밀렵꾼은 아직 자신의 이름을 모른다' },
+      { n:12,  title: '12화 상정' },
+      { n:13,  title: '13화 주행' },
+      { n:14,  title: '14화 킬링타임' },
+      { n:15,  title: '15화 대칭' },
+      { n:16,  title: '16화 건조' },
+      { n:17,  title: '17화 전야' },
+      { n:18,  title: '18화 1 Round – 거대 개구리의 습격' },
+      { n:19,  title: '19화 1 Round – 거대 개구리의 습격 2' },
+      { n:20,  title: '20화 2 Round – 진실의 소용돌이' },
+      { n:21,  title: '21화 3 Round – 꽃집 담화' },
+      { n:22,  title: '22화 3 Round – 꽃집 담화 2' },
+      { n:23,  title: '23화 3 Round – 꽃집 담화 3' },
+      { n:24,  title: '24화 천공의 유적지 : 영웅의 시작' },
+      { n:25,  title: '25화 천공의 유적지 : 영웅의 시작 2' },
+      { n:26,  title: '26화 다시 만남' },
+      { n:27,  title: '27화 랑은 세계의 일원으로 존재하는 방식을 나무와 숲에 빗대어 봄' },
+      { n:28,  title: '28화 악당 피셜 : 2막 시작' },
+      { n:29,  title: '29화 다시 승부를 겨루게 됨' },
+      { n:30,  title: '30화 서로'},
+      { n:31,  title: '31화 성장'},
+      { n:32,  title: '32화 옵티멀 알고리즘'},
+      { n:33,  title: '33화 죽어간다는 것에 대하여'},
+      { n:34,  title: '34화 우스꾩스러운 노력'},
+      { n:35,  title: '35화 이즈사'},
+      { n:36,  title: '36화 기록과 환상'},
+      { n:37,  title: '37화 망해버린 세계를 구한다는 게임의 내용은 흔하다'},
+      { n:38,  title: '38화 크루슈'},
+      { n:39,  title: '39화 뻐꾸기 34_크루슈'},
+      { n:40,  title: '40화 같이 나아가는 손'},
+      { n:41,  title: '41화 폐공장에서'},
+      { n:42,  title: '42화 경계'},
+      { n:43,  title: '43화 보스전'},
+      { n:44,  title: '44화 보스전 2'},
+      { n:45,  title: '45화 보스전 3'},
+      { n:46,  title: '46화 보스전 4'},
+      { n:47,  title: '47화 보스전 5'},
+      { n:48,  title: '48화 로그인'},
+      { n:49,  title: '49화 영웅담'},
+      { n:50,  title: '50화 곁에 머무는'},
+      { n:51,  title: '51화 진실'},
+      { n:52,  title: '52화 영웅 이야기'},
+      { n:53,  title: '53화 영웅 이야기 2'},
+      { n:54,  title: '54화 영웅 이야기 3'},
+      { n:55,  title: '55화 불은 스스로 지연되지 않는다 (完)'},
+    ],
+  },
+  {
+    id: 'remeggol',
+    title: '르메끌의 오후',
+    desc: '인간계에 좌천당하여 지루한 나날을 보내던 마녀 앞에 신화처럼 어떤 존재가 나타난다. 검은 연기로부터 탄생한 그자의 이름은 르메끌. 돌의 지독한 인연은 이 탄생으로부터 시작된다.',
+    tags: ['장편','사념 3부작','2부', '전생','과거','로맨스'],
+    items: [{ n:101, title:'1화 지루한 마녀와 르메끌의 탄생' }],
+  },
+  {
+    id: 'woojin-kyo',
+    title: '우진과 쿄',
+    desc: '우진과 쿄는 같이 살고 있다.',
+    tags: ['단편','현대','일상', '회복기', '반려동물','강아지'],
+    items: [{ n:201, title:'1화 데리러 간 날' }],
+  },
+  {
+    id: 'your-callcenter',
+    title: '너의 콜센터',
+    desc: '콜센터에 들어온 지도 어느덧 3개월이 지나고 있었다.',
+    tags: ['단편','현대','일상','관계'],
+    items: [{ n:301, title:'1화 진실' }],
+  },
+];
+
+const INITIAL = 0;
+const PER_PAGE = 15;
+
+const payloadJson =
+  JSON.stringify({ series: SERIES, initial: INITIAL, perPage: PER_PAGE })
+    .replace(/<\/script/gi, '<\\/script')
+    .replace(/</g, '\\u003c');
+---
+
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Series</title>
+
+    <style is:global>
+      :root{
+        --bg:#000000; --fg:#ECECEC; --muted:#9aa3b4;
+        --card:#101317; --card-bd:#1c2027; --card-hv:#141925;
+        --accent:#da6767; --heading:#e9edf7; --maxw:1120px;
+      }
+      html,body{
+        margin:0;background:var(--bg);color:var(--fg);
+        font-family:Pretendard,"Noto Sans KR",system-ui,-apple-system,"Segoe UI",
+        Roboto,Helvetica,Arial,"Apple SD Gothic Neo","Noto Sans","Malgun Gothic",sans-serif;
+        -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+      }
+      a{color:inherit;text-decoration:none}
+
+      /* 상단 네비게이션 */
+      .topbar-wrap{
+        border-bottom:1px solid var(--accent);
+        background:#000;
+      }
+      .topbar{
+        max-width:var(--maxw);
+        margin:0 auto;
+        padding:10px 20px 8px;
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        font-size:13px;
+      }
+      .topbar-link{
+        color:#cbd2e3;
+        text-decoration:none;
+      }
+      .topbar-link:hover{ color:#ffffff; }
+      .topbar-center{
+        font-weight:700;
+        letter-spacing:-0.02em;
+      }
+
+      .wrap{
+        max-width:var(--maxw);
+        margin:36px auto 64px;
+        padding:0 20px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+      }
+
+      header h1{
+        font-size:40px;
+        text-align:center;
+        margin:6px 0 22px;
+        letter-spacing:-0.02em;
+      }
+
+      /* 탭 + 스크롤바 숨기기 */
+      .tabs{
+        display:flex;
+        gap:28px;
+        padding:4px 2px 16px;
+        align-items:flex-end;
+        overflow-x:auto;
+        overflow-y:hidden;
+        -ms-overflow-style:none;
+        scrollbar-width:none;
+        -webkit-overflow-scrolling:touch;
+      }
+      .tabs::-webkit-scrollbar{ display:none; }
+
+      .tab{
+        color:#b9c0ce;
+        font-weight:800;
+        font-size:30px;
+        letter-spacing:-0.02em;
+        opacity:.55;
+        cursor:pointer;
+        position:relative;
+        user-select:none;
+        white-space:nowrap;
+        padding-bottom:10px;
+        transition:opacity .18s;
+      }
+      .tab:hover{opacity:.82}
+      .tab.active{opacity:1;color:var(--heading);}
+      .tab.active::after{
+        content:'';
+        position:absolute;
+        left:0;
+        right:0;
+        bottom:0;
+        height:3px;
+        background:var(--accent);
+        border-radius:3px;
+        box-shadow:0 0 0 1px rgba(255,61,87,.15);
+      }
+
+      .panel{
+        padding:24px 0 32px;
+        min-height:120px;
+        width:100%;
+        max-width:880px;
+        margin:0 auto;
+      }
+
+      .panel h2{
+        margin:18px auto 18px;
+        max-width:880px;
+        font-size:30px;
+        letter-spacing:-0.02em;
+        color:var(--heading);
+        text-align:left;
+      }
+
+      /* 설명 + 더보기 래퍼 */
+      .desc-wrap{
+        max-width:880px;
+        margin:0 auto 10px;
+      }
+      .desc{
+        color:#d8dde7;
+        line-height:1.8;
+        letter-spacing:-0.01em;
+        margin:0;
+        text-align:left;
+      }
+      .desc.clamped{
+        display:-webkit-box;
+        -webkit-box-orient:vertical;
+        -webkit-line-clamp:3;
+        overflow:hidden;
+      }
+      .desc-more{
+        display:inline-block;
+        margin-top:4px;
+        margin-left:auto;
+        background:transparent;
+        border:none;
+        color:#ff7a86;
+        cursor:pointer;
+        font-weight:700;
+        font-size:0.95em;
+        padding:0;
+      }
+      .desc-more:hover{
+        text-decoration:underline;
+      }
+
+      .tags{
+        margin:8px auto 0;
+        max-width:880px;
+        color:var(--muted);
+        font-size:14px;
+        letter-spacing:-0.01em;
+        text-align:left;
+      }
+      .tags .tag{ margin-right:10px; }
+
+      .grid{
+        display:flex;
+        flex-direction:column;
+        gap:10px;
+        max-width:880px;
+        margin:24px auto 0;
+      }
+
+      .card{
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        background:#050608;
+        border:1px solid #262c35;
+        border-top:none;                 /* 첫 카드 위쪽 줄 제거 (의도적인 디자인) */
+        border-radius:4px;
+        padding:14px 18px;
+        cursor:pointer;
+        transition:background .12s, border-color .12s, transform .12s;
+      }
+      /* 두 번째 카드부터 위쪽 줄 살리기 */
+      .grid .card + .card{
+        border-top:1px solid #262c35;
+      }
+
+      .card:hover{
+        background:#11151f;
+        border-color:#343d4e;
+        transform:translateY(-1px);
+      }
+
+      .card-main{
+        display:flex;
+        align-items:flex-start;
+        gap:10px;
+      }
+      .dot{
+        width:7px;
+        height:7px;
+        border-radius:999px;
+        background:var(--accent);
+        margin-top:4px;
+        flex-shrink:0;
+      }
+      .dot--upcoming{
+        background:#555a66;
+      }
+
+      .title{
+        font-size:15px;
+        letter-spacing:-0.01em;
+        font-weight:500;
+      }
+      .card-meta{
+        font-size:13px;
+        color:var(--muted);
+      }
+      .card--disabled{
+        cursor:default;
+        opacity:.7;
+      }
+      .card--disabled:hover{
+        transform:none;
+        background:#050608;
+        border-color:#262c35;
+      }
+
+      .pager{
+        display:flex;
+        gap:8px;
+        align-items:center;
+        margin-top:16px;
+      }
+      .pbtn{
+        appearance:none;
+        background:#1a202b;
+        color:#e9edf7;
+        border:1px solid #2b3342;
+        border-radius:8px;
+        padding:8px 12px;
+        font-size:14px;
+        cursor:pointer;
+      }
+      .pbtn[disabled]{opacity:.45;cursor:not-allowed}
+      .pbtn.active{background:#262f3d;border-color:#3a4458;font-weight:700}
+      .pinfo{color:#9aa3b4;font-size:13px;margin-left:auto}
+
+      /* 모달 공통 */
+      .ep-modal{position:fixed;inset:0;display:none;z-index:1000;}
+      .ep-modal[aria-hidden="false"]{display:block;}
+      .ep-modal__backdrop{position:absolute;inset:0;background:rgba(0,0,0,.6);}
+      .ep-modal__panel{
+        position:relative;
+        margin:40px auto;
+        max-width:800px;
+        background:#161a20;
+        color:#ececec;
+        border:1px solid #2a2f36;
+        border-radius:12px;
+        box-shadow:0 20px 60px rgba(0,0,0,.6);
+        max-height:calc(100dvh - 80px);
+        display:flex;
+        flex-direction:column;
+        overflow:hidden;
+      }
+      .ep-modal__head{
+        display:flex;
+        align-items:center;
+        gap:8px;
+        padding:18px 22px 20px;
+        background:#0f1217;
+        border-bottom:1px solid #222834;
+      }
+      .ep-modal__labels{
+        display:flex;
+        flex-direction:column;
+        gap:4px;
+        margin-right:auto;
+      }
+      .ep-modal__series{
+        font-size:13px;
+        font-weight:600;
+        letter-spacing:-0.01em;
+        color:#da6767;
+      }
+      .ep-modal__title{
+        font-weight:700;
+        letter-spacing:-0.01em;
+        font-size:20px;
+        margin:0;
+        padding:0;
+      }
+      .ep-modal__close{
+        background:transparent;
+        border:none;
+        color:#9aa3b4;
+        font-size:22px;
+        line-height:1;
+        cursor:pointer;
+        padding:0 0 0 12px;
+      }
+      .ep-modal__close:hover{color:#ffffff;}
+
+      .ep-modal__body{
+        /* 제목 영역과 왼쪽 패딩 맞추기 */
+        padding:18px 22px 10px;
+        overflow:auto;
+      }
+
+      /* 모달 안 본문: 모든 시리즈를 동일 규격으로 덮어쓰기 */
+      .ep-modal__body .ep-wrap{
+        max-width:100%;
+        margin:4px 0 20px;
+        padding:0 0 24px !important;
+
+        font-size:15px !important;       /* 본문 글씨 크기 */
+        line-height:1.25 !important;     /* 기본 행간 (행갈이) */
+        letter-spacing:-0.01em !important;
+      }
+
+      /* 기본 행갈이: 한 줄 한 줄 사이 간격 */
+      .ep-modal__body .ep-wrap p{
+        margin:0 0 .18em !important;
+      }
+      .ep-modal__body .ep-wrap p:first-child{
+        margin-top:0 !important;
+      }
+
+      /* 연갈이(단락 띄기)용: 비어 있는 문단에 붙는 클래스 */
+      .ep-modal__body .ep-wrap p.ep-stanza-gap{
+        margin:0 0 1.05em !important;   /* 일반 행갈이보다 훨씬 넓게 */
+      }
+
+      /* 연속 br 두 개일 때도 연갈이처럼 간격을 넓게 */
+      .ep-modal__body .ep-wrap br + br{
+        display:block;
+        margin-top:1.05em;
+      }
+
+      /* ===== 모달 내 각주(주석) 스타일 ===== */
+      .ep-modal__body .ep-wrap .footnote {
+        font-size:14px !important;      /* 본문보다 1px 작게 */
+        color:#a5acb8 !important;       /* 은은한 회색 */
+        opacity:.75;
+        line-height:1.35 !important;
+        margin-top:1em !important;
+      }
+
+      /* 우진과 쿄(uzin) 전용: 한 연 안의 각 줄을 블록으로 만들어 가우시안 블러와 비슷한 행간 */
+      .ep-modal__body .uzin-wrap .poem-line{
+        display:block;
+        margin:0 0 .18em !important;  /* 가우시안 블러의 p margin과 맞춰줌 */
+      }
+
+      /* 우진과 쿄 전체 시 블록 아래 여백을 가우시안 블러 수준으로 맞추기 */
+      .ep-modal__body .uzin-wrap .poem{
+        margin-bottom:1.5em !important;
+      }
+
+      /* 하단 네비 */
+      .ep-modal__nav{
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        padding:10px 16px 16px;
+        border-top:1px solid #2a2f36;
+        gap:12px;
+      }
+      .btn{
+        background:#222833;
+        color:#e7ecf7;
+        border:1px solid #2c3442;
+        border-radius:8px;
+        padding:8px 12px;
+        cursor:pointer;
+        font-size:14px;
+      }
+      .btn[disabled]{opacity:.45;cursor:not-allowed;}
+
+      @media (max-width:760px){
+        header h1{font-size:30px}
+        .tabs{gap:18px}
+        .tab{font-size:22px;padding-bottom:28px}
+        .panel h2{font-size:26px}
+        .grid{gap:12px}
+        .card{padding:16px 16px}
+        .ep-modal__panel{margin:10px;max-height:calc(100dvh - 20px)}
+      }
+
+      .footer {
+        max-width: var(--maxw);
+        margin: 40px auto 60px;
+        padding: 20px 20px;
+        text-align: center;
+        color: #7f8699;
+        font-size: 13px;
+        letter-spacing: -0.01em;
+        border-top: 1px solid #1a1d22;
+      }
+
+      /* === 모바일 전용 (가로 600px 이하) ====================== */
+      @media (max-width: 600px) {
+        .wrap {
+          max-width: 880px;
+          margin: 0 auto;
+          padding: 0 16px;
+          align-items: stretch;
+        }
+
+        .tabs {
+          padding-top: 16px;
+          padding-bottom: 8px;
+          gap: 18px;
+          font-size: 18px;
+        }
+
+        header h1 {
+          font-size: 26px;
+          margin: 6px 0 18px;
+        }
+
+        .tab {
+          flex: 0 0 auto;
+          font-size: 18px;
+          padding-bottom: 6px;
+        }
+        .tab.active::after {
+          height: 2px;
+        }
+
+        .panel {
+          width: 100%;
+          max-width: 100%;
+          margin: 0 auto;
+          padding: 16px 0 24px;
+        }
+
+        .panel h2 {
+          font-size: 22px;
+          margin: 14px 0 10px;
+        }
+
+        .desc-wrap {
+          margin-bottom: 2px;
+        }
+
+        .desc {
+          font-size: 13px;
+          line-height: 1.7;
+        }
+
+        .desc-more {
+          font-size: 12px !important;
+        }
+
+        .tags {
+          font-size: 11px;
+        }
+
+        .grid {
+          margin-top: 6px;
+          gap: 8px;
+        }
+
+        .card {
+          padding: 10px 14px;
+          border-radius: 3px;
+          border-color: #1d2129;
+          background: #050608;
+        }
+
+        .title {
+          font-size: 14px;
+          line-height: 1.55;
+        }
+
+        .card-meta {
+          font-size: 12px;
+        }
+
+        .pbtn {
+          padding: 6px 9px;
+          font-size: 12px;
+        }
+
+        .pinfo {
+          font-size: 11px;
+        }
+
+        .footer {
+          margin: 28px auto 32px;
+          padding: 14px 14px;
+          font-size: 11px;
+        }
+
+        .ep-modal__panel {
+          margin: 8px;
+          max-height: calc(100dvh - 16px);
+        }
+
+        .ep-modal__head {
+          padding: 12px 16px 16px;
+        }
+
+        .ep-modal__body {
+          padding: 14px 16px 10px;
+        }
+
+        .ep-modal__nav {
+          padding: 8px 12px 12px;
+        }
+
+        .btn {
+          padding: 6px 10px;
+          font-size: 13px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="topbar-wrap">
+      <header class="topbar">
+        <a href="/intro" class="topbar-link">Intro</a>
+        <div class="topbar-center">Series</div>
+        <a href="/contact" class="topbar-link">Contact</a>
+      </header>
+    </div>
+
+    <main class="wrap">
+      <nav class="tabs" id="tabs"></nav>
+      <section class="panel" id="panel"></section>
+    </main>
+
+    <footer class="footer">
+      © kimbyeonggwan. All rights reserved.
+    </footer>
+
+    <!-- 모달 -->
+    <div id="ep-modal" class="ep-modal" aria-hidden="true">
+      <div class="ep-modal__backdrop" data-close></div>
+      <div class="ep-modal__panel" role="dialog" aria-modal="true" aria-label="에피소드">
+        <div class="ep-modal__head">
+          <div class="ep-modal__labels">
+            <div class="ep-modal__series" id="ep-series">가우시안 블러</div>
+            <div class="ep-modal__title" id="ep-title">에피소드 제목</div>
+          </div>
+          <button class="ep-modal__close" type="button" data-close aria-label="닫기">×</button>
+        </div>
+
+        <div id="ep-body" class="ep-modal__body"><p>로딩중…</p></div>
+
+        <div class="ep-modal__nav">
+          <button id="ep-prev" class="btn">이전화</button>
+          <button id="ep-next" class="btn">다음화</button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- JSON payload -->
+    <script
+      id="series-payload"
+      type="application/json"
+      is:inline
+      set:html={payloadJson}>
+    </script>
+
+    <!-- UI + 모달 스크립트 -->
+    <script is:inline>
+      (function () {
+        /* 우진과 쿄 공개 여부 스위치: false = 공개 예정, true = 공개 */
+        const WOOJIN_PUBLISHED = false;
+
+        const el  = document.getElementById('series-payload');
+        const raw = (el?.textContent || '').trim() || '{}';
+
+        let payload;
+        try {
+          payload = JSON.parse(raw);
+          // 디버깅용으로 글로벌에도 넣어둠
+          window.__SERIES_PAYLOAD__ = payload;
+        } catch (e) {
+          console.error('[series] JSON parse error', e, raw.slice(0, 200));
+          payload = {};
+        }
+
+        const seriesData   = Array.isArray(payload.series) ? payload.series : [];
+        const initialIndex = Number(payload.initial ?? 0);
+        const PER_PAGE     = Number(payload.perPage ?? 15);
+
+        const tabs  = document.getElementById('tabs');
+        const panel = document.getElementById('panel');
+
+        if (!seriesData.length) {
+          if (panel) {
+            panel.innerHTML =
+              '<p style="color:#9aa3b4">데이터가 비어 있습니다. (series 0개)</p>';
+          }
+          return;
+        }
+
+        let activeSeries = initialIndex;
+
+        function renderTabs(activeIdx) {
+          if (!tabs) return;
+          tabs.innerHTML = seriesData
+            .map(
+              (s, i) => `
+                <div class="tab ${i === activeIdx ? 'active' : ''}" data-index="${i}">
+                  ${s.title}
+                </div>
+              `
+            )
+            .join('');
+
+          tabs.querySelectorAll('.tab').forEach((el) => {
+            el.addEventListener('click', () => {
+              const idx = Number(el.getAttribute('data-index') || 0);
+              setActive(idx);
+            });
+          });
+        }
+
+        function chunk(arr, size) {
+          const out = [];
+          for (let i = 0; i < arr.length; i += size) {
+            out.push(arr.slice(i, i + size));
+          }
+          return out;
+        }
+
+        function renderPanel(idx) {
+          if (!panel) return;
+
+          const s = seriesData[idx];
+          if (!s) {
+            panel.innerHTML =
+              '<p style="color:#9aa3b4">선택된 시리즈 없음</p>';
+            return;
+          }
+
+          const tagHtml = (s.tags || [])
+            .map((t) => `<span class="tag">#${t}</span>`)
+            .join(' ');
+
+          const pages = chunk(s.items || [], PER_PAGE);
+          let currentPage = 0;
+
+          const needsMore = (s.desc || '').length > 160;
+
+          function draw() {
+            const pageItems = pages[currentPage] || [];
+
+            const itemsHtml = pageItems
+              .map((it) => {
+                const n = it.n;
+
+                let href = '#';
+                let disabled = true;
+                let epId = '';
+
+                if (s.id === 'gaussian-blur') {
+                  const id = pad2(n);
+                  if (n >= 1 && n <= 55) {
+                    href = `/episodes/${id}`;
+                    disabled = false;
+                  }
+                  epId = id;
+                } else if (s.id === 'woojin-kyo' && n === 201) {
+                  epId = '201';
+
+                  if (WOOJIN_PUBLISHED) {
+                    href = '/episodes/201';
+                    disabled = false;
+                  } else {
+                    disabled = true;
+                  }
+                } else {
+                  const id = String(n);
+                  epId = id;
+                }
+
+                const dotClass = disabled ? 'dot dot--upcoming' : 'dot';
+
+                return `
+                  <a class="card ${disabled ? 'card--disabled' : ''}"
+                    href="${href}" data-ep="${epId}" data-epn="${n}">
+                    <div class="card-main">
+                      <span class="${dotClass}"></span>
+                      <div class="title">${it.title}</div>
+                    </div>
+                    ${disabled ? '<div class="card-meta">공개 예정</div>' : ''}
+                  </a>
+                `;
+              })
+              .join('');
+
+            const pager =
+              pages.length > 1
+                ? `
+                <div class="pager" id="pager">
+                  <button class="pbtn" data-act="prev" ${
+                    currentPage === 0 ? 'disabled' : ''
+                  }>이전</button>
+                  ${pages
+                    .map(
+                      (_, i) => `
+                        <button class="pbtn ${
+                          i === currentPage ? 'active' : ''
+                        }" data-page="${i}">${i + 1}</button>
+                      `
+                    )
+                    .join('')}
+                  <button class="pbtn" data-act="next" ${
+                    currentPage === pages.length - 1 ? 'disabled' : ''
+                  }>다음</button>
+                  <span class="pinfo">
+                    ${currentPage * PER_PAGE + 1}–${Math.min(
+                      (currentPage + 1) * PER_PAGE,
+                      s.items.length
+                    )} / ${s.items.length}
+                  </span>
+                </div>`
+                : '';
+
+            panel.innerHTML = `
+              <div class="desc-wrap">
+                <p class="desc ${needsMore ? 'clamped' : ''}" id="desc">
+                  ${s.desc}
+                </p>
+                ${
+                  needsMore
+                    ? '<button class="desc-more" id="ctrl" type="button">… 더보기</button>'
+                    : ''
+                }
+              </div>
+
+              <div class="tags">${tagHtml}</div>
+              ${itemsHtml ? `<div class="grid" id="grid">${itemsHtml}</div>` : ''}
+              ${pager}
+            `;
+
+            const descEl = document.getElementById('desc');
+            const ctrlEl = document.getElementById('ctrl');
+            let open = false;
+
+            function applyClamp() {
+              if (!descEl || !ctrlEl) return;
+              if (open) {
+                descEl.classList.remove('clamped');
+                ctrlEl.textContent = '간략히';
+              } else {
+                descEl.classList.add('clamped');
+                ctrlEl.textContent = '… 더보기';
+              }
+            }
+
+            if (ctrlEl) {
+              ctrlEl.addEventListener('click', () => {
+                open = !open;
+                applyClamp();
+              });
+              applyClamp();
+            }
+
+            panel
+              .querySelectorAll('.card[href^="/episodes/"]')
+              .forEach((a) => {
+                a.addEventListener('click', (e) => {
+                  e.preventDefault();
+                  const epId = a.getAttribute('data-ep');
+                  const nStr = a.getAttribute('data-epn');
+                  const nNum = nStr ? Number(nStr) : undefined;
+                  const label =
+                    a.querySelector('.title')?.textContent || '';
+
+                  if (epId) {
+                    currentList = s.items || [];
+                    currentSeriesTitle = s.title || '';
+                    loadEpisode(epId, label, nNum);
+                  }
+                });
+              });
+
+            const pagerEl = document.getElementById('pager');
+            if (pagerEl) {
+              pagerEl.addEventListener('click', (e) => {
+                const t = e.target;
+                if (!(t instanceof Element)) return;
+
+                if (t.hasAttribute('data-page')) {
+                  currentPage = Number(t.getAttribute('data-page')) || 0;
+                  draw();
+                } else if (
+                  t.getAttribute('data-act') === 'prev' &&
+                  currentPage > 0
+                ) {
+                  currentPage--;
+                  draw();
+                } else if (
+                  t.getAttribute('data-act') === 'next' &&
+                  currentPage < pages.length - 1
+                ) {
+                  currentPage++;
+                  draw();
+                }
+              });
+            }
+          }
+
+          draw();
+        }
+
+        function setActive(i) {
+          activeSeries = i;
+          renderTabs(i);
+          renderPanel(i);
+        }
+
+        const modal       = document.getElementById('ep-modal');
+        const seriesLabel = document.getElementById('ep-series');
+        const titleLabel  = document.getElementById('ep-title');
+        const bodyEl      = document.getElementById('ep-body');
+        const prevBtn     = document.getElementById('ep-prev');
+        const nextBtn     = document.getElementById('ep-next');
+
+        let current = null;
+        let currentList = [];
+        let currentSeriesTitle = '';
+
+        function openModal() {
+          if (!modal) return;
+          modal.setAttribute('aria-hidden', 'false');
+          document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+          if (!modal) return;
+          modal.setAttribute('aria-hidden', 'true');
+          document.body.style.overflow = '';
+        }
+
+        async function loadEpisode(id, label, numericIndex) {
+          current = numericIndex ?? Number(id);
+
+          const seriesTitle =
+            currentSeriesTitle || seriesData[activeSeries]?.title || '';
+          if (seriesLabel) seriesLabel.textContent = seriesTitle;
+
+          const prettyLabel = label || `에피소드 ${Number(id)}`;
+          if (titleLabel) titleLabel.textContent = prettyLabel;
+
+          if (bodyEl) bodyEl.innerHTML = '<p>로딩중…</p>';
+
+          try {
+            const res  = await fetch(`/episodes/${id}`);
+            const html = await res.text();
+            const doc  = new DOMParser().parseFromString(html, 'text/html');
+            const wrap = doc.querySelector('.ep-wrap');
+
+            if (wrap && bodyEl) {
+              const clone = wrap.cloneNode(true);
+
+              const firstH1 = clone.querySelector('h1');
+              if (firstH1) firstH1.remove();
+
+              clone.querySelectorAll('a').forEach((a) => {
+                const text = (a.textContent || '').trim();
+                if (text === '이전화' || text === '다음화') {
+                  a.remove();
+                }
+              });
+
+              /* inline style 전부 제거해서 행간/마진을 통일 규격으로만 적용 */
+              clone.querySelectorAll('[style]').forEach((el) => {
+                el.removeAttribute('style');
+              });
+
+              /* 맨 앞의 빈 문단 / br 제거해서 여백 들뜸 방지 */
+              const paras = Array.from(clone.querySelectorAll('p'));
+              for (const p of paras) {
+                const txt = (p.textContent || '').replace(/\u00a0/g, '').trim();
+                if (!txt) {
+                  p.remove();
+                } else {
+                  break;
+                }
+              }
+              while (clone.firstChild && clone.firstChild.nodeName === 'BR') {
+                clone.removeChild(clone.firstChild);
+              }
+
+              /* 나머지 빈 문단은 '연갈이'용으로 ep-stanza-gap 클래스 부여 */
+              clone.querySelectorAll('p').forEach((p) => {
+                const raw = (p.innerHTML || '')
+                  .replace(/&nbsp;/gi, '')
+                  .replace(/\s+/g, '')
+                  .trim();
+                if (!raw) {
+                  p.classList.add('ep-stanza-gap');
+                }
+              });
+
+              /* === 각주: 별표(*)로 시작하는 단락에 footnote 클래스 부여 === */
+              clone.querySelectorAll('p').forEach((p) => {
+                const text = (p.textContent || '').trim();
+                if (text.startsWith('*')) {
+                  p.classList.add('footnote');
+                }
+              });
+
+              bodyEl.innerHTML = '';
+              bodyEl.appendChild(clone);
+              bodyEl.scrollTop = 0;
+            } else if (bodyEl) {
+              bodyEl.innerHTML = '<p>본문을 불러오지 못했습니다.</p>';
+            }
+          } catch (e) {
+            console.error(e);
+            if (bodyEl) {
+              bodyEl.innerHTML =
+                '<p>불러오는 중 오류가 발생했습니다.</p>';
+            }
+          }
+
+          openModal();
+          setNavState();
+        }
+
+        function setNavState() {
+          if (!prevBtn || !nextBtn) return;
+          const n  = Number(current);
+          const ok = Number.isFinite(n);
+
+          const hasPrev = ok && currentList.some((it) => it.n === n - 1);
+          const hasNext = ok && currentList.some((it) => it.n === n + 1);
+
+          prevBtn.disabled = !hasPrev || n <= 1;
+          nextBtn.disabled = !hasNext;
+        }
+
+        function pad2(n) {
+          return String(n).padStart(2, '0');
+        }
+
+        if (prevBtn) {
+          prevBtn.addEventListener('click', () => {
+            if (current == null) return;
+            const n = Number(current) - 1;
+            if (n < 1) return;
+            const item = currentList.find((it) => it.n === n);
+            if (!item) return;
+            loadEpisode(pad2(n), item.title || '', n);
+          });
+        }
+
+        if (nextBtn) {
+          nextBtn.addEventListener('click', () => {
+            if (current == null) return;
+            const n = Number(current) + 1;
+            const item = currentList.find((it) => it.n === n);
+            if (!item) return;
+            loadEpisode(pad2(n), item.title || '', n);
+          });
+        }
+
+        if (modal) {
+          modal.addEventListener('click', (e) => {
+            const target = e.target;
+            if (!(target instanceof Element)) return;
+            if (target.hasAttribute('data-close')) {
+              closeModal();
+            }
+          });
+        }
+
+        document.addEventListener('keydown', (e) => {
+          if (
+            e.key === 'Escape' &&
+            modal &&
+            modal.getAttribute('aria-hidden') === 'false'
+          ) {
+            closeModal();
+          }
+        });
+
+        setActive(initialIndex);
+      })();
+    </script>
+  </body>
+</html>

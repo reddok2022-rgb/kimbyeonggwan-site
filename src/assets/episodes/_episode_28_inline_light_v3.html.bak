@@ -1,0 +1,168 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>가우시안 블러 28화</title>
+<style>
+  .ep-wrap { max-width: 720px; margin: 0 auto; padding: 24px 20px; }
+  @media (max-width: 480px) {
+    .ep-wrap { font-size: 17px !important; line-height: 1.38 !important; padding: 22px 16px; }
+    .ep-wrap p { word-break: keep-all; }
+  }
+</style>
+<div class="ep-wrap" style="font-family:Pretendard,'Noto Sans KR',system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,'Apple SD Gothic Neo','Noto Sans','Malgun Gothic',sans-serif;font-size:16px;line-height:1.14;letter-spacing:-0.01em;color:#EEE;background:transparent;">
+
+  <p style="margin:0 0 .35em 0;">오늘이지? 히네가 말했다</p>
+  <p style="margin:0 0 .35em 0;">원목 벤치 그늘에서</p>
+  <p style="margin:0 0 .35em 0;">축하한다고</p>
+  <p style="margin:0 0 .35em 0;">그 말엔 어떤 악의도 깃들어있지 않았다</p>
+  <p style="margin:0 0 .35em 0;">랑은 오늘따라 햇빛이 알 수 있게 따가웠다</p>
+
+  <p style="margin:0 0 .35em 0;">불과 몇 분 전 일이다</p>
+  <p style="margin:0 0 .35em 0;">히네는 악의적 편집을 자신이 한 거라고, 너 내가 썅년으로 만든 거라고</p>
+
+  <p style="margin:0 0 .35em 0;">랑은 듣고만 있었다</p>
+
+  <p style="margin:0 0 .35em 0;">넌 뭐든 쉬워 보였거든</p>
+  <p style="margin:0 0 .35em 0;">얼굴 예쁘지</p>
+  <p style="margin:0 0 .35em 0;">공부 잘하지</p>
+
+  <p style="margin:0 0 .35em 0;">랑은 듣고만 있었다</p>
+
+  <p style="margin:0 0 .35em 0;">관계에 애쓰지 않아도</p>
+  <p style="margin:0 0 .35em 0;">모두 우러러보니까</p>
+  <p style="margin:0 0 .35em 0;">그런 일(사기꾼의 딸 얘기)이 있었는데도 말야</p>
+  <p style="margin:0 0 .35em 0;">그랬지?</p>
+
+  <p style="margin:0 0 .35em 0;">햇빛이 침묵을 머금고 있었다</p>
+
+  <p style="margin:0 0 .35em 0;">사과하려고 부른 건 아니야</p>
+  <p style="margin:0 0 .35em 0;">히네는 랑을 빤히 쳐다봤다</p>
+
+  <p style="margin:0 0 .35em 0;">네가 나를 욕하고 때리더라도</p>
+  <p style="margin:0 0 .35em 0;">먼 과거의 일이 되더라도</p>
+  <p style="margin:0 0 .35em 0;">미안하진 않을 거야</p>
+
+  <p style="margin:0 0 .35em 0;">랑은 듣고만 있었다</p>
+  <p style="margin:0 0 .35em 0;">원목 벤치의 그늘이</p>
+  <p style="margin:0 0 .35em 0;">랑과 히네의 얼굴을 머금고 있었다. 바람에 흔들리고 있었다</p>
+
+  <p style="margin:0 0 .35em 0;">히네가 마지막으로 말했다</p>
+
+  <p style="margin:0 0 .35em 0;">나, 네가 무지 싫었어</p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p style="margin:0 0 .35em 0;">랑은 몇 분 뒤 홀로 원목 벤치 그늘에서</p>
+
+  <p style="margin:0 0 .35em 0;">하염없다</p>
+  <p style="margin:0 0 .35em 0;">랑은 거기서 더 무엇을 말할 수 있었을까</p>
+  <p style="margin:0 0 .35em 0;">조용함을 이기는 게 방법이었을까</p>
+  <p style="margin:0 0 .35em 0;">랑은</p>
+  <p style="margin:0 0 .35em 0;">멍하니 주변을 둘러봤다</p>
+
+  <p style="margin:0 0 .35em 0;">나무가 흔들리고 있었다. 숨어 있는 감시 요원도</p>
+  <p style="margin:0 0 .35em 0;">없이</p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p style="margin:0 0 .35em 0;">랑이</p>
+  <p style="margin:0 0 .35em 0;">최우수 학생으로서 구령대로 가는 빛나는 걸음일 때</p>
+
+  <p style="margin:0 0 .35em 0;">한 걸음</p>
+  <p style="margin:0 0 .35em 0;">장면이 지나간다</p>
+
+  <p style="margin:0 0 .35em 0;">장면은 랑이 고목에 매달려 있을 때를 그린다</p>
+  <p style="margin:0 0 .35em 0;">랑은 자신을 쳐다보는 수만의 시선을 느꼈다</p>
+
+  <p style="margin:0 0 .35em 0;">한 걸음 더</p>
+  <p style="margin:0 0 .35em 0;">장면이 지나가면</p>
+  <p style="margin:0 0 .35em 0;">최우수 학생으로서 랑은</p>
+  <p style="margin:0 0 .35em 0;">자신을 쳐다보는 수백의 시선을 느낀다</p>
+
+  <p style="margin:0 0 .35em 0;">계단을 오를 때. 한 걸음</p>
+  <p style="margin:0 0 .35em 0;">상승</p>
+  <p style="margin:0 0 .35em 0;">장면이 지나갔다</p>
+
+  <p style="margin:0 0 .35em 0;">랑의 다리가 후들거리는 모습이</p>
+  <p style="margin:0 0 .35em 0;">봉을 겨우 잡고 올라가는 모습이</p>
+
+  <p style="margin:0 0 .35em 0;">그날 모두가 열중쉬어 자세에서 쟤 왜 저래? 킥킥거렸고 안쓰러운 장면에 선생들은 난감했지만</p>
+
+  <p style="margin:0 0 .35em 0;">랑은 상을 받은 뒤, 마이크 앞에 섰다</p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p style="margin:0 0 .35em 0;">거기서 무엇을 말해야 했을까, 생각합니다</p>
+  <p style="margin:0 0 .35em 0;">당시엔 그것이 최선이라 느꼈어도요</p>
+
+  <p style="margin:0 0 .35em 0;">전교생은 더 이상 시끄럽지 않았다</p>
+
+  <p style="margin:0 0 .35em 0;">랑은 차분히, 그러나 딱히 준비해오진 않은 말들을</p>
+  <p style="margin:0 0 .35em 0;">해 나갔다</p>
+
+  <p style="margin:0 0 .35em 0;">살아가는 건 매일</p>
+  <p style="margin:0 0 .35em 0;">계절을 보는 일이 아닐 겁니다</p>
+
+  <p style="margin:0 0 .35em 0;">비가 내리면 비를 보고. 눈을 보면 차가움을 알고</p>
+  <p style="margin:0 0 .35em 0;">오늘은 원목 벤치 그늘에서 햇볕을 쬐었습니다</p>
+  <p style="margin:0 0 .35em 0;">여름을 아는 것처럼요</p>
+
+  <p style="margin:0 0 .35em 0;">보이는 것처럼, 다가오는 것처럼</p>
+  <p style="margin:0 0 .35em 0;">살아가는 일이 매일의 계절이라면</p>
+  <p style="margin:0 0 .35em 0;">좋았을 거예요</p>
+
+  <p style="margin:0 0 .35em 0;">살아간다는 건 참 어려운 일이니까</p>
+  <p style="margin:0 0 .35em 0;">보이지도, 다가오지도</p>
+  <p style="margin:0 0 .35em 0;">않는 것 같으니까</p>
+
+  <p style="margin:0 0 .35em 0;">그런 의도가 아니었어도</p>
+  <p style="margin:0 0 .35em 0;">사랑했어도</p>
+  <p style="margin:0 0 .35em 0;">상처받아서 울어도</p>
+  <p style="margin:0 0 .35em 0;">기뻐 웃어도</p>
+  <p style="margin:0 0 .35em 0;">전부가 아닐지도 모르겠어서</p>
+
+  <p style="margin:0 0 .35em 0;">오늘 친구와 절교했어요. 어쩌면 모두와 평생</p>
+  <p style="margin:0 0 .35em 0;">어울리지도 않을</p>
+  <p style="margin:0 0 .35em 0;">인생을 보내며</p>
+
+  <p style="margin:0 0 .35em 0;">저는 살아갈 거예요. 여름을 아는 것처럼 있을 테니까</p>
+
+  <p style="margin:0 0 .35em 0;">그래도 살아가고 싶어요</p>
+  <p style="margin:0 0 .35em 0;">상 받았다고 자랑도 하고 싶고</p>
+
+  <p style="margin:0 0 .35em 0;">감사합니다</p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p style="margin:0 0 .35em 0;">랑의 전교생 앞에서의 담백한 고백은 분명 다른 효과를 주는 듯했다</p>
+  <p style="margin:0 0 .35em 0;">말이 전부 이해 가지 않더라도</p>
+
+  <p style="margin:0 0 .35em 0;">우와 뭔가 이상한데 멋진 애</p>
+  <p style="margin:0 0 .35em 0;">참 이상한 애</p>
+  <p style="margin:0 0 .35em 0;">자기만의 세계가 있는 애</p>
+  <p style="margin:0 0 .35em 0;">친해지고 싶지는 않은 애</p>
+
+  <p style="margin:0 0 .35em 0;">여러 갈래로</p>
+  <p style="margin:0 0 .35em 0;">제 나름대로 길을 형성해내고 있었다</p>
+
+  <p style="margin:0 0 .35em 0;">비난과 비웃음, 지금까지의 모욕과는 조금 다른</p>
+
+  <p style="margin:0 0 .35em 0;">랑이 랑으로서</p>
+  <p style="margin:0 0 .35em 0;">바깥에 보여준 자신</p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p style="margin:0 0 .35em 0;">맞은편</p>
+  <p style="margin:0 0 .35em 0;">건물 옥상에선 망원경으로 이를 지켜보는 가면 2인조가 있다</p>
+  <p style="margin:0 0 .35em 0;">직접 보는 건 처음이지? 어때?</p>
+  <p style="margin:0 0 .35em 0;">존예</p>
+  <p style="margin:0 0 .35em 0;">그리고 말도 잘하던데요? 뭐 쟤들은 다 모르겠지만</p>
+  <p style="margin:0 0 .35em 0;">내 딸이라서 그런가? 확실히 음,</p>
+  <p style="margin:0 0 .35em 0;">근데 붉은 달이 저주를 없애준 건 맞나 보다. 계단 올라갈 때 생각보다 잘 버티네?</p>
+  <p style="margin:0 0 .35em 0;">뭐… 전력은 아니긴 했지만요. 계속, 걸어놓을까요?</p>
+  <p style="margin:0 0 .35em 0;">됐어. 이제 2막 시작인 셈이니까. 랑은 그에게 더 다가갈 거야. 키튼은 구원이 되겠지</p>
+
+  <p style="margin:0 0 .35em 0;">우리는 잠시 지켜보다</p>
+  <p style="margin:0 0 .35em 0;">쾅</p>
+  <p style="margin:0 0 .35em 0;">비행기를 터트리면 되는 거야</p>
+</div>

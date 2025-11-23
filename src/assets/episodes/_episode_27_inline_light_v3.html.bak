@@ -1,0 +1,145 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>가우시안 블러 27화</title>
+<style>
+  .ep-wrap { max-width: 720px; margin: 0 auto; padding: 24px 20px; }
+  @media (max-width: 480px) {
+    .ep-wrap { font-size: 17px !important; line-height: 1.38 !important; padding: 22px 16px; }
+    .ep-wrap p { word-break: keep-all; }
+  }
+</style>
+<div class="ep-wrap" style="font-family:Pretendard,'Noto Sans KR',system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,'Apple SD Gothic Neo','Noto Sans','Malgun Gothic',sans-serif;font-size:16px;line-height:1.14;letter-spacing:-0.01em;color:#EEE;background:transparent;">
+
+  <p style="margin:0 0 .35em 0;">랑은 1급 위험 경보 사이렌 속에 혼자 있었다</p>
+  <p style="margin:0 0 .35em 0;">괴물이 날아간 뒤에도</p>
+
+  <p style="margin:0 0 .35em 0;">정신 좀 차려보라고, 군인처럼 보이는 이가 랑의 몸을 흔들었을 때 랑은 흔들리던 글자를 기억한다. ROM</p>
+
+  <p style="margin:0 0 .35em 0;">이 건물의 사람들은 팔뚝에 ROM이라 적힌 군복(?)을 입고 있었다. 랑은 이들의 복장을 군복처럼 느꼈으나 아닐지도 모르겠다고, 아니어도 무슨 상관일까 싶은 랑이</p>
+  <p style="margin:0 0 .35em 0;">여긴 어디</p>
+  <p style="margin:0 0 .35em 0;">둘러봤을 때</p>
+  <p style="margin:0 0 .35em 0;">채도가 낮은 민트색 인테리어의 처연함을 보았다. 랑의 눈앞엔 짙은 노란색 스포츠머리를 한</p>
+  <p style="margin:0 0 .35em 0;">딱 봐도 단련을 엄청나게 했을 듯한 중년 남성이 서류를 보고 있었다. 인기척을 느낀 중년 남성이 랑을 쳐다보며,</p>
+
+  <p style="margin:0 0 .35em 0;">자네… 3대 몇 치나?</p>
+
+  <p style="margin:0 0 .35em 0;">3대 몇 치냐는 질문은 또 참신했으므로 랑은 살짝 어이가 없었다. 3대요?</p>
+
+  <p style="margin:0 0 .35em 0;">중년 남성은 핫, 웃으며</p>
+  <p style="margin:0 0 .35em 0;">뭐, 장난이네만</p>
+  <p style="margin:0 0 .35em 0;">아무래도 여기가 친숙할 것 같진 않아서 말이지. 아이스 브레이킹을 해봤다네</p>
+  <p style="margin:0 0 .35em 0;">중년 남성은 목을 큼큼 풀며,</p>
+  <p style="margin:0 0 .35em 0;">몸은 좀 괜찮은지 물었다. 랑은 몸이 괜찮았다. 정신에 대해 물었다면, 술술 뭔가를 말했을지도 모르겠다고 랑은 생각했다. 왜 피로가 없지? 열, 피곤함도</p>
+  <p style="margin:0 0 .35em 0;">무엇도 없다</p>
+
+  <p style="margin:0 0 .35em 0;">중년 남성은 랑을 지그시 쳐다보다 가끔 서류도 교대로 바라보다 입을 열었다</p>
+
+  <p style="margin:0 0 .35em 0;">주변이 다 붕괴된 건 알고 있겠고</p>
+  <p style="margin:0 0 .35em 0;">피해액의 규모, 충격파의 수치 뭐 그런 걸 다 떠나서도 3대 80이 안 될 것 같은 애가 멀쩡하다…</p>
+  <p style="margin:0 0 .35em 0;">1급 위험과 가장 가까이,</p>
+  <p style="margin:0 0 .35em 0;">그리고 둘은 초면이 아니다, 라고 내가 말하면 자네는 어떤 생각이 들 것 같나?</p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p style="margin:0 0 .35em 0;">&lt;애프터 셀렉트&gt; 로그인 화면을 띄어둔 채 랑은 있었다</p>
+  <p style="margin:0 0 .35em 0;">신변이 멀쩡한 채로 집으로 돌아왔다</p>
+
+  <p style="margin:0 0 .35em 0;">세계 기구 직속 부대 ROM은 인간 괴인화에 맞서 창설된 부대</p>
+  <p style="margin:0 0 .35em 0;">1급 위험</p>
+  <p style="margin:0 0 .35em 0;">괴물은</p>
+  <p style="margin:0 0 .35em 0;">안면의 붉은 초승달을 따 ‘붉은 달’로 불린다고 했다</p>
+
+  <p style="margin:0 0 .35em 0;">붉은 달</p>
+
+  <p style="margin:0 0 .35em 0;">랑은 괴물의 입 모양을 떠올려봤다</p>
+  <p style="margin:0 0 .35em 0;">내게 오기 전</p>
+  <p style="margin:0 0 .35em 0;">무슨 말을 했던 거였어</p>
+
+  <p style="margin:0 0 .35em 0;">분명한 건 만나기 위해 왔다는 것이다</p>
+
+  <p style="margin:0 0 .35em 0;">1급 위험과 가장 가까이 있었던 자. 상처 없이 자리에 있었던 자. 두 번이나</p>
+
+  <p style="margin:0 0 .35em 0;">나는</p>
+  <p style="margin:0 0 .35em 0;">뭘까?</p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p style="margin:0 0 .35em 0;">랑을 취재했던</p>
+  <p style="margin:0 0 .35em 0;">중년 남성 모군토는 감시 인원이 붙을 거라고 했다. 너무 불편하게 여기진 말라고, 보호이기도 한 것이니, 핫</p>
+
+  <p style="margin:0 0 .35em 0;">루토나 시티 랑이 있는 거주지를 멀리서 체크하는 감시자들</p>
+
+  <p style="margin:0 0 .35em 0;">그러나 랑은 회복됨을 느낀다</p>
+  <p style="margin:0 0 .35em 0;">쿨해짐을 느낀다</p>
+  <p style="margin:0 0 .35em 0;">열</p>
+  <p style="margin:0 0 .35em 0;">붕괴</p>
+  <p style="margin:0 0 .35em 0;">피로도</p>
+
+  <p style="margin:0 0 .35em 0;">무엇도 없다</p>
+
+  <p style="margin:0 0 .35em 0;">‘붉은 달’을 만난 이후로</p>
+
+  <p style="margin:0 0 .35em 0;">-</p>
+
+  <p style="margin:0 0 .35em 0;">중년 남성 모군토는 사고 관련 기사는 찾아보지 말라고 했다. 굳이 피곤해질 필요는 없다고</p>
+  <p style="margin:0 0 .35em 0;">랑은 그 말을 따랐다</p>
+
+  <p style="margin:0 0 .35em 0;">다음날 학교 게시판에</p>
+  <p style="margin:0 0 .35em 0;">랑, 패스트푸드 점장과 원조교제? 포스팅된 글이 있는 걸 보고(악의적 편집으로 둘 사이가 애틋하게 보이게끔 만들어 놨다)</p>
+  <p style="margin:0 0 .35em 0;">랑은 자신을 지난하게 괴롭혀왔던 일들이 기승을 부리고 있음을, 인정해야 했다</p>
+
+  <p style="margin:0 0 .35em 0;">더럽다 진짜</p>
+  <p style="margin:0 0 .35em 0;">다들 지나가며 툭툭 한마디의 돌을 던져도</p>
+
+  <p style="margin:0 0 .35em 0;">심장은 차갑게</p>
+
+  <p style="margin:0 0 .35em 0;">‘붉은 달’도 쟤가 부른 거 아니야?</p>
+  <p style="margin:0 0 .35em 0;">죽음이 누워있지 않더라도</p>
+
+  <p style="margin:0 0 .35em 0;">랑은 담임에게도 불려갔다</p>
+
+  <p style="margin:0 0 .35em 0;">사실 아니에요</p>
+
+  <p style="margin:0 0 .35em 0;">랑은 핸드폰을 보여줬다. 문자 내용으로</p>
+  <p style="margin:0 0 .35em 0;">점장이 꾸준하게 보낸 플러팅을 확인할 수 있었다. 랑의 읽씹도</p>
+
+  <p style="margin:0 0 .35em 0;">그리고 이 사진</p>
+  <p style="margin:0 0 .35em 0;">자세히 보면 입꼬리가 이상하죠. 확대본을 가리키며 말했다</p>
+  <p style="margin:0 0 .35em 0;">픽셀이 튀어요. 누가 의도적으로 바꾼 것처럼</p>
+  <p style="margin:0 0 .35em 0;">저는 이때 웃지 않았거든요</p>
+  <p style="margin:0 0 .35em 0;">8일 전이에요</p>
+  <p style="margin:0 0 .35em 0;">가게 CCTV에도 기록이 있을 거예요</p>
+
+  <p style="margin:0 0 .35em 0;">이 정도를 저는 말할 수 있어요</p>
+  <p style="margin:0 0 .35em 0;">하지만 제가 무엇을 말해도 사람들은 믿지 않아요</p>
+  <p style="margin:0 0 .35em 0;">사람들은 믿고 싶은 것만 믿기 때문이에요</p>
+  <p style="margin:0 0 .35em 0;">그러니 보여주는 일밖에 세상엔 없는 거예요</p>
+
+  <p style="margin:0 0 .35em 0;">지금 라이브 방송을 당장 키고 패스트푸드점으로 가도 좋아요</p>
+  <p style="margin:0 0 .35em 0;">가볼까요?</p>
+
+  <p style="margin:0 0 .35em 0;">담임은 랑이 이렇게 빠르게, 냉정하게 말하는 모습을 처음 보았다</p>
+
+  <p style="margin:0 0 .35em 0;">뭐, 그렇지 음…</p>
+  <p style="margin:0 0 .35em 0;">아니, 아니. 라이브 방송까지는 하지 말고 또 일이 커지니깐? 응?</p>
+  <p style="margin:0 0 .35em 0;">선생님이 다 알아서 할게</p>
+  <p style="margin:0 0 .35em 0;">몸은 좀 괜찮지? 사실 이건 확인만 해보려고 한 거야. 전해줄 소식도 있고 해서, 하하</p>
+  <p style="margin:0 0 .35em 0;">음</p>
+  <p style="margin:0 0 .35em 0;">랑아</p>
+  <p style="margin:0 0 .35em 0;">네가 최우수 학생으로 뽑혔다. 아무래도 규모가 좀 있는 행사다 보니</p>
+  <p style="margin:0 0 .35em 0;">미리 준비를 좀 할 거야. 알고 있으라고. 이거 말하려고 부른 거였어</p>
+
+  <p style="margin:0 0 .35em 0;">최우수 학생</p>
+
+  <p style="margin:0 0 .35em 0;">랑은 허울 좋은 감투라 느꼈다. 그날 별일이나 없었음 좋겠다고 생각하며</p>
+  <p style="margin:0 0 .35em 0;">담임과의 얘기를 마치고 복도를 걷는</p>
+
+  <p style="margin:0 0 .35em 0;">창문으로 나무에 숨어 있는 감시 요원을 본다</p>
+
+  <p style="margin:0 0 .35em 0;">랑은</p>
+  <p style="margin:0 0 .35em 0;">감시 요원보다 나무에 더 눈이 갔다</p>
+  <p style="margin:0 0 .35em 0;">나무는 숲이 될 가능성</p>
+
+  <p style="margin:0 0 .35em 0;">숨는 게 아니라 자리다</p>
+</div>
