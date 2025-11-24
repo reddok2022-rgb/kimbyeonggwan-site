@@ -14,7 +14,7 @@ const SERIES: Series[] = [
     id: 'yusil',
     title: '유실',
     desc: '중견 기업에서 미화 업무를 하는 인영은 오늘도 나이가 지긋한 선배의 조언을 듣는다. 젊은 나이에 이런 데서 일하면 도무지 벗어날 수 없다고, 당장 자격증 공부라도 하라고. 인영은 청소를 하다 쓰레기를 쳐다본다. 자기의 인생과 닮은 점을 묻는다.',
-    tags: ['단편', '일상', '현대'],
+    tags: ['단편', '일상', '현대', '현대인'],
     items: [
       { n: 401, title: '1화 생일' },
     ],
@@ -482,6 +482,23 @@ const payloadJson =
         margin-bottom:1.5em !important;
       }
 
+      /* 유실(yusil) 전용: 한 연 안의 각 줄을 블록으로 만들어 가우시안 블러와 비슷한 행간 */
+      .ep-modal__body .yusil-wrap .poem-line{
+        display:block;
+        margin:0 0 .18em !important;  /* 가우시안 블러의 p margin과 맞춰줌 */
+      }
+
+      /* 한 연(stanza) 끝에 큰 여백 주기 */
+.ep-modal__body .yusil-wrap p.poem-stanza{
+  margin:0 0 1.05em !important; /* 연갈이 간격 */
+}
+
+/* 마지막 연은 너무 밑에 뜨지 않게 약간 줄여주고 싶으면 선택 */
+.ep-modal__body .yusil-wrap p.poem-stanza:last-child{
+  margin-bottom:0.4em !important;
+}
+
+
       /* 하단 네비 */
       .ep-modal__nav{
         display:flex;
@@ -801,6 +818,14 @@ const payloadJson =
                   } else {
                     disabled = true;
                   }
+
+} else if (s.id === 'yusil') {
+  // 유실 공개 설정 (여기 추가!)
+  const id = String(n);
+  href = `/episodes/${id}`;
+  disabled = false;
+  epId = id;
+
                 } else {
                   const id = String(n);
                   epId = id;
