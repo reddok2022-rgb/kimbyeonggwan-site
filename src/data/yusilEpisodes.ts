@@ -5,6 +5,7 @@ import { parsePoem } from "../utils/parsePoem";
 // txt 원고 import
 // → 01.txt를 쓰고 싶으면 이렇게 두고, 파일만 맞춰 두면 돼요.
 import ep01Raw from "../poems/yusil/01.txt?raw";
+import ep02Raw from "../poems/yusil/02.txt?raw";
 
 export type YusilEpisodeStatus = "published" | "upcoming";
 
@@ -23,5 +24,13 @@ export const yusilEpisodes: YusilEpisode[] = [
     title: "1화 생일",
     status: "published",
     stanzas: parsePoem(ep01Raw),
+  },
+
+  {
+    id: 402,
+    slug: "402",
+    title: "2화 벽에 기대어 본 날은",
+    status: "published",
+    stanzas: parsePoem(ep02Raw),
   },
 ];
