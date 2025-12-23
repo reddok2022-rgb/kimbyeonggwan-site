@@ -8,6 +8,7 @@ import ep01Raw from "../poems/yusil/01.txt?raw";
 import ep02Raw from "../poems/yusil/02.txt?raw";
 import ep03Raw from "../poems/yusil/03.txt?raw";
 import ep04Raw from "../poems/yusil/04.txt?raw";
+import ep05Raw from "../poems/yusil/05.txt?raw";
 
 export type YusilEpisodeStatus = "published" | "upcoming";
 
@@ -50,6 +51,14 @@ export const yusilEpisodes: YusilEpisode[] = [
     title: "4화 새하얀 그늘",
     status: "published",
     stanzas: parsePoem(ep04Raw),
+  },
+
+  {
+    id: 405,
+    slug: "405",
+    title: "5화 들판에서 풍선이 날아가는 걸 보았어 (完) ",
+    status: "published",
+    stanzas: parsePoem(ep05Raw),
   },
 
 ];
