@@ -102,6 +102,15 @@ const SERIES: Series[] = [
     items: [{ n:101, title:'1화 지루한 마녀와 르메끌의 탄생' }],
   },
   {
+    id: 'yyuu',
+    title: '유유연연',
+    desc: `중학교 3학년 겨울. 빈둥빈둥 놀고 있는 유유. 매사에 딱히 열정적이지는 않다. 유유는 겨울방학 동안 해안도로에 앉아 있는 연연을 발견하게 되고. 끌린다. 둘은 사랑하게 될까? 아니면......
+    흡혈귀 연연은 유유가 인간이기에 가질 수 있는 여유로움을 볼 때마다 눈에 가시가 돋친다. 당신의 모든 표정이 저주 같다.
+    (매주 화요일, 금요일 연재됩니다)`,
+    tags: ['단편', '관계', '증오', '피폐'],
+    items: [{ n: 501, title: '1화 유유 연연' },],
+  },
+  {
     id: 'woojin-kyo',
     title: '우진과 쿄',
     desc: '우진과 쿄는 같이 살고 있다.',
@@ -255,6 +264,7 @@ const payloadJson =
         letter-spacing:-0.01em;
         margin:0;
         text-align:left;
+        white-space: pre-line;
       }
       .desc.clamped{
         display:-webkit-box;
@@ -493,6 +503,31 @@ const payloadJson =
         margin:0 0 .18em !important;  /* 가우시안 블러의 p margin과 맞춰줌 */
       }
 
+/* 유유연연(yyuu) 전용: 한 연 안의 각 줄을 블록으로 만들어 가우시안 블러와 비슷한 행간 */
+.ep-modal__body .yyuu-wrap .poem-line{
+  display:block;
+  margin:0 0 .18em !important;
+}
+
+/* 한 연(stanza) 끝에 큰 여백 */
+.ep-modal__body .yyuu-wrap p.poem-stanza{
+  margin:0 0 1.05em !important;
+}
+
+/* 마지막 연은 너무 아래로 뜨지 않게 */
+.ep-modal__body .yyuu-wrap p.poem-stanza:last-child{
+  margin-bottom:0.4em !important;
+}
+
+/* 유유연연 전체 시 블록 아래 여백 */
+.ep-modal__body .yyuu-wrap .poem{
+  margin-bottom:1.5em !important;
+}
+
+
+
+
+
       /* 한 연(stanza) 끝에 큰 여백 주기 */
 .ep-modal__body .yusil-wrap p.poem-stanza{
   margin:0 0 1.05em !important; /* 연갈이 간격 */
@@ -502,6 +537,8 @@ const payloadJson =
 .ep-modal__body .yusil-wrap p.poem-stanza:last-child{
   margin-bottom:0.4em !important;
 }
+
+
 
 
       /* 하단 네비 */
@@ -830,6 +867,12 @@ const payloadJson =
   href = `/episodes/${id}`;
   disabled = false;
   epId = id;
+
+} else if (s.id === 'yyuu') {
+  const id = String(n);
+  href = `/episodes/${id}`;
+  disabled = false;
+  epId = id;  
 
                 } else {
                   const id = String(n);
