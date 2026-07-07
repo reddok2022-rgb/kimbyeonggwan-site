@@ -5,6 +5,7 @@ import { parsePoem } from "../utils/parsePoem";
 // txt 원고 import
 import ep01Raw from "../poems/yyuu/01.txt?raw";
 import ep02Raw from "../poems/yyuu/02.txt?raw";
+import ep03Raw from "../poems/yyuu/03.txt?raw";
 
 export type yyuuEpisodeStatus = "published" | "upcoming";
 
@@ -32,6 +33,15 @@ export const yyuuEpisodes: yyuuEpisode[] = [
     status: "published",
     stanzas: parsePoem(ep02Raw),
   },
+
+ {
+    id: 3,
+    slug: "03",
+    title: "문학에 대한 폐지 요구",
+    status: "published",
+    stanzas: parsePoem(ep03Raw),
+  },
+
 
   // 이후 화는 이렇게만 추가하면 됨
   // {
