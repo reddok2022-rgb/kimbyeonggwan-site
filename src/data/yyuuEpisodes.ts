@@ -8,6 +8,7 @@ import ep02Raw from "../poems/yyuu/02.txt?raw";
 import ep03Raw from "../poems/yyuu/03.txt?raw";
 import ep04Raw from "../poems/yyuu/04.txt?raw";
 import ep05Raw from "../poems/yyuu/05.txt?raw";
+import ep06Raw from "../poems/yyuu/06.txt?raw";
 
 export type yyuuEpisodeStatus = "published" | "upcoming";
 
@@ -58,6 +59,14 @@ export const yyuuEpisodes: yyuuEpisode[] = [
     title: "해안도로 부동산",
     status: "published",
     stanzas: parsePoem(ep05Raw),
+  },
+
+{
+    id: 6,
+    slug: "06",
+    title: "쓰레기봉투를 며칠째 도로 가져온다",
+    status: "published",
+    stanzas: parsePoem(ep06Raw),
   },
 
   // 이후 화는 이렇게만 추가하면 됨
