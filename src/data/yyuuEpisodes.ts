@@ -10,6 +10,7 @@ import ep04Raw from "../poems/yyuu/04.txt?raw";
 import ep05Raw from "../poems/yyuu/05.txt?raw";
 import ep06Raw from "../poems/yyuu/06.txt?raw";
 import ep07Raw from "../poems/yyuu/07.txt?raw";
+import ep08Raw from "../poems/yyuu/08.txt?raw";
 
 export type yyuuEpisodeStatus = "published" | "upcoming";
 
@@ -76,6 +77,14 @@ export const yyuuEpisodes: yyuuEpisode[] = [
     title: "신전이 무너졌다 숲은 숨을 쉬었다 칼날은 조용히 베었다",
     status: "published",
     stanzas: parsePoem(ep07Raw),
+  },
+
+{
+    id: 8,
+    slug: "08",
+    title: "괄호를 뚫고 햇빛으로 나가기",
+    status: "published",
+    stanzas: parsePoem(ep08Raw),
   },
 
   // 이후 화는 이렇게만 추가하면 됨
