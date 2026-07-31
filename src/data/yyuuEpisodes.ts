@@ -12,6 +12,7 @@ import ep06Raw from "../poems/yyuu/06.txt?raw";
 import ep07Raw from "../poems/yyuu/07.txt?raw";
 import ep08Raw from "../poems/yyuu/08.txt?raw";
 import ep09Raw from "../poems/yyuu/09.txt?raw";
+import ep10Raw from "../poems/yyuu/10.txt?raw";
 
 export type yyuuEpisodeStatus = "published" | "upcoming";
 
@@ -94,6 +95,14 @@ export const yyuuEpisodes: yyuuEpisode[] = [
     title: "영단어책 들고 다니는 킬러",
     status: "published",
     stanzas: parsePoem(ep09Raw),
+  },
+
+{
+    id: 10,
+    slug: "10",
+    title: "인형 탈취범",
+    status: "published",
+    stanzas: parsePoem(ep10Raw),
   },
 
   // 이후 화는 이렇게만 추가하면 됨
