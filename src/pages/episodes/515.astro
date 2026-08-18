@@ -1,0 +1,43 @@
+---
+// src/pages/episodes/501.astro
+
+import { yyuuEpisodes } from "../../data/yyuuEpisodes";
+
+// id === 15 인 에피소드 찾기
+const ep = yyuuEpisodes.find((e) => e.id === 15);
+if (!ep) {
+  throw new Error("유유연연 15화를 찾을 수 없습니다.");
+}
+
+// parsePoem 에서 만들어 준 연 배열
+const stanzas = ep.stanzas;
+---
+
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <title>{ep.title}</title>
+  </head>
+
+  <body>
+  <!-- 모달에서 이 .ep-wrap 안쪽만 가져다 씀 -->
+  <div class="ep-wrap yyuu-wrap">
+        <div class="poem">
+      {
+        stanzas.map((stanza) => (
+          <p class="poem-stanza">
+            {
+              stanza.map((line) => (
+                <span class="poem-line">
+                  {line}
+                </span>
+              ))
+            }
+          </p>
+        ))
+      }
+    </div>
+  </div>
+</body>
+</html>

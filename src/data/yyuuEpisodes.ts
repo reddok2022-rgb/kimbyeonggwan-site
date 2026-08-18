@@ -17,6 +17,7 @@ import ep11Raw from "../poems/yyuu/11.txt?raw";
 import ep12Raw from "../poems/yyuu/12.txt?raw";
 import ep13Raw from "../poems/yyuu/13.txt?raw";
 import ep14Raw from "../poems/yyuu/14.txt?raw";
+import ep15Raw from "../poems/yyuu/15.txt?raw";
 
 export type yyuuEpisodeStatus = "published" | "upcoming";
 
@@ -139,6 +140,14 @@ export const yyuuEpisodes: yyuuEpisode[] = [
     title: "대화 4",
     status: "published",
     stanzas: parsePoem(ep14Raw),
+  },
+
+    {
+    id: 15,
+    slug: "15",
+    title: "자신을 위한 서정시",
+    status: "published",
+    stanzas: parsePoem(ep15Raw),
   },
   
   // 이후 화는 이렇게만 추가하면 됨
