@@ -22,6 +22,7 @@ import ep16Raw from "../poems/yyuu/16.txt?raw";
 import ep17Raw from "../poems/yyuu/17.txt?raw";
 import ep18Raw from "../poems/yyuu/18.txt?raw";
 import ep19Raw from "../poems/yyuu/19.txt?raw";
+import ep20Raw from "../poems/yyuu/20.txt?raw";
 
 export type yyuuEpisodeStatus = "published" | "upcoming";
 
@@ -184,6 +185,14 @@ export const yyuuEpisodes: yyuuEpisode[] = [
     title: "죽음은 부피가 딱 맞습니까",
     status: "published",
     stanzas: parsePoem(ep19Raw),
+  },
+
+{
+    id: 20,
+    slug: "20",
+    title: "형식미",
+    status: "published",
+    stanzas: parsePoem(ep20Raw),
   },
 
   // 이후 화는 이렇게만 추가하면 됨
