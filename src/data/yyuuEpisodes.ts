@@ -23,6 +23,7 @@ import ep17Raw from "../poems/yyuu/17.txt?raw";
 import ep18Raw from "../poems/yyuu/18.txt?raw";
 import ep19Raw from "../poems/yyuu/19.txt?raw";
 import ep20Raw from "../poems/yyuu/20.txt?raw";
+import ep21Raw from "../poems/yyuu/21.txt?raw";
 
 export type yyuuEpisodeStatus = "published" | "upcoming";
 
@@ -193,6 +194,14 @@ export const yyuuEpisodes: yyuuEpisode[] = [
     title: "형식미",
     status: "published",
     stanzas: parsePoem(ep20Raw),
+  },
+
+{
+    id: 21,
+    slug: "21",
+    title: "우리들의 스턴트맨",
+    status: "published",
+    stanzas: parsePoem(ep21Raw),
   },
 
   // 이후 화는 이렇게만 추가하면 됨
