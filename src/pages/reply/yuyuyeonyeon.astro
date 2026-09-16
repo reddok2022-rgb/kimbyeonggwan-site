@@ -1,0 +1,493 @@
+---
+export const prerender = true;
+---
+
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="〈유유연연〉 — Reply" />
+    <title>REPLY — 〈유유연연〉 | kimbyeonggwan</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link
+      rel="preload"
+      as="image"
+      href="/assets/reply/reply-envelope-open.png"
+    />
+
+    <style>
+      :root {
+        --bg: #000000;
+        --fg: #ececec;
+        --muted: #9aa3b4;
+        --accent: #da6767;
+        --line: #25282e;
+        --line-hover: #3c4048;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      [hidden] {
+        display: none !important;
+      }
+
+      html {
+        background: var(--bg);
+        color-scheme: dark;
+      }
+
+      body {
+        min-width: 320px;
+        min-height: 100vh;
+        min-height: 100dvh;
+        margin: 0;
+        background: var(--bg);
+        color: var(--fg);
+        font-family: Pretendard, "Noto Sans KR", system-ui, -apple-system,
+          "Segoe UI", Roboto, Helvetica, Arial, "Apple SD Gothic Neo",
+          "Noto Sans", "Malgun Gothic", sans-serif;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      .reply-page {
+        width: min(calc(100% - 40px), 640px);
+        margin: 0 auto;
+        padding: 24px 0 112px;
+      }
+
+      textarea:focus-visible,
+      .consent input:focus-visible,
+      .submit-button:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 3px;
+      }
+
+      .reply-header {
+        margin-top: 72px;
+        text-align: center;
+      }
+
+      .reply-label {
+        margin: 0;
+        color: var(--accent);
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.28em;
+      }
+
+      h1 {
+        margin: 13px 0 0;
+        color: #f0f0f0;
+        font-size: 28px;
+        font-weight: 600;
+        letter-spacing: -0.025em;
+      }
+
+      .envelope-slot {
+        width: min(100%, 420px);
+        aspect-ratio: 1122 / 1402;
+        margin: 28px auto 0;
+      }
+
+      .envelope-slot img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        pointer-events: none;
+        user-select: none;
+      }
+
+      .reply-form {
+        margin-top: 82px;
+      }
+
+      .questions {
+        display: grid;
+        gap: 68px;
+      }
+
+      .field label {
+        display: block;
+        margin-bottom: 16px;
+        color: #eeeeee;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 1.65;
+        letter-spacing: -0.018em;
+      }
+
+      textarea {
+        display: block;
+        width: 100%;
+        min-height: 158px;
+        padding: 15px 16px;
+        resize: vertical;
+        border: 1px solid var(--line);
+        border-radius: 2px;
+        background: #050505;
+        color: var(--fg);
+        caret-color: var(--accent);
+        font: inherit;
+        font-size: 16px;
+        line-height: 1.6;
+        transition: border-color 160ms ease, background-color 160ms ease;
+      }
+
+      textarea:hover {
+        border-color: var(--line-hover);
+      }
+
+      textarea:focus {
+        border-color: var(--accent);
+        background: #070707;
+      }
+
+      .form-end {
+        margin-top: 58px;
+      }
+
+      .consent {
+        display: inline-flex;
+        align-items: flex-start;
+        gap: 10px;
+        color: #cfd2d8;
+        font-size: 14px;
+        line-height: 1.55;
+        cursor: pointer;
+      }
+
+      .consent input {
+        width: 16px;
+        height: 16px;
+        margin: 3px 0 0;
+        flex: 0 0 auto;
+        accent-color: var(--accent);
+      }
+
+      .status-message {
+        min-height: 3.1em;
+        margin: 22px 0 0;
+        color: #d9a0a0;
+        font-size: 14px;
+        line-height: 1.55;
+        white-space: pre-line;
+      }
+
+      .submit-button {
+        display: block;
+        min-width: 116px;
+        min-height: 44px;
+        margin: 18px auto 0;
+        padding: 10px 19px;
+        border: 1px solid var(--accent);
+        border-radius: 2px;
+        background: transparent;
+        color: #f0dada;
+        font: inherit;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background-color 160ms ease, color 160ms ease,
+          opacity 160ms ease;
+      }
+
+      .submit-button:hover:not(:disabled) {
+        background: rgba(218, 103, 103, 0.12);
+        color: #f0dada;
+      }
+
+      .submit-button:disabled {
+        cursor: wait;
+        opacity: 0.55;
+      }
+
+      .received-message {
+        margin: 30px auto 0;
+        text-align: center;
+      }
+
+      .received-message:focus {
+        outline: none;
+      }
+
+      .received-message p {
+        margin: 0;
+        color: #e9e9e9;
+        font-size: 17px;
+        line-height: 1.65;
+        letter-spacing: -0.015em;
+      }
+
+      .received-message p + p {
+        margin-top: 2px;
+        color: #c5c8ce;
+        font-size: 15px;
+      }
+
+      @media (max-width: 640px) {
+        .reply-page {
+          width: min(calc(100% - 40px), 640px);
+          padding-top: 20px;
+          padding-bottom: 80px;
+        }
+
+        .reply-header {
+          margin-top: 54px;
+        }
+
+        h1 {
+          font-size: 24px;
+        }
+
+        .envelope-slot {
+          width: min(100%, 360px);
+          margin-top: 22px;
+        }
+
+        .reply-form {
+          margin-top: 64px;
+        }
+
+        .questions {
+          gap: 54px;
+        }
+
+        .field label {
+          margin-bottom: 13px;
+          font-size: 16px;
+        }
+
+        textarea {
+          min-height: 154px;
+          padding: 14px;
+        }
+
+        .form-end {
+          margin-top: 48px;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        *,
+        *::before,
+        *::after {
+          scroll-behavior: auto !important;
+          transition-duration: 0.01ms !important;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <main class="reply-page" data-reply-root data-reply-state="ready">
+      <header class="reply-header">
+        <p class="reply-label">REPLY</p>
+        <h1>〈유유연연〉</h1>
+      </header>
+
+      <figure class="envelope-slot" aria-hidden="true">
+        <img
+          id="reply-envelope"
+          src="/assets/reply/reply-envelope-closed.png"
+          data-open-src="/assets/reply/reply-envelope-open.png"
+          width="1122"
+          height="1402"
+          alt=""
+          loading="eager"
+          fetchpriority="high"
+        />
+      </figure>
+
+      <form class="reply-form" id="reply-form" method="post" novalidate>
+        <div class="questions">
+          <div class="field">
+            <label for="answer-lasting">
+              가장 오래 남은 장면이나 문장은 무엇이었나요?
+            </label>
+            <textarea
+              id="answer-lasting"
+              name="answer_lasting"
+              rows="6"
+            ></textarea>
+          </div>
+
+          <div class="field">
+            <label for="answer-distance">
+              읽다가 잠시 멀어졌던 순간이 있다면, 어디였나요?
+            </label>
+            <textarea
+              id="answer-distance"
+              name="answer_distance"
+              rows="6"
+            ></textarea>
+          </div>
+
+          <div class="field">
+            <label for="answer-message">
+              〈유유연연〉에게 남기고 싶은 말이 있다면.
+            </label>
+            <textarea
+              id="answer-message"
+              name="answer_message"
+              rows="6"
+            ></textarea>
+          </div>
+        </div>
+
+        <div class="form-end">
+          <label class="consent" for="public-consent">
+            <input
+              id="public-consent"
+              name="public_consent"
+              type="checkbox"
+              value="true"
+            />
+            <span>이 답장을 익명으로 소개해도 괜찮습니다.</span>
+          </label>
+
+          <p
+            class="status-message"
+            id="reply-status"
+            role="status"
+            aria-live="polite"
+            aria-atomic="true"
+          ></p>
+
+          <button class="submit-button" id="submit-button" type="submit">
+            답장 보내기
+          </button>
+        </div>
+      </form>
+
+      <section
+        class="received-message"
+        id="received-message"
+        tabindex="-1"
+        aria-live="polite"
+        aria-atomic="true"
+        hidden
+      >
+        <p>답장을 받았습니다.</p>
+        <p>읽어보겠습니다.</p>
+      </section>
+    </main>
+
+    <script>
+      import {
+        submitReply,
+        type ReplyPayload,
+      } from '../../lib/reply/submitReply';
+
+      type ReplyState = 'READY' | 'SENDING' | 'RECEIVED' | 'FAILED';
+
+      const root = document.querySelector<HTMLElement>('[data-reply-root]');
+      const form = document.querySelector<HTMLFormElement>('#reply-form');
+      const submitButton =
+        document.querySelector<HTMLButtonElement>('#submit-button');
+      const statusMessage =
+        document.querySelector<HTMLElement>('#reply-status');
+      const envelope =
+        document.querySelector<HTMLImageElement>('#reply-envelope');
+      const receivedMessage =
+        document.querySelector<HTMLElement>('#received-message');
+      const consent =
+        document.querySelector<HTMLInputElement>('#public-consent');
+      const answerInputs = Array.from(
+        document.querySelectorAll<HTMLTextAreaElement>(
+          'textarea[name^="answer_"]',
+        ),
+      );
+
+      if (
+        root &&
+        form &&
+        submitButton &&
+        statusMessage &&
+        envelope &&
+        receivedMessage &&
+        consent &&
+        answerInputs.length === 3
+      ) {
+        let state: ReplyState = 'READY';
+
+        const setState = (nextState: ReplyState) => {
+          state = nextState;
+          root.dataset.replyState = nextState.toLowerCase();
+          submitButton.disabled = nextState === 'SENDING';
+          submitButton.textContent =
+            nextState === 'SENDING' ? '보내는 중...' : '답장 보내기';
+          form.setAttribute(
+            'aria-busy',
+            nextState === 'SENDING' ? 'true' : 'false',
+          );
+        };
+
+        const clearRecoverableStatus = () => {
+          if (state !== 'SENDING' && state !== 'RECEIVED') {
+            setState('READY');
+            statusMessage.textContent = '';
+          }
+        };
+
+        answerInputs.forEach((input) => {
+          input.addEventListener('input', clearRecoverableStatus);
+        });
+        consent.addEventListener('change', clearRecoverableStatus);
+
+        form.addEventListener('submit', async (event) => {
+          event.preventDefault();
+
+          if (state === 'SENDING' || state === 'RECEIVED') return;
+
+          const [answerLasting, answerDistance, answerMessage] =
+            answerInputs.map((input) => input.value.trim());
+
+          if (!answerLasting && !answerDistance && !answerMessage) {
+            setState('READY');
+            statusMessage.textContent = '하나 이상의 답장을 남겨주세요.';
+            answerInputs[0].focus();
+            return;
+          }
+
+          const payload: ReplyPayload = {
+            work_id: 'yuyuyeonyeon',
+            work_type: 'poem-series',
+            reply_version: 1,
+            answer_lasting: answerLasting,
+            answer_distance: answerDistance,
+            answer_message: answerMessage,
+            public_consent: consent.checked,
+          };
+
+          setState('SENDING');
+          statusMessage.textContent = '';
+
+          try {
+            await submitReply(payload);
+            setState('RECEIVED');
+
+            const openSrc = envelope.dataset.openSrc;
+            if (openSrc) envelope.src = openSrc;
+
+            form.hidden = true;
+            receivedMessage.hidden = false;
+            receivedMessage.focus();
+          } catch {
+            setState('FAILED');
+            statusMessage.textContent =
+              '답장을 보내지 못했습니다.\n잠시 뒤 다시 보내주세요.';
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
