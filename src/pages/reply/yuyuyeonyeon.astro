@@ -110,6 +110,14 @@ export const prerender = true;
         margin-top: 82px;
       }
 
+      .reply-guidance {
+        margin: 0 0 32px;
+        color: #8f949d;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.6;
+      }
+
       .questions {
         display: grid;
         gap: 68px;
@@ -308,6 +316,8 @@ export const prerender = true;
       </figure>
 
       <form class="reply-form" id="reply-form" method="post" novalidate>
+        <p class="reply-guidance">세 질문 중 하나만 남겨도 괜찮습니다.</p>
+
         <div class="questions">
           <div class="field">
             <label for="answer-lasting">
